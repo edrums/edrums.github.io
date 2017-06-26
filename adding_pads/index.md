@@ -1,3 +1,6 @@
+---
+title: Adding pads
+---
 ## Simplified Instructions for expanding the TD-20 (or TD-12) with an external trigger
 
 * Make sure the pads plugged into your external trigger are set to channel 11.
@@ -6,7 +9,7 @@
 * Press F2 (Part), then F3 (Perc).
 * Select the kit you want then press F5 to edit.
 
-You are now in the "Percussion Set Edit" screen. 
+You are now in the "Percussion Set Edit" screen.
 
 * Press F2 (edit).
 * Go to "perc note" and select the note you assigned to the head or rim (depending on what you want to use).

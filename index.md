@@ -1,1 +1,4 @@
-## E-Drums project website
+---
+title: E-Drums project home
+---
+## Welcome
