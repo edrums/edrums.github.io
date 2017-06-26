@@ -9,7 +9,7 @@
 
     <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
 
-    <title>{{ site.description }}</title>
+    <title>{{ site.description | default: site.github.project_tagline }}</title>
   </head>
 
   <body>
@@ -17,7 +17,7 @@
     <!-- HEADER -->
     <div id="header_wrap" class="outer">
         <header class="inner">
-          <h2 id="project_tagline">{{ site.description }}</h2>
+          <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
         </header>
     </div>
 
