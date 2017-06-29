@@ -5,7 +5,7 @@ title: Adding pads
 
 * Make sure the pads plugged into your external trigger are set to channel 11.
 * On the external trigger, set the head and rim notes to notes that are logical and easy to remember (ie head:40 and rim:41). Do this for boths pads (different notes for each of course).
-* Press "Pattern" on the TD-20, then scroll up using the jogwheel until "Part" appears above the F2 key (if it isn't already there of course ).
+* Press "Pattern" on the TD-20, then scroll up using the jogwheel until "Part" appears above the F2 key (if it isn't already there of course).
 * Press F2 (Part), then F3 (Perc).
 * Select the kit you want then press F5 to edit.
 
