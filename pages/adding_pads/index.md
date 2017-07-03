@@ -1,5 +1,5 @@
 ---
-title: Adding pads
+title: Adding pads to Roland TD-12 and TD-20
 ---
 ## Simplified Instructions for expanding the TD-20 (or TD-12) with an external trigger
 
