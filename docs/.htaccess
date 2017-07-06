@@ -1,0 +1,4 @@
+RewriteEngine On
+
+RewriteCond %{HTTP_HOST} ^(?:www\.)?(edrums\.tk)$ [NC]
+RewriteRule .* http://docs.%1/$0 [L,R=301,NE]
