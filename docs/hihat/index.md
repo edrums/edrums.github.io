@@ -3,7 +3,7 @@ title: DIY HiHat
 ---
 Using a Force Sensing Resistor (FSR) sensor solution:
 
-<img src="./fsr-406.jpg" alt="FSR 406" style="width:100%;height:100%;">
+<img src="./fsr-406.jpg" alt="FSR 406" style="width:100%;">
 
 From [VDrums Forum](https://www.vdrums.com/forum/advanced/diy/61236-easy-to-make-diy-hihat-controller):
 
