@@ -1,5 +1,6 @@
 ---
 layout: home
+permalink: /
 ---
 
 <h1>Welcome</h1>
