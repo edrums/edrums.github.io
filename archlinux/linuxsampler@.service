@@ -1,0 +1,11 @@
+[Unit]
+Description=LinuxSampler
+After=a2jmidid@%i.service
+Requires=a2jmidid@%i.service
+
+[Service]
+User=%I
+ExecStart=/home/%I/.config/linuxsampler.org/service.sh
+
+[Install]
+WantedBy=multi-user.target
