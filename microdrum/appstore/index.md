@@ -1,5 +1,5 @@
 ---
-title: MicroDrum App Store
+title: microDrum App Store
 ---
 # Setup
 
@@ -34,4 +34,4 @@ title: MicroDrum App Store
 
 # App Store
 
-* [microDRUM on AppStore](http://itunes.apple.com/it/app/microdrum/id456244216)
+* [microDrum on AppStore](http://itunes.apple.com/it/app/microdrum/id456244216)

@@ -48,7 +48,7 @@ the maximum number of each parts so you don't have to do it later
 
 ### Step 2: Downloads
 
-[MicroDrum](../downloads/)
+[microDrum](/microdrum/downloads/)
 
 [The Official Arduino IDE (or just the drivers if you know how to install them)](http://arduino.cc/en/Main/Software)
 
@@ -86,11 +86,11 @@ To do this:
   window you will see a progress bar. Once it says "done uploading", a small LED
   labeled "L" on the right hand side of the board will be blinking.
 
-* If it is everything is working and we can move to the MicroDrum program. 
+* If it is everything is working and we can move to the microDrum program. 
 
 If you need pictures or additional instructions for what was done above, go [here](http://arduino.cc/en/guide/windows)
 
-### Step 4: Uploading the MicroDrum Firmware
+### Step 4: Uploading the microDrum Firmware
 
 * Make sure your Arduino is still connected.
 * Extract the "microDRUM_ConfigTool_v1.0.zip" and "microDRUM_Firmware_v1.0.zip".

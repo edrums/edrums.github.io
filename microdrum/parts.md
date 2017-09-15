@@ -1,17 +1,17 @@
 ---
-title: Parts List
+title: Parts List v0.7
 ---
 This list of hardware parts focuses on Mouser part numbers, as the most commonly
 used online electronics store. You can of course get the manufacturer's part
 number from there and buy elsewhere! Alternatives are included where possible
 in case there are stock or availability issues for the main parts.
 
-## Mainboard V0.7 Parts
+## Mainboard v0.7 Parts
 
 | Part              | Qty | Description                                                                     | Mouser Part No                    | Possible Alternatives |
 | ----------------- | --- | ------------------------------------------------------------------------------- | --------------------------------- | --------------------- |
 |                   |     |                                                                                 | **Circuit Board**
-| PCB               | 1   | Mainboard V0.7                                                                  | microDRUM Store
+| PCB               | 1   | Mainboard v0.7                                                                  | microDrum Store
 |                   |     |                                                                                 | **Arduino**
 | Uno               | 1   | Will need Mainboard set to 5V version                                           | 782-A000066                       | EBay
 | Due               | 1   | Will need Mainboard set to 3.3V version                                         | 782-A000062                       | EBay
@@ -27,7 +27,7 @@ in case there are stock or availability issues for the main parts.
 | S1-S2 (Alt)       | 2*  | 1 x 3 header (Could just use wire if will never change)                         | See ALT_HEADER                    | 649-69190-403 (FCI), 517-929834-02-03 (3M), 798-A23PA254DSA71 (Hirose)
 |                   | 2   | 1 x 2 shorting jumper (Could just use wire if will never change)                | 649-63429-202LF (FCI)             | 517-951-00 (3M), 855-M7582-46 (Harwin)
 |                   |     |                                                                                 | **Multiplexers**
-| U1-U6             | 6   | SN74HC4851 (each 1 = 8 ports)                                                   | microDRUM store                   | 595-SN74HC4851N (Texas Instruments)
+| U1-U6             | 6   | SN74HC4851 (each 1 = 8 ports)                                                   | microDrum store                   | 595-SN74HC4851N (Texas Instruments)
 |                   |     |                                                                                 | **Diodes**
 | D1                | 1   | 1N4148                                                                          | 78-1N4148 (Vishay)                | 512-1N4148TR (Fairchild), 771-1N4148,133 (NXP)
 |                   |     |                                                                                 | **ICs**
@@ -57,7 +57,7 @@ in case there are stock or availability issues for the main parts.
 
 There are a number of optional parts in the above list, depending on the build
 configuration you require. The following table shows the options outlined on the
-Motherboard V0.7 board:
+Motherboard v0.7 board:
 
 | Part | V5 - Thru | V3.3 - Thru | V5 - No Thru | V3.3 - No Thru | 
 | ---- | --------- | ----------- | ------------ | -------------- |
@@ -74,12 +74,12 @@ Motherboard V0.7 board:
 connected to the computer via USB.
 If you do not wish it to reset every time you connect it set this to closed.
 
-## Socket Board V0.4 Parts
+## Socket Board v0.4 Parts
 
 | Part        | Qty | Description                                                           | Mouser Part No           | Possible Alternatives |
 | ----------- | --- | --------------------------------------------------------------------- | ------------------------ | --------------------- |
 |             |     |                                                                       | **Circuit Board**
-| PCB         | 1   | Socket Board V0.4 | microDRUM Store
+| PCB         | 1   | Socket Board v0.4 | microDrum Store
 | Jacks
 | U1-U4       | 4   | Mono sockets for single piezo trigger, stereo for two                 | 550-20301 (Stereo)       | 568-NMJ4HHD2 (Mono), 550-20384 (Stereo)
 |             |     |                                                                       | **Resistors**
@@ -98,7 +98,7 @@ If you do not wish it to reset every time you connect it set this to closed.
 
 **NB**: These quantities are for a single board, giving you 4 sockets.
 
-## LCD V0.1 Parts
+## LCD v0.1 Parts
 
 There is currently no PCB available for this module, use stripboard or perfboard
 to build this.

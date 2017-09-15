@@ -1,5 +1,5 @@
 ---
-title: MicroDrum - FAQ
+title: microDrum - FAQ
 ---
 ### What is the PCB v0.7 / v0.8 ?
 The PCB is a finished product on which you need to solder the remaining components.
@@ -15,8 +15,8 @@ As a minimalistic setup you would require:
 
 * The PCB (selfmade or bought)
 * The N74HC4851
-* The MicroDrum Jack v04
-* The 'MicroDrum MainComponents' in the shop as one item or here as full list.
+* The microDrum Jack v0.4 board
+* The 'microDrum MainComponents' in the shop as one item or here as full list.
 * An Arduino (of course ;D)
 
 With this setup you would have 8 Inputs. For additional Inputs, you would require
@@ -70,4 +70,4 @@ system specs.
 For example, processor, sound card, midi controller, and so on...
 
 ### What costs do I have to expect for shipping, and where do you ship?
-MicroDrum and Nanodrum are being shipped globally to a fair price of 10€.
+microDrum and nanodrum are being shipped globally to a fair price of 10€.

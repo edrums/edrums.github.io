@@ -1,14 +1,14 @@
 ---
-title: Installing the Software side of things
+title: microDrum - Installing the Software side of things
 ---
 ## Software Required
 
 There are a number of different software applications that need to be installed
-to be able to set up microDRUM. The microDRUM main page has a download section
+to be able to set up microDrum . The microDrum  main page has a download section
 that contains releases of these, but there is also a GitHub repository that
 contains the most up-to-date versions that is worth checking.
 
-[Downloads page](../downloads)
+[Downloads page](/microdrum/downloads)
 
 [GitHub repostory](https://github.com/massimobernava?tab=repositories)
 
@@ -29,16 +29,16 @@ You **do not** need to have an account to be able to download code from reposito
 
 ### Software
 
-* microDRUM_ConfigTool_Vx.x => This application sits on your pc and is used to
+* microDrum ConfigTool Vx.x => This application sits on your pc and is used to
 configure your edrum set etc
 
 * Arduino IDE => This is required to push the firmware onto the Arduino board
 via the USB cable that should have come with your board...
 
-* microDRUM_Firmware_Vx.x => This is the code that sits on the Arduino board
+* microDrum Firmware Vx.x => This is the code that sits on the Arduino board
 
 * DrumScope Vx.x => This is an application to help analyse homemade drum pads,
-to allow effective configuration of microDRUM
+to allow effective configuration of microDrum 
 
 * ASIO4ALL => This is a universal driver for 'Audio Stream Input/Output'
 
@@ -49,16 +49,16 @@ including the free demo (with limited functionality)
 .wav sample files using definitions provided in sfz format as an alternative to
 a VST plugin 
 
-### microDRUM_ConfigTool
+### microDrum ConfigTool
 
 **NB: In order for this application to run you need to have .NET Framework V3.5
 or higher installed on your computer.**
 
-1. Take the latest version of this from the microDRUM download page or GitHub repository (this will need compiling, see the separate section at the end of this page on how to complete that)
+1. Take the latest version of this from the microDrum  download page or GitHub repository (this will need compiling, see the separate section at the end of this page on how to complete that)
 
 2. Unzip to your chosen location
 
-3. No installation is required, it runs directly from the microDRUM.exe. Create a shortcut to your desktop to make it easier to launch (rightclick on the icon, select 'Send to >> Desktop (create shortcut)'
+3. No installation is required, it runs directly from the microDrum .exe. Create a shortcut to your desktop to make it easier to launch (rightclick on the icon, select 'Send to >> Desktop (create shortcut)'
 
 ### Arduino IDE
 
@@ -89,15 +89,15 @@ Serial Monitor - Tools => Serial Monitor.
 A new window should open with the title showing the COM port selected above,
 with no error messages being displayed in the main IDE window. Close the new window
 
-### microDRUM Firmware
+### microDrum  Firmware
 
-1. Take the latest version of this from the microDRUM download page or GitHub repository.
+1. Take the latest version of this from the microDrum  download page or GitHub repository.
 If using the .mdh file from the Downloads page follow steps 2 - 11.
 If using the latest code from GitHub (.ino format) follow steps 12 onwards
 
 2. Plug your Arduino board in via USB
 
-3. Launch the microDRUM ConfigTool
+3. Launch the microDrum  ConfigTool
 
 4. Select Setup => **Select COM...**
 
@@ -140,7 +140,7 @@ File >> Upload and the IDE will compile it first and then push it down to your b
 
 ### DrumScope
 
-1. Take the latest version of this from the microDRUM download page or GitHub repository
+1. Take the latest version of this from the microDrum  download page or GitHub repository
 
 2. Unzip to your chosen location
 
@@ -170,8 +170,8 @@ Once registered you will be able to download the 'XLN Online Installer'
 3. Once you have that you can download the Addictive Drums demo version
 (also known as the Standalone version) from within the XLN installer
 
-4. In order to access this VST Plugin from within microDRUM launch the
-microDRUM COnfig Tool and select the VST option in the main menu bar
+4. In order to access this VST Plugin from within microDrum  launch the
+microDrum  Config Tool and select the VST option in the main menu bar
 
 5. Select Load... and navigate to the 'Standalone Support.dll' found within the
 Addictive Drums install location

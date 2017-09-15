@@ -1,5 +1,5 @@
 ---
-title: Building MicroDrum PCB
+title: Building microDrum PCB v0.7
 ---
 ## Tools Required
 
