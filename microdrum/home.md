@@ -32,6 +32,8 @@ microDrum system and to people who are doing similar projects with DIY e-drums.
 
 * [Drum Kit Blog](http://arduinodrumkit.wordpress.com/)
 * [Instructions for building a microDrum system](http://microdrum.altervista.org/forum/viewtopic.php?f=18&t=215%7CWesley%27s) (includes parts list and instructions) 
+* [TeensyDrum](teensy) (WesleyS)
+* [FAQ](faq) (Sno0t)
 
 ### Similar Projects
 
