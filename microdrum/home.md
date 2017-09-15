@@ -14,13 +14,14 @@ tablature to practice on, etc. … This is a Open Hardware product made in Italy
 
 ## Getting started
 
-* [What is microDrum?](/docs/microdrum/about/)
-* [Build MicroDrum](/docs/microdrum/build/)
-* [MicroDrum App Store](/docs/microdrum/appstore/)
-* [How to Build/Setup a microDrum](/docs/microdrum/setup/)
-* [Installing the Software side of things](/docs/microdrum/software/)
-* [Parts List](/docs/microdrum/parts/)
-* [Building with the PCBs](/docs/microdrum/pcb/)
+* [What is microDrum?](/microdrum/about/)
+* [Build MicroDrum](/microdrum/build/)
+* [What is SFZ?](/microdrum/sfz/)
+* [MicroDrum App Store](/microdrum/appstore/)
+* [How to Build/Setup a microDrum](/microdrum/setup/)
+* [Installing the Software side of things](/microdrum/software/)
+* [Parts List](/microdrum/parts/)
+* [Building with the PCBs](/microdrum/pcb/)
 
 ## Links
 
