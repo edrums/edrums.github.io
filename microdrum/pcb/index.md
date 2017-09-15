@@ -137,9 +137,9 @@ the board with the bottom towards you.
 There are a number of headers that need installing, and the parts list includes
 the option of buying longer strips for splitting, which is generally a cheaper option...
 
-[Headers before splitting](pins-before-split.jpg)
+![Headers before splitting](pins-before-split.jpg)
 
-[Headers split into the correct section lengths](pins-after-split.jpg)
+![Headers split into the correct section lengths](pins-after-split.jpg)
 
 Some of these headers are only needed if you plan on using certain options in
 your build. Any you don't need can be left unpopulated.
@@ -223,7 +223,7 @@ all align before pushing it gently into place.
 
 There are a number of options when building the jackboard, depending on the type
 of trigger to be connected. These are shown on the jackboard V0.4 schematic
-available on the [download page](http://microdrum.altervista.org/blog/downloads/)
+available on the [download page](../downloads/)
 
 ### Bare Board
 

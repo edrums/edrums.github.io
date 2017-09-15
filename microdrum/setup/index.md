@@ -48,7 +48,7 @@ the maximum number of each parts so you don't have to do it later
 
 ### Step 2: Downloads
 
-[MicroDRUM](http://microdrum.altervista.org/blog/downloads/)
+[MicroDrum](../downloads/)
 
 [The Official Arduino IDE (or just the drivers if you know how to install them)](http://arduino.cc/en/Main/Software)
 

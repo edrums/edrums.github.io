@@ -8,7 +8,7 @@ to be able to set up microDRUM. The microDRUM main page has a download section
 that contains releases of these, but there is also a GitHub repository that
 contains the most up-to-date versions that is worth checking.
 
-[Downloads page](http://microdrum.altervista.org/blog/downloads)
+[Downloads page](../downloads)
 
 [GitHub repostory](https://github.com/massimobernava?tab=repositories)
 
