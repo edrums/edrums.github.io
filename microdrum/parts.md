@@ -74,18 +74,18 @@ Motherboard v0.7 board:
 connected to the computer via USB.
 If you do not wish it to reset every time you connect it set this to closed.
 
-## Socket Board v0.4 Parts
+## Jack Board v0.4 Parts
 
 | Part        | Qty | Description                                                           | Mouser Part No           | Possible Alternatives |
 | ----------- | --- | --------------------------------------------------------------------- | ------------------------ | --------------------- |
 |             |     |                                                                       | **Circuit Board**
-| PCB         | 1   | Socket Board v0.4 | microDrum Store
-| Jacks
+| PCB         | 1   | Jack Board v0.4                                                       | microDrum Store
+|             |     |                                                                       | **Jacks**
 | U1-U4       | 4   | Mono sockets for single piezo trigger, stereo for two                 | 550-20301 (Stereo)       | 568-NMJ4HHD2 (Mono), 550-20384 (Stereo)
 |             |     |                                                                       | **Resistors**
 | R1-R4       | 4   | 100 Ohm - 1 MOhm (Depends on HHC pedal resistor), 1%, 0.25W           | Xicon 271 range
 |             |     |                                                                       | **Switches**
-| S1-S4       | 4   | SPDT ( To chose between pad or HHC)                                   | | 633-MS12AFG01 (NKK)
+| S1-S4       | 4   | SPDT ( To chose between pad or HHC)                                   | 633-MS12AFG01 (NKK)
 | S1-S4 (Alt) | 4*  | 1 x 3 header (Could just use wire if will never change)               | See ALT_HEADER           | 649-69190-403 (FCI), 517-929834-02-03 (3M), 798-A23PA254DSA71 (Hirose)
 |             | 4   | 1 x 2 shorting jumper (Could just use wire if will never change)      | 649-63429-202LF (FCI)    | 517-951-00 (3M), 855-M7582-46 (Harwin)
 | ALT_HEADER  | 1   | 1 x 32 header - split (will cover all headers with qty marked with *) | 517-929834-02-36-RK (3M)
