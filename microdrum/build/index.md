@@ -6,7 +6,9 @@ the shop, create one for yourself, or use a matrix board. Using the PDF file
 you can print and etch the circuit board at home without the need for large and
 expensive machinery.
 
-[Here the italian guide](montaggio.pdf)
+[Italian guide](ita)
+
+[Italian guide PDF](ita/montaggio.pdf)
 
 ## Materials
 
