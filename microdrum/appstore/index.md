@@ -3,7 +3,7 @@ title: microDrum App Store
 ---
 # Setup
 
-<img src="./Screenshot-2012.07.28-17.09.06.png" alt="Setup" style="width:100%">
+<img src="./Screenshot-2012.07.28-17.09.06.png" alt="Setup" class="img-responsive">
 * Add
 * Del
 * Mod
@@ -14,11 +14,11 @@ title: microDrum App Store
 
 # SFZ
 
-<img src="./Screenshot-2012.07.28-17.16.34.png" alt="SFZ" style="width:100%">
+<img src="./Screenshot-2012.07.28-17.16.34.png" alt="SFZ" class="img-responsive">
 
 # Effect
 
-<img src="./Screenshot-2012.07.28-17.10.09.png" alt="Effect" style="width:100%">
+<img src="./Screenshot-2012.07.28-17.10.09.png" alt="Effect" class="img-responsive">
 * Dry-Wet:
 * Gain:
 * Delay:
@@ -26,7 +26,7 @@ title: microDrum App Store
 
 # Sequencer
 
-<img src="./Screenshot-2012.07.28-17.17.29.png" alt="Sequencer" style="width:100%">
+<img src="./Screenshot-2012.07.28-17.17.29.png" alt="Sequencer" class="img-responsive">
 * Play
 * Bpm
 * Seq A:

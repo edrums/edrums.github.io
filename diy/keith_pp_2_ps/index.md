@@ -28,15 +28,15 @@ it does not use any external power (but has an "active" component).
 
 Here are some schematics for various applications:
 
-<img src="./KeithRInSplitter.jpg" alt="KeithRInSplitter.jpg" style="width:100%;">
+<img src="./KeithRInSplitter.jpg" alt="KeithRInSplitter.jpg" class="img-responsive">
 
 NB : Bear in mind that when combining two pads into one input you can only get one
 sound at a time (although you can get both if one hit is slightly after the other)
 so you need to choose your combinations with some thought
 (ie don't combine the kick drum, snare or high-hat with anything).
 
-<img src="./KeithRPiezoRimDetector.jpg" alt="KeithRPiezoRimDetector.jpg" style="width:100%;">
-<!--img src="./Visual-Representation-of-Circuit.jpg" alt="Visual-Representation-of-Circuit.jpg" style="width:100%;"-->
+<img src="./KeithRPiezoRimDetector.jpg" alt="KeithRPiezoRimDetector.jpg" class="img-responsive">
+<!--img src="./Visual-Representation-of-Circuit.jpg" alt="Visual-Representation-of-Circuit.jpg" class="img-responsive"-->
 
 Example applications :
 
@@ -57,8 +57,8 @@ a wire (100K to 1M is alright).
 I have now made a PCB and am building up my [DTXpander](http://dtxpander.co.uk/) (for a small fee)
 for people who cannot do it themselves.
 
-<img src="./KeithRDTXpanderBox.jpg" alt="KeithRDTXpanderBox.jpg" style="width:100%;"><br>
-<img src="./KeithRDTXpanderInside.jpg" alt="KeithRDTXpanderInside.jpg" style="width:100%;"><br>
+<img src="./KeithRDTXpanderBox.jpg" alt="KeithRDTXpanderBox.jpg" class="img-responsive"><br>
+<img src="./KeithRDTXpanderInside.jpg" alt="KeithRDTXpanderInside.jpg" class="img-responsive"><br>
 
 I am still happy for people to build their own, and here's the latest circuit:
 [http://edrum.for.free.fr/static/pictures/KeithRDTXpanderCheapB.pdf](./KeithRDTXpanderCheapB.pdf)

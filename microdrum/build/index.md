@@ -25,6 +25,6 @@ for critical essay composing. But, I am lack of time for writing and must buy
 custom term papers.
 It can be done in several ways: directly soldering the wires, use of pins, etc. ...
 
-<img src="./microdrum.png" alt="microDrum" style="width:100%">
+<img src="./microdrum.png" alt="microDrum" class="img-responsive">
 
 

@@ -123,7 +123,7 @@ A: You just need to save **loop markers** in the WAV files with your traditional
 sound editor (I recommand Sony Soundforge), and SamplerBox will recognize
 them and loop the sound!
 
-![loops.jpg](loops.jpg)
+<img src="./loops.jpg" alt="loops" class="img-responsive">
 
 ### 15. Q: How to permanently change the sound volume?
 A: This will evolve and be simpler in the future. For now, run this:

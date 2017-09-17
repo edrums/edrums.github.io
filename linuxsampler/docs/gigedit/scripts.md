@@ -21,7 +21,7 @@ supported by the original GigaStudio software.
 
 ### Adding Scripts
 
-![](gigedit_script_add.png)
+<img src="gigedit_script_add.png" alt="Gigedit add script" class="img-responsive">
 
 Before you can apply scripts to some of your sounds, you first need to add the
 instrument script to your GigaStudio file. Once you added a script to your
@@ -36,7 +36,7 @@ rename the script to something meaningful.
 
 ### Editing Scripts
 
-![](gigedit_script_edit.png)
+<img src="gigedit_script_edit.png" alt="Gigedit edit script" class="img-responsive">
 
 The new script is yet empty. To add some code to the script, or to modify an
 existing script, select the respective script name in the list view, then *right
@@ -47,7 +47,7 @@ script with your keyboard. Once you are done, click on "Apply". Close the script
 editor and select "Save" from the menu to save your GigaStudio file with your
 new script.
 
-![](gigedit_script_editor.png)
+<img src="gigedit_script_editor.png" alt="Gigedit script editor" class="img-responsive">
 
 *NKSP Instrument Script Editor*
 
@@ -56,7 +56,7 @@ please refer to the [NKSP Language Manual](../nksp/language).
 
 ### Assigning Scripts to Instruments
 
-![](gigedit_script_slots_open.png)
+<img src="gigedit_script_slots_open.png" alt="Gigedit script slots open" class="img-responsive">
 
 Like with samples, scripts are stored on a global level in GigaStudio files and
 are shared by all instruments of that GigaStudio file. That means you may assign
@@ -73,12 +73,12 @@ to that particular instrument. Now select the "Scripts" tab on the main window
 and *drag* the script you want to assign to your instrument from the script list
 view to the center of the script slots window.
 
-![](gigedit_script_drag.png)
+<img src="gigedit_script_drag.png" alt="Gigedit script drag" class="img-responsive">
 
 The script slots window now updated and shows you a new row with the name of the
 script that you just added.
 
-![](gigedit_script_one_slot.png)
+<img src="gigedit_script_one_slot.png" alt="Gigedit script one slot" class="img-responsive">
 
 *Script 'Aftertouch Trigger' assigned to the instrument 'Performance Orchestra'.*
 

@@ -3,7 +3,7 @@ title: SamplerBox - Build the electronic parts
 ---
 ## Schematics
 
-<img src="./samplerbox_schematics.jpg" alt="samplerbox_schematics.jpg" style="width:100%;">
+<img src="./samplerbox_schematics.jpg" alt="samplerbox_schematics.jpg" class="img-responsive">
 
 ## BILL OF MATERIALS
 

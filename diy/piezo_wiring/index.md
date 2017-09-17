@@ -2,5 +2,5 @@
 title: Piezo Wiring
 ---
 
-![Roland wiring](./MBrolandwiring.gif)
-![Alesis wiring](./MBalesiswiring.gif)
+<img src="./MBrolandwiring.gif" alt="Roland wiring" class="img-responsive">
+<img src="./MBalesiswiring.gif" alt="Alesis wiring" class="img-responsive">

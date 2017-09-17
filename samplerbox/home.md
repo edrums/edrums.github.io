@@ -20,7 +20,7 @@ src="https://www.youtube.com/embed/yz7GZ8YOjTw">
 Look at the [blog](http://www.samplerbox.org/blog) to see the latest prototypes!
 Here is what this project is about:
 
-![samplerbox.jpg](samplerbox.jpg)
+<img src="./samplerbox.jpg" alt="SamplerBox" class="img-responsive">
 
 Playing piano with SamplerBox:
 

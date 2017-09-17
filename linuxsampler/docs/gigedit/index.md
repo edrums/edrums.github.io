@@ -1,7 +1,7 @@
 ---
 title: Gigedit
 ---
-![](../gigedit_shot.png)
+<img src="../gigedit_shot.png" alt="Gigedit" class="img-responsive">
 
 Gigedit is a graphical instrument editor for sample based virtual instruments,
 based on the GigaStudio/Gigasampler file format. The GigaStudio/Gigasampler (.gig)
@@ -12,12 +12,11 @@ sampler.
 
 > This documentation is currently in a transition phase. The old Gigedit manual
 will move to this location, however this process has not been completed yet. You
-may want to refer to the 
-<a href="http://www.linuxsampler.org/documentation.html">old Gigedit manual</a>
+may want to refer to the [old Gigedit manual](http://www.linuxsampler.org/documentation.html)
 in the meantime.
 
-So far, the only topic covered by this new manual is [managing real-time
-instrument scripts](scripts) with Gigedit.
+So far, the only topic covered by this new manual is [managing real-time instrument scripts](scripts)
+with Gigedit.
 
 <br>
 <link rel="stylesheet" href="/linuxsampler/style.css">

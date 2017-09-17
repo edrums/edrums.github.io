@@ -27,7 +27,7 @@ Cut a small disc from the bitumen tape in order to make a room for the main piez
 **2zone / 3zone cymbal**:<br>
 Same technique, but you have to let about 3cm from the edge of your cymbal free of bitumen tape.
 
-<img src="./PFozzMZC2Z1.JPG" alt="PFozzMZC2Z1" style="width:100%;">
+<img src="./PFozzMZC2Z1.JPG" alt="PFozzMZC2Z1" class="img-responsive">
 
 ### 2 - Preparing the covering
 
@@ -35,17 +35,17 @@ Cut a disc in the centre of the place mat, the size of your bell,
 and a smaller one for your main piezo. Cut the unwanted part around the cymbal
 (if your cymbal is smaller than the covering material)
 
-<img src="./PFozzMZC3Z2.JPG" alt="PFozzMZC3Z2" style="width:100%;">
+<img src="./PFozzMZC3Z2.JPG" alt="PFozzMZC3Z2" class="img-responsive">
 
 ### 3 - Adding the electronics
 
 A picture is probably better than a long text 😉
 
 2 Zone:<br>
-<img src="./PFozzMZC2Z2.JPG" alt="PFozzMZC2Z2" style="width:100%;"><br>
+<img src="./PFozzMZC2Z2.JPG" alt="PFozzMZC2Z2" class="img-responsive"><br>
 
 3 Zone:<br>
-<img src="./PFozzMZC3Z10.JPG" alt="PFozzMZC3Z10" style="width:100%;"><br>
+<img src="./PFozzMZC3Z10.JPG" alt="PFozzMZC3Z10" class="img-responsive"><br>
 
 The main piezo (set on the bow) and the bell piezo must be fixed using double-sided
 foam tape (some like to use half a disc instead of a full disc under the piezo).
@@ -63,8 +63,8 @@ Make all the electronic stuff pass thru the small hole and check for bumps on th
 
 Keep the covering stuff correctly placed on your cymbal and remove the tape protection little by little.
 
-<img src="./PFozzMZC3Z3.JPG" alt="PFozzMZC3Z3" style="width:100%;"><br>
-<img src="./PFozzMZC3Z4.JPG" alt="PFozzMZC3Z4" style="width:100%;">
+<img src="./PFozzMZC3Z3.JPG" alt="PFozzMZC3Z3" class="img-responsive"><br>
+<img src="./PFozzMZC3Z4.JPG" alt="PFozzMZC3Z4" class="img-responsive">
 
 ### 5 – Finishing
 
@@ -75,17 +75,17 @@ covering material (when I say extra heavy duty double-sided reinforced tape in
 the material list, I mean really heavy duty ^^).
 Secure the jack sockets and put the box cover.
 
-<img src="./PFozzMZC3Z6.JPG" alt="PFozzMZC3Z6" style="width:100%;"><br>
-<img src="./PFozzMZC3Z7.JPG" alt="PFozzMZC3Z7" style="width:100%;"><br>
+<img src="./PFozzMZC3Z6.JPG" alt="PFozzMZC3Z6" class="img-responsive"><br>
+<img src="./PFozzMZC3Z7.JPG" alt="PFozzMZC3Z7" class="img-responsive"><br>
 
 Put a small disc of bitumen tape over the visible piezo transducers
 (it will help to secure the solder points, and be a cool thing to “choke”).
 
 2Zone<br>
-<img src="./PFozzMZC2Z3.JPG" alt="PFozzMZC2Z3" style="width:100%;"><br>
+<img src="./PFozzMZC2Z3.JPG" alt="PFozzMZC2Z3" class="img-responsive"><br>
 
 3Zone<br>
-<img src="./PFozzMZC3Z8.JPG" alt="PFozzMZC3Z8" style="width:100%;">
+<img src="./PFozzMZC3Z8.JPG" alt="PFozzMZC3Z8" class="img-responsive">
 
 ### 6 – Setting up your module
 
@@ -117,7 +117,7 @@ its threshold so your harder tip hits on the bow don’t trigger the bell.
 The edge piezo combined to the PP to PS adapter will act as a choke switch.
 Cherry on the cake 🙂
 
-<img src="./PFozzMZC2Z7.JPG" alt="PFozzMZC2Z7" style="width:100%;">
+<img src="./PFozzMZC2Z7.JPG" alt="PFozzMZC2Z7" class="img-responsive">
 
 ### 8 – Some ideas to experiment with...
 
@@ -128,10 +128,10 @@ Cherry on the cake 🙂
 
   **NOTE: Polarity is inverted on Roland main piezo**
 
-<img src="./3zdiagramR.png" alt="3zdiagramR.png" style="width:100%;">
+<img src="./3zdiagramR.png" alt="3zdiagramR.png" class="img-responsive">
 
 [//]: #  Or a simple alternative:
-[//]: #<img src="./diagramfe7.jpg" alt="diagramfe7.jpg" style="width:100%;">
+[//]: #<img src="./diagramfe7.jpg" alt="diagramfe7.jpg" class="img-responsive">
 
 * If you want to use a Yamaha 3Zone input, you may use 1 single jack socket.
   Firstly mount the 2Zone electronic part then add a PP to PS adapter AND a 10k

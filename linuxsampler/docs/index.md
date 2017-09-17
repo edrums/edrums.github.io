@@ -33,7 +33,7 @@ and sofware components of the LinuxSampler project.
 <table class="goverview">
 <tr><td>
 <a href="gigedit" title="Gigedit: An instrument editor for the GigaStudio file format.">
-<img src="gigedit_shot.png"></a><p>
+<img src="gigedit_shot.png" alt="Gigedit" class="img-responsive"></a><p>
 <a href="gigedit" title="Gigedit: An instrument editor for the GigaStudio file format.">Gigedit Instrument Editor</a></p></td><td>
 <a href="sfz" title="SFZ File Format: SFZ File Format Reference.">
 <img src="sfz_file.png"></a><p>

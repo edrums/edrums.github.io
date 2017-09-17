@@ -50,8 +50,8 @@ pieces so things don't get in your way as you progress.
 
 Here are photos of the top and bottom of the bare Mainboard V0.7 PCB for reference:
 
-![](mainboard-v0-7-top.jpg)
-![](mainboard-v0-7-bottom.jpg)
+<img src="./mainboard-v0-7-top.jpg" alt="Top" class="img-responsive">
+<img src="./mainboard-v0-7-bottom.jpg" alt="Bottom" class="img-responsive">
 
 ### Example Kit
 
@@ -60,7 +60,7 @@ The glass jar is just there to collect cutoffs, it is sometimes useful to have a
 short piece of wire available for shorting jumpers, and it stops them lying on
 the floor ready to bite you...
 
-![](microdrum-equipment.jpg)
+<img src="./microdrum-equipment.jpg" alt="Equipment" class="img-responsive">
 
 ### Step 1 - Wire Links
 
@@ -89,7 +89,7 @@ that indicates infinite resistance (for example 0L).
 When building the board in the photo I have used some red wire just so it blends
 in nicely with the board, bare wire would be just as good. 
 
-![](mainboard-v0-7-step1.jpg)
+<img src="./mainboard-v0-7-step1.jpg" alt="Step 1" class="img-responsive">
 
 ### Step 2 - Resistors
 
@@ -114,7 +114,7 @@ There are 13 resistors in total, but not all are necessarily required.
           a 5v (operating voltage) board.
           More info on the boards can be found [here](http://arduino.cc/en/Products.Compare).
 
-![](mainboard-v0-7-step2.jpg)
+<img src="./mainboard-v0-7-step2.jpg" alt="Step 2" class="img-responsive">
 
 ### Step 3 - Capacitor
 
@@ -130,16 +130,15 @@ with minus signs (looking like ovals) down it.
 The +ve side is indicated on the mainboard, it is the left hole as you look at
 the board with the bottom towards you. 
 
-![](mainboard-v0-7-step3.jpg)
+<img src="./mainboard-v0-7-step3.jpg" alt="Step 3" class="img-responsive">
 
 ### Step 4 - Headers
 
 There are a number of headers that need installing, and the parts list includes
 the option of buying longer strips for splitting, which is generally a cheaper option...
 
-![Headers before splitting](pins-before-split.jpg)
-
-![Headers split into the correct section lengths](pins-after-split.jpg)
+<img src="./pins-before-split.jpg" alt="Headers before splitting" class="img-responsive">
+<img src="./pins-after-split.jpg" alt="Headers split into the correct section lengths" class="img-responsive">
 
 Some of these headers are only needed if you plan on using certain options in
 your build. Any you don't need can be left unpopulated.
@@ -171,7 +170,7 @@ your build. Any you don't need can be left unpopulated.
          select pins 1 & 2 (1 being the left most pin, next to the 5V marking)
          if using a 5V Arduino board, or pins 2 & 3 if using a 3.3V board.
 
-![](mainboard-v0-7-step4.jpg)
+<img src="./mainboard-v0-7-step4.jpg" alt="Step 4" class="img-responsive">
 
 ### Step 5 - Sockets
 
@@ -185,7 +184,7 @@ Some of the sockets are optional depending on the build options you have chosen.
 
 **U8** - Not required if you are not planning on using MIDI Thru and have a 5V Arduino board. 
 
-![](mainboard-v0-7-step5.jpg)
+<img src="./mainboard-v0-7-step5.jpg" alt="Step 5" class="img-responsive">
 
 ### Step 6 - Connectors, ICs and Diode
 
@@ -203,21 +202,21 @@ The Diode (D1) is polarised, so must be installed the correct way round.
 The black band on the diode must line up with the white vertical stripe marking
 in the component outline on the board, to the right. 
 
-![](mainboard-v0-7-step6.jpg)
+<img src="./mainboard-v0-7-step6.jpg" alt="Step 6" class="img-responsive">
 
 ### Step 7 - Jumpers (5V Board)
 
 Next install any jumpers required.
 **Note - the photo does not show S1 jumper installed, it should be!**
 
-![](mainboard-v0-7-step7.jpg)
+<img src="./mainboard-v0-7-step7.jpg" alt="Step 7" class="img-responsive">
 
 ### Step 8 - Arduino (or equivalent...)
 
 The last stage is to carefully install your Arduino board, making sure the pins
 all align before pushing it gently into place.
 
-![](mainboard-v0-7-step8.jpg)
+<img src="./mainboard-v0-7-step8.jpg" alt="Step 8" class="img-responsive">
 
 ## Jackboard v0.4
 
@@ -230,5 +229,5 @@ available on the [download page](../downloads/)
 Here are photos of the top and bottom of the bare Jackboard V0.4 PCB for
 reference (showing 4 together with the Mainboard):
 
-![](jackboard-v0-4-top.jpg)
-![](jackboard-v0-4-bottom.jpg)
+<img src="./jackboard-v0-4-top.jpg" alt="Jackboard top" class="img-responsive">
+<img src="./jackboard-v0-4-bottom.jpg" alt="Jackboard bottom" class="img-responsive">

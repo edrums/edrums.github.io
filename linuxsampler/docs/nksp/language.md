@@ -11,7 +11,7 @@ for attaching NKSP scripts with SFZ format sounds.
 
 ### At a Glance
 
-![](../nksp_file.png)
+<img src="../nksp_file.png" alt="File NKSP" class="img-responsive">
 
 NKSP stands for "is **N**ot **KSP**", which denotes its distinction to an
 existing proprietary language called KSP. NSKP is a script language specifically

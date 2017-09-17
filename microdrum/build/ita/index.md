@@ -1,7 +1,7 @@
 ---
 title: Montaggio di base per microDrum
 ---
-![microDrum v0.7](microdrum-v0-7.png)
+<img src="./microdrum-v0-7.png" alt="microDrum v0.7" class="img-responsive">
 
 1. Montare le 6 resistenze 1M Omh a fianco zoccoli integrati (SN74HC4851) come segnato
 su C.S, tirare i ponti (con i terminali resistenze avanzati o con dei fili), dove segnato su C.S,
@@ -39,7 +39,7 @@ segnali sui sensori piezo.
 
 ## Cablaggio Scheda Jack
 
-![Jack v0.4](jack-v0-4.png)
+<img src="./jack-v0-4.png" alt="Jack v0.4" class="img-responsive">
 
 1. Saldare i JACK sul C.S come segnato, saldare gli strip S1-S4 e gli
 strip su CONN1 come da figura.
@@ -62,13 +62,13 @@ destra verso l'interno del C.S come segnato su disegno.
 rispettivi connettori CONN(x) rispettando la sequenza colori, aiutarsi
 con lo schema riportato.
 
-![Connessione Jack microDrum](jack-microdrum-conn.png)
-![Jack plug](jack-plug.png)
-![Piattina](jack-microdrum-cable.png)
+<img src="./jack-microdrum-conn.png" alt="Connessione Jack microDrum" class="img-responsive">
+<img src="./jack-plug.png" alt="Jack plug" class="img-responsive">
+<img src="./jack-microdrum-cable.png" alt="Piattina" class="img-responsive">
 
 ## Hi-Hat Soluzione Pulsante On/Off
 
-![Jack v0.4 Hihat](jack-hihat-ita.png)
+<img src="./jack-hihat-ita.png" alt="Jack v0.4 Hihat" class="img-responsive">
 
 Effettuando il corto sui tre PIN sulla scheda JACK (S1 in questo caso, vedi dettagli nota a
 fianco), dei due ingressi, uno perde la funzione PIEZO(sensore trigger), quel PIN è
@@ -80,7 +80,7 @@ degli ingressi (può infatti verificarsi che il pulsante ON/OFF generi NOTA MIDI
 segnale CC), si può controllare in monitor l'esatta assegnazione dei PIN, non è possibile
 agire sui cavi per invertire questa configurazione.
 
-![Hihat configuration](hihat-conf.png)
+<img src="./hihat-conf.png" alt="Hihat configuration" class="img-responsive">
 
 Per configurare il controller Hi-Hat con la soluzione di tipo
 ON/OFF (interruttore semplice pulsante), è necessario
@@ -101,7 +101,7 @@ ConfigTool per i settaggi).
 
 ## Hi-Hat Con Soluzione Variabile
 
-![Hihat a Resistenza Variabile](hihat-res-var.png)
+<img src="./hihat-res-var.png" alt="Hihat a Resistenza Variabile" class="img-responsive">
 
 Si parte dalla configurazione scheda JACK per semplice pulsante ON-OFF sopra
 descritta, pertanto corto su tutti e tre i pin (S1), si inserisce come partenza
@@ -127,7 +127,7 @@ sul modello del potenziometro stesso, pertanto bisogna trovare un buon compromes
 
 ## Configurazione Jack - microDrum
 
-![Jack v0.4 montato](jack-conf.png)
+<img src="./jack-conf.png" alt="Jack v0.4 montato" class="img-responsive">
 
 Porta 1) HiHat piezo/HHC foot on/off (pin in DrumMap, 1,2) resistenza e corto
 Porta 2) Ride Dual Zone piezo/piezo (pin in DrumMap 3,0)
@@ -143,7 +143,7 @@ relativi corto per gestire un semplice HH a pulsante.
 
 ## Configurazione Jack Per Crash Con Choke
 
-![Jack v0.4 con piatto membrana choke](jack-conf-choke.png)
+<img src="./jack-conf-choke.png" alt="Jack v0.4 con piatto membrana choke" class="img-responsive">
 
 Per collegare un CRASH o RIDE con CHOKE tipo membrana on/off, è consigliabile
 impiegare comunque una resistenza (può variare da 15K- 1 M comunque fate alcune
@@ -156,14 +156,14 @@ ad utilizzare.
 
 ## Collegamento Connettori MIDI
 
-![microDrum v0.7 collegamento MIDI](microdrum-v0-7-MIDI.png)
+<img src="./microdrum-v0-7-MIDI.png" alt="microDrum v0.7 collegamento MIDI" class="img-responsive">
 
 Non obbligatorio in quanto è possibile utilizzare la microDrum in **VIRTUAL MIDI**,
 con software tipo loopMidi+Hairless, leggere la sezione dedicata.
 
 ## Firmware e Configurazione Funzioni di Base
 
-![Arduino firmware](firmware.png)
+<img src="./firmware.png" alt="Arduino firmware" class="img-responsive">
 *Apertura del firmware microDrums mediante software Arduino.*
 
 La modifica e l'invio del firmware alla microDrum per questioni di praticità,
@@ -208,7 +208,7 @@ pertanto **NON tenerlo a ZERO**.
 
 ## Configurazione Software ConfigTool per Test e Config di Base
 
-![ConfigTool: Scelta COM](configtool-com.png)
+<img src="./configtool-com.png" alt="ConfigTool: Scelta COM" class="img-responsive">
 
 ConfigTool è il software di base per la configurazione della scheda microDrum;
 la prima cosa da fare dopo aver montato la scheda, installato il driver di
@@ -220,14 +220,14 @@ porte COM cercare Arduino su COMx).
 la sezione FIRMWARE per impostare correttamente la microDrum, altrimenti non si
 vedrà nessun segnale.**
 
-![ConfigTool: Seleziona DrumMap](configtool-drummap.png)
+<img src="./configtool-drummap.png" alt="ConfigTool: Seleziona DrumMap" class="img-responsive">
 
 Se avete preso la versione già assemblata, la microDrum viene fonita con una
 configurazione base precaricata, qualora vogliate modificarla dovete agire
 mediante DrumMap dal menu Setup. Tale funzione vi permetterà di assegnare o
 modificare i PIN/PAD di ingresso microDrum che sono la base da cui partire.
 
-![ConfigTool: Finestra DrumMap](configtool-drummap-window.png)
+<img src="./configtool-drummap-window.png" alt="ConfigTool: Finestra DrumMap" class="img-responsive">
 
 DrumMap gestione PIN/PAD, serve per assegnare le componenti della batteria ai
 PIN (ingressi) microDrum. Inserendo un nome nell'apposito campo ed agendo sul
@@ -248,7 +248,7 @@ poi difficili da sistemare.
 Ricordatevi che le configurazioni SWITCH o HHC richiedono alcune modifiche
 all'hardware (resistenza o ponticelli) come descritto all'interno di questo manuale.
 
-![ConfigTool: Finestra Log](configtool-log.png)
+<img src="./configtool-log.png" alt="ConfigTool: Finestra Log" class="img-responsive">
 
 Tools permette di verificare quale PIN è attivo. Spostando il selettore Pin
 (da 1 a 48) ed inserendo i jack uno alla volta nelle prese, dovreste vedere
@@ -261,7 +261,7 @@ provate fino a quando trovate un segnale reale e pieno; la licenza base del
 software ConfigTool, prevede un massimo di 16 PIN (ingressi)
 configurabili, non è detto che i PIN siano in sequenza da 1 a 16.
 
-![ConfigTool: Impostazione piezo](configtool-piezo.png)
+<img src="./configtool-piezo.png" alt="ConfigTool: Impostazione piezo" class="img-responsive">
 
 Una volta aggiunta una componente (PAD,HH ecc.) mediante DrumMap, in Configuration
 avrete la possibilità di modificare i parametri, diverse opzioni si abilitano in
@@ -269,7 +269,7 @@ funzione del tipo di configurazione scelta, potete inviarle alla microDrum e
 testarle mediante il pulsante freccia verso il basso.
 Uscendo dal programma si salveranno nel file .ini di configurazione in automatico.
 
-![ConfigTool: Monitor](configtool-monitor.png)
+<img src="./configtool-monitor.png" alt="ConfigTool: Monitor" class="img-responsive">
 
 Monitor vi permette di verificare la configurazione.
 Toccando i vari sensori (piatti,tamburi), si dovrebbe attivare un indicatore a
@@ -279,19 +279,19 @@ parametri (Threshold ecc.). Per il test con un VST caricato direttamente in
 Configtools, dovete lasciare monitor attivo, altrimenti non vengono inviati i
 dati al VST.
 
-![ConfigTool: Hi-Hat](configtool-hihat.png)
+<img src="./configtool-hihat.png" alt="ConfigTool: Hi-Hat" class="img-responsive">
 
 Esempio configurazione HI-HAT modalità semplice pulsante ON-OFF configurazione CC
 (usata in Addictive Drums), singola porta Jack piezo e semplice pulsante on/off.
 
-![ConfigTool: Save All](configtool-saveall.png)
+<img src="./configtool-saveall.png" alt="ConfigTool: Save All" class="img-responsive">
 
 Trovata una configurazione potete salvarla nella microDrum, mediante la funzione
 Setting, Save to Microdrum, All. Mentre per salvare i parametri inseriti in
 ConfigTool basta chiudere il programma (pertanto in caso di crash il programma
 non salva gli ultimi settaggi inseriti).
 
-![ConfigTool: Load VST](configtool-vst.png)
+<img src="./configtool-vst.png" alt="ConfigTool: Load VST" class="img-responsive">
 
 Mediante il menu VST è possibile caricare il VST Addictive Drums (o simili) e
 verificare la configurazione.
@@ -302,7 +302,7 @@ pertanto difficilmente utilizzabile per suonare (consultare la sezione FIRMWARE
 per maggiori dettagli). Per gestire correttamente il VST dopo averlo caricato,
 **Configtools deve essere nella finestra Monitor**.
 
-![Addictive Drums.png](addictive-drums.png)
+<img src="./addictive-drums.png" alt="Addictive Drums" class="img-responsive">
 
 VST Addictive Drums caricato all'interno di Configtools a scopo di test.
 
@@ -333,14 +333,14 @@ attivata per gestire il Midi e se i vari software sono configurati correttamente
 Si otterrà così una porta MIDI loopMidiPort_X gestibile dai vari HOST VST
 gratuiti tipo VST HOST che colloquierà direttamente con microDrum.
 
-![ConfigTool: Virtual MIDI](configtool-virtual-MIDI.png)
+<img src="./configtool-virtual-MIDI.png" alt="ConfigTool: Virtual MIDI" class="img-responsive">
 
 Se tutto è configurato correttamente dovreste vedere in MONITOR attivarsi il
 relativo PIN/PAD. Una volta inizializzata e verificato che funziona tutto via
 MIDI, volendo è possibile chiudere ConfigTool e utilizzare il VST tramite l'HOST
 e i relativi software loopMidi+Hireless.
 
-![Hairless MIDI](hairless.png)
+<img src="./hairless.png" alt="Hairless MIDI" class="img-responsive">
 
 Hairless si aggancia alla porta MIDI creata con loopMidi. Se tutto è corretto i
 led verdi del programma si dovranno attivare SOLO quando vi è un segnale MIDI
@@ -348,7 +348,7 @@ led verdi del programma si dovranno attivare SOLO quando vi è un segnale MIDI
 lampeggiano ad oltranza, dovrete controllare tutte le configurazioni a partire
 dal settaggio corretto nel firmware microDrum.
 
-![loopMIDI](loopMIDI.png)
+<img src="./loopMIDI.png" alt="loopMIDI" class="img-responsive">
 
 LoopMIDI crea porte virtuali le quali vengono gestite direttamente come
 interfaccie MIDI nei programmi tipo HOST VST. L'aggancio a Hairless serve per
