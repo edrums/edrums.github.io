@@ -53,6 +53,7 @@ availability issues for the main parts.
 | J1-J6           | 6   | 2 x 5 header                                                     | [67997-410HLF](http://www2.mouser.com/Search/ProductDetail.aspx?R=0virtualkey0virtualkey649-67997-410HLF) FCI / Amphenol, [XG8W-1041](http://www2.mouser.com/Search/ProductDetail.aspx?R=0virtualkey0virtualkey653-XG8W-1041) Omron or [M20-9760546](http://www2.mouser.com/Search/ProductDetail.aspx?R=0virtualkey0virtualkey855-M20-9760546) Harwin
 | MIDI In/Out/Aux | 3   | 5 pin DIN socket                                                 | [NYS325](http://www2.mouser.com/Search/ProductDetail.aspx?R=0virtualkey0virtualkey568-NYS325) REAN / Neutrik or [T3359-150](http://www2.mouser.com/Search/ProductDetail.aspx?R=0virtualkey0virtualkey523-T3359150) Amphenol
 | Header          | 2   | 1 x 36 header - split (will cover all headers)                   | [929834-02-36-RK](http://www2.mouser.com/Search/ProductDetail.aspx?R=0virtualkey0virtualkey517-929834-02-36-RK) 3M
+| Arduino2 Header | 1   | 2 x 13 header                                                    | [67996-236HLF](http://www2.mouser.com/Search/ProductDetail.aspx?R=0virtualkey0virtualkey649-67996-236HLF) FCI / Amphenol
 
 ## Jack Board v0.4 Parts
 
