@@ -86,4 +86,4 @@ Keith Raper
 <http://www.kdel.co.uk>
 
 There is an article on this topic in the
-[october issue of DigitalDrummer magazine](https://edrums.sourceforge.io/diy/keith_pp_2_ps/digitalDrummer_October_final.pdf#page=50).
+[october issue of DigitalDrummer magazine](./digitalDrummer_October_final.pdf#page=50).

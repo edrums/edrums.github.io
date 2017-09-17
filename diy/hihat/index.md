@@ -7,10 +7,12 @@ Using a Force Sensing Resistor (FSR) sensor solution:
 
 From [VDrums Forum](https://www.vdrums.com/forum/advanced/diy/61236-easy-to-make-diy-hihat-controller):
 
-<iframe width="480" height="360"
-src="http://www.youtube.com/embed/6w2FYu5H6qU">
-</iframe>
+<video width="100%" controls>
+  <source src="fsr_hh_controller_1.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
 
-<iframe width="480" height="360"
-src="http://www.youtube.com/embed/z-ROTzYW0A0">
-</iframe>
+<video width="100%" controls>
+  <source src="fsr_hh_controller_2.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
