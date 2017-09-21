@@ -59,7 +59,7 @@ availability issues for the main parts.
 
 These quantities are for a single board, giving you 4 sockets.
 
-| Part     | Qty | Description                                                      | Mouser Part No
+| Part     | Qty | Description                                                      | Manufacturer Part No
 | -------- | --- | ---------------------------------------------------------------- | --------------
 |          |     |                                                                  | **Circuit Board**
 | PCB      | 1   | Jack Board v0.4                                                  | [DIY](/microdrum/downloads/microDRUM_Jack_v0.4-PCB.pdf)
