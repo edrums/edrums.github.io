@@ -2,10 +2,11 @@
 title: "New Website Launched"
 date: 2017-07-02
 comments: true
+ref: welcome
+categories: website update
+lang: en
 ---
-
-We're proud to announce a new website for
-the DIY E-Drums project!
+We're proud to announce a new website for the DIY E-Drums project!
 
 * Responsive design making the website available to mobile devices.
 * Utilizes [Bootstrap][] for easy skinning.

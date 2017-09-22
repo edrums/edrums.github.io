@@ -12,7 +12,9 @@ defaults:
     values:
       layout: "post"
 
-plugins:
+exclude: ["Gemfile", "Gemfile.lock", "new_post", "CNAME"]
+
+plugins_dir:
   - jekyll-sitemap
 
 disqus_shortname: edrums

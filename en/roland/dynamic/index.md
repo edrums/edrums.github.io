@@ -1,5 +1,7 @@
 ---
 title: Dynamic
+refdir: roland/dynamic/
+lang: en
 ---
 1. Zero out all your group faders.
    Literally place them on zero so you have room to go up and down.

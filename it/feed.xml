@@ -1,0 +1,7 @@
+---
+layout: blank
+lang: it
+title: "Notizie E-Drums Project"
+---
+
+{% include feed.xml %}

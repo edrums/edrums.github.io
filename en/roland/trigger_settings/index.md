@@ -1,5 +1,7 @@
 ---
 title: Trigger Settings
+refdir: roland/trigger_settings/
+lang: en
 ---
 ## BASIC
 
@@ -38,6 +40,12 @@ The standard setting. This produces the most natural correspondence between
 playing dynamics and volume change.
 
 <img src="curve_linear.png" alt="Linear" class="img-responsive">
+
+**EXP1, EXP2**
+
+Compared to LINEAR, strong dynamics produce a greater change.
+
+<img src="curve_exp.png" alt="EXP1, EXP2" class="img-responsive">
 
 **LOG1, LOG2**
 

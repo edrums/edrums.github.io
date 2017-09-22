@@ -1,0 +1,16 @@
+{% assign posts=site.posts | where:"lang", page.lang %}
+{% for post in posts limit:5 %}
+  <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+
+  <p>{{ page.txt1 }}<time datetime="{{ post.date | datetime | date_to_xmlschema }}"{% if updated %} data-updated="true"{% endif %}>{{ post.date | date: page.date_fmt }}</time></p>
+
+  {{ post.content }}
+
+  {% if post.comments and site.disqus_shortname %}
+  <p><a href="{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.id | escape }}">{{ page.txt2 }}</a></p>
+  {% endif %}
+{% endfor %}
+
+<p class="text-center" style="margin-top: 2em;">
+  <a class="btn btn-lg btn-default" href="/{{ page.lang }}/news/archive/"><i class="fa fa-calendar fa-fw"></i>{{ page.txt3 }}</a>
+</p>
