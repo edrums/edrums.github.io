@@ -6,13 +6,13 @@ ref: welcome
 categories: website update
 lang: it
 ---
-Siamo orgogliosi di annunciare il nuovo sito web di E-Drums project!
+Siamo orgogliosi di annunciare il nuovo sito web di E-Drums Project!
 
-* Il design responsive il sito accessibile da qualsiasi dispositivo.
+* Il design responsive rende il sito accessibile da qualsiasi dispositivo.
 * Utilizzo di [Bootstrap][] per una semplice personalizzazione grafica.
 * Creato con [Jekyll][].
 * Possibilità di scrivere dei commenti nelle notizie: facci sapere cosa ne pensi!
-* La maggior parte dei contenuti è scritto in [Markdown][].
+* La maggior parte dei contenuti è scritta in [Markdown][].
 * Gli aggiornamenti possono essere inviati direttamente su [GitHub][git].
 
 [Bootstrap]: http://getbootstrap.com/

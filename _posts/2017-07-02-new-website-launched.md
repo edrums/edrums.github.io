@@ -6,7 +6,7 @@ ref: welcome
 categories: website update
 lang: en
 ---
-We're proud to announce a new website for the DIY E-Drums project!
+We're proud to announce a new website for the DIY E-Drums Project!
 
 * Responsive design making the website available to mobile devices.
 * Utilizes [Bootstrap][] for easy skinning.
