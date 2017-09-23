@@ -1,5 +1,7 @@
 ---
 title: set_ccN Opcode
+refdir: linuxsampler/docs/sfz/opcode/
+lang: en
 ---
 Sets a different initial MIDI controller value to the requested MIDI controller.
 

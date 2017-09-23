@@ -1,5 +1,7 @@
 ---
 title: DIY Mesh Heads
+refdir: diy/mesh_heads/
+lang: en
 ---
 Buy a pet screen or mosquito net:
 

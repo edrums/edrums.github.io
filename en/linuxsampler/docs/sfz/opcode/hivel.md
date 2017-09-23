@@ -1,5 +1,7 @@
 ---
 title: hivel Opcode
+refdir: linuxsampler/docs/sfz/opcode/
+lang: en
 ---
 Causes the associated region to play when a constraint on MIDI velocity is respected.
 Used in conjunction with [lovel](lovel), it makes the region play when the

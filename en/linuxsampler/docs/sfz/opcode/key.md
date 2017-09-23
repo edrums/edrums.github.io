@@ -1,5 +1,7 @@
 ---
 title: key Opcode
+refdir: linuxsampler/docs/sfz/opcode/
+lang: en
 ---
 With this opcode you can cause a region to be played only when the incoming MIDI
 note is equal to **[note-value]**. If you want your region to be triggered by a

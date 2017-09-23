@@ -1,5 +1,7 @@
 ---
 title: NKSP Reference
+refdir: linuxsampler/docs/nksp/reference/
+lang: en
 ---
 <link rel="stylesheet" href="/linuxsampler/style.css">
 

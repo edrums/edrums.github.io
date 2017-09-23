@@ -1,5 +1,7 @@
 ---
 title: LinuxSampler SFZ Reference
+refdir: linuxsampler/sfz/
+lang: en
 ---
 Last update: 3 June, 2012.
 

@@ -1,5 +1,7 @@
 ---
 title: Linuxsampler Documents and Manuals
+refdir: linuxsampler/docs/
+lang: en
 ---
 <style type="text/css">
 table.goverview  {

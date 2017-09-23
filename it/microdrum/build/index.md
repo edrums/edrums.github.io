@@ -1,6 +1,10 @@
 ---
-title: Montaggio di base per microDrum
+title: Assemblaggio di base per microDrum
+refdir: microdrum/assemblaggio/
+lang: it
 ---
+[Versione in PDF](montaggio.pdf)
+
 <img src="./microdrum-v0-7.png" alt="microDrum v0.7" class="img-responsive">
 
 1. Montare le 6 resistenze 1M Omh a fianco zoccoli integrati (SN74HC4851) come segnato
@@ -11,7 +15,7 @@ alto a destra C.S vista da sopra serigrafie diritte).
 2. Montate gli strip MIDI e montare gli strip lcd e strip alimentazione LCD solo se intendete
 usare un LCD.
 In alto a sinistra (guardando da sopra C.S), c'è una predisposizione per componenti, non
-servono per il montaggio di base (vedi note su disegno), in quella zona l'unica resistenza da
+servono per l'assemblaggio di base (vedi note su disegno), in quella zona l'unica resistenza da
 montare è R7, 220 Omh.
 
 3. Montare strip per Jumper S2 e S1 (se usate Arduino UNO volendo S2 può essere solo un

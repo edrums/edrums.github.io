@@ -1,5 +1,7 @@
 ---
 title: Parts List v0.8
+refdir: microdrum/
+lang: en
 ---
 The following electronic component links point to the Mouser reseller.
 Obviously you can buy them elsewhere.

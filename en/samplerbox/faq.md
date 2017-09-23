@@ -1,5 +1,7 @@
 ---
 title: SamplerBox - FAQ
+refdir: samplerbox/
+lang: en
 ---
 ### 1. Q: What is SamplerBox, and why this project?
 A: SamplerBox is an electronic musical instrument. Drop audio samples onto it,

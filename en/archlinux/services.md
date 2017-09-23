@@ -1,5 +1,7 @@
 ---
 title: Jack2, A2jmidid and Linuxsampler systemd services on Archlinux
+refdir: archlinux/
+lang: en
 ---
 ### Packages required:
 

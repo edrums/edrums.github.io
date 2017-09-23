@@ -1,5 +1,7 @@
 ---
 title: lobend Opcode
+refdir: linuxsampler/docs/sfz/opcode/
+lang: en
 ---
 Causes the associated region to play when a constraint on MIDI pitch bend is
 respected. Used in conjunction with [hibend](hibend), it makes the region play

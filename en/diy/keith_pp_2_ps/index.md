@@ -1,5 +1,7 @@
 ---
 title: Piezo/Piezo to Piezo/Switch Adaptor by Keith Raper
+refdir: diy/keith_pp_2_ps/
+lang: en
 ---
 **DON'T MISS THE UPDATED INFO BELOW THE ORIGINAL CONTENT** 😉
 

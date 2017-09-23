@@ -1,5 +1,7 @@
 ---
 title: SFZ File Format
+refdir: linuxsampler/docs/sfz/
+lang: en
 ---
 The SFZ file format is a human readable instrument definition file format for
 audio sample based virtual instruments. In contrast to many other sampler file

@@ -1,5 +1,7 @@
 ---
 title: hikey Opcode
+refdir: linuxsampler/docs/sfz/opcode/
+lang: en
 ---
 Causes the associated region to play when a constraint on MIDI note is respected.
 Used in conjunction with [lokey](lokey), it makes the region play when the

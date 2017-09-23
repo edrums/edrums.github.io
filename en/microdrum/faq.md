@@ -1,5 +1,7 @@
 ---
 title: microDrum - FAQ
+refdir: microdrum/
+lang: en
 ---
 ### What is the PCB v0.7 / v0.8 ?
 The PCB is a finished product on which you need to solder the remaining components.

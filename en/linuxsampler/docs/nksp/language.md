@@ -1,5 +1,7 @@
 ---
 title: NKSP Language
+refdir: linuxsampler/docs/nksp/
+lang: en
 ---
 This document intends to give you a compact introduction and overview to the NKSP
 real-time instrument script language, so you can start writing your own instrument

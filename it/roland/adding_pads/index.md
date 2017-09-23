@@ -1,6 +1,6 @@
 ---
 title: Aggiungere pad alla Roland TD-12 e TD-20
-refdir: roland/aggiungere_pad/
+refdir: roland/adding_pads/
 lang: it
 ---
 ## Istruzioni Semplificate per espandere la TD-20 (o TD-12) con un trigger esterno

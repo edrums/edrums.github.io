@@ -1,14 +1,12 @@
 ---
 title: Build microDrum
+refdir: microdrum/build/
+lang: en
 ---
 Building the microDrum is very simple. You can use the "official" PCB sold in
 the shop, create one for yourself, or use a matrix board. Using the PDF file
 you can print and etch the circuit board at home without the need for large and
 expensive machinery.
-
-[Italian guide](ita)
-
-[Italian guide PDF](ita/montaggio.pdf)
 
 ## Materials
 

@@ -1,5 +1,7 @@
 ---
 title: SFZ
+refdir: microdrum/
+lang: en
 ---
 The SFZ format [\[1\]][1] is a file format to define how a collection of samples are
 arranged for performance.

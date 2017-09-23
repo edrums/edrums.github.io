@@ -1,5 +1,7 @@
 ---
 title: seq_position Opcode
+refdir: linuxsampler/docs/sfz/opcode/
+lang: en
 ---
 Used in conjunction with [seq_length](seq_length), it makes the region play
 when the internal sequence counter is equal to [seq_position](seq_position)

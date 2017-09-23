@@ -1,5 +1,7 @@
 ---
 title: hirand Opcode
+refdir: linuxsampler/docs/sfz/opcode/
+lang: en
 ---
 Causes the associated region to play when generated random number is between a
 defined range.

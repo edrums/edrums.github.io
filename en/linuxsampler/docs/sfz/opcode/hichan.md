@@ -1,5 +1,7 @@
 ---
 title: hichan Opcode
+refdir: linuxsampler/docs/sfz/opcode/
+lang: en
 ---
 Causes the associated region to play when a constraint on MIDI channel is
 respected. Used in conjunction with [lochan](lochan), it makes the

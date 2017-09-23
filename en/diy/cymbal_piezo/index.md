@@ -1,5 +1,7 @@
 ---
 title: 2Z/3Z Choke Capable Cymbal (by PFozz)
+refdir: diy/cymbal_piezo/
+lang: en
 ---
 ## Material list
 

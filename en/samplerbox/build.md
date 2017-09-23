@@ -1,5 +1,7 @@
 ---
 title: SamplerBox - Build the electronic parts
+refdir: samplerbox/
+lang: en
 ---
 ## Schematics
 

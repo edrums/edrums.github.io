@@ -1,5 +1,7 @@
 ---
 title: DIY HiHat
+refdir: diy/hihat/
+lang: en
 ---
 Using a Force Sensing Resistor (FSR) sensor solution:
 

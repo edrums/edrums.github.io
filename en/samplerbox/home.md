@@ -1,5 +1,7 @@
 ---
 title: SamplerBox - Home
+refdir: samplerbox/
+lang: en
 ---
 <iframe width="420" height="315"
 src="https://www.youtube.com/embed/yz7GZ8YOjTw">

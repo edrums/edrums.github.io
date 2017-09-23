@@ -1,5 +1,7 @@
 ---
 title: microDrum
+refdir: microdrum/
+lang: en
 ---
 ### Welcome to microWiki!
 

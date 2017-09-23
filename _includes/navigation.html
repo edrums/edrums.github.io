@@ -18,9 +18,9 @@
         <li><a href="/en/roland/dynamic">Dynamic</a></li>
         <li><a href="/en/roland/trigger_settings">Trigger Settings</a></li>
 {% elsif page.lang == 'it' %}
-        <li><a href="/it/roland/aggiungere_pad">Aggiungere pad alla Roland TD-12 e TD-20</a></li>
-        <li><a href="/it/roland/dinamica">Dinamica</a></li>
-        <li><a href="/it/roland/impostazioni_trigger">Impostazioni Trigger</a></li>
+        <li><a href="/it/roland/adding_pads">Aggiungere pad alla Roland TD-12 e TD-20</a></li>
+        <li><a href="/it/roland/dynamic">Dinamica</a></li>
+        <li><a href="/it/roland/trigger_settings">Impostazioni Trigger</a></li>
 {% endif %}
       </ul>
     </li>
@@ -42,7 +42,11 @@
       <ul class="dropdown-menu">
         <li><a href="/en/microdrum/home">Home</a></li>
         <li><a href="/en/microdrum/about">About</a></li>
+{% if page.lang == 'en' %}
         <li><a href="/en/microdrum/build">Build v0.4</a></li>
+{% elsif page.lang == 'it' %}
+        <li><a href="/it/microdrum/build">Assemblaggio</a></li>
+{% endif %}
         <li><a href="/en/microdrum/appstore">AppStore</a></li>
         <li><a href="/en/microdrum/setup">Setup</a></li>
         <li><a href="/en/microdrum/software">Software</a></li>

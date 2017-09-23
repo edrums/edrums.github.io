@@ -1,6 +1,6 @@
 ---
 title: Dinamica
-refdir: roland/dinamica/
+refdir: roland/dynamic/
 lang: it
 ---
 1. Azzerare tutti i cursori del volume per poter alzare o abbassare.

@@ -1,5 +1,7 @@
 ---
 title: E-Splash
+refdir: diy/splash/
+lang: en
 ---
 Buy a sanding disc pad:
 

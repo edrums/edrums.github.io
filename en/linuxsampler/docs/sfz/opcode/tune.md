@@ -1,5 +1,7 @@
 ---
 title: tune Opcode
+refdir: linuxsampler/docs/sfz/opcode/
+lang: en
 ---
 With this opcode you can fine tune the sample played. You can change the original
 pitch of the sample, increasing or decreasing it within the range of +-100 cents.

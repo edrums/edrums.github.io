@@ -1,5 +1,7 @@
 ---
 title: lorand Opcode
+refdir: linuxsampler/docs/sfz/opcode/
+lang: en
 ---
 Causes the associated region to play when a generated random number is between a
 defined range. Used in conjunction with [hirand](hirand), it makes the region

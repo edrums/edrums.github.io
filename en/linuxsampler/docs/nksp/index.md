@@ -1,5 +1,7 @@
 ---
 title: Real-Time Instrument Scripts
+refdir: linuxsampler/docs/nksp/
+lang: en
 ---
 The sampler technology is constantly evolving to satisfy new feature requirements
 of sound designer in order to allow them creating more and more realistic sounds.

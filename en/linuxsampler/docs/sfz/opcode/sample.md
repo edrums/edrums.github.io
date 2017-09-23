@@ -1,5 +1,7 @@
 ---
 title: sample Opcode
+refdir: linuxsampler/docs/sfz/opcode/
+lang: en
 ---
 This is the most fundamental opcode of the SFZ file format.
 It allows you to load and assign a certain audio sample file.

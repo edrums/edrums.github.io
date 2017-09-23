@@ -1,5 +1,7 @@
 ---
 title: microDrum App Store
+refdir: microdrum/appstore/
+lang: en
 ---
 # Setup
 

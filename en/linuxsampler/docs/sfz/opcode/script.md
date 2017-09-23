@@ -1,5 +1,7 @@
 ---
 title: script Opcode
+refdir: linuxsampler/docs/sfz/opcode/
+lang: en
 ---
 This is an extension to the SFZ file format which is currently only available
 with LinuxSampler. It allows to load real-time instrument scripts for SFZ

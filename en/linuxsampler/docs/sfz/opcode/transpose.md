@@ -1,5 +1,7 @@
 ---
 title: transpose Opcode
+refdir: linuxsampler/docs/sfz/opcode/
+lang: en
 ---
 With this opcode you can change the original pitch of the sample, increasing or
 decreasing it within the range of +-127 semitones.

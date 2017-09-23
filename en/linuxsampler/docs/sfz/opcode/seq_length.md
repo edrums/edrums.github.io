@@ -1,5 +1,7 @@
 ---
 title: seq_length Opcode
+refdir: linuxsampler/docs/sfz/opcode/
+lang: en
 ---
 Used in conjunction with [seq_position](seq_position), it defines the length
 of a sequence. 

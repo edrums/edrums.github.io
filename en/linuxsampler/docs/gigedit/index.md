@@ -1,5 +1,7 @@
 ---
 title: Gigedit
+refdir: linuxsampler/docs/gigedit/
+lang: en
 ---
 <img src="../gigedit_shot.png" alt="Gigedit" class="img-responsive">
 

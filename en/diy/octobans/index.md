@@ -1,5 +1,7 @@
 ---
 title: E-Octobans
+refdir: diy/octobans/
+lang: en
 ---
 6" (150mm) ventilation plastic tube:
 

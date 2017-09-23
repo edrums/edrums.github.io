@@ -1,5 +1,7 @@
 ---
 title: Managing Scripts
+refdir: linuxsampler/docs/gigedit/
+lang: en
 ---
 <link rel="stylesheet" href="/linuxsampler/style.css">
 

@@ -1,5 +1,7 @@
 ---
 title: Realtime kernel and low latency
+refdir: archlinux/
+lang: en
 ---
 
 See also

@@ -1,5 +1,7 @@
 ---
 title: DIY Ride (2 and 3 Zones)
+refdir: diy/cymbal_switch/
+lang: en
 ---
 * Modifying an acoustic cymbal or a rubber practice cymbal pad like
   [Peace](http://www.peace-drums.com/products_01.php?u=91&s=143) or

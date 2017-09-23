@@ -1,5 +1,7 @@
 ---
 title: Parts List v0.7
+refdir: microdrum/
+lang: en
 ---
 This list of hardware parts focuses on Mouser part numbers, as the most commonly
 used online electronics store. You can of course get the manufacturer's part

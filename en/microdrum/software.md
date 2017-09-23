@@ -1,5 +1,7 @@
 ---
 title: microDrum - Installing the Software side of things
+refdir: microdrum/
+lang: en
 ---
 ## Software Required
 
