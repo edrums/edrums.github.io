@@ -14,7 +14,7 @@ defaults:
 
 exclude: ["Gemfile", "Gemfile.lock", "new_post", "CNAME"]
 
-plugins_dir:
+plugins:
   - jekyll-sitemap
 
 disqus_shortname: edrums
