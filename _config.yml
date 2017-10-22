@@ -1,18 +1,26 @@
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
       type: "pages"
     values:
       layout: "default"
-  -
-    scope:
+
+  - scope:
       path: ""
       type: "posts"
     values:
       layout: "post"
 
-exclude: ["Gemfile", "Gemfile.lock", "new_post", "CNAME"]
+exclude:
+  - node_modules
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - Gruntfile.js
+  - new_post
+  - package.json
+  - package-lock.json
+  - README.md
 
 plugins:
   - jekyll-sitemap

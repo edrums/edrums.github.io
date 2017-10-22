@@ -1,31 +1,32 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    {% include head.html %}
-  </head>
+	<head>
+{% include head.html %}
+	</head>
 {% if page.classes %}
-  <body class="{{ page.classes | join: ' ' }}">
+	<body class="{{ page.classes | join: ' ' }}">
 {% else %}
-  <body>
+	<body>
 {% endif %}
-    <a href="#content" class="sr-only">Skip to content</a>
-    <div class="container">
-      {% include header.html %}
-      <div class="row" id="content">
-        <div class="col-md-9">
-          <article>
-            <h1>{{ page.title }}</h1>
-            {{ content }}
-          </article>
-        </div>
-        <div class="col-md-3">
-          <aside>
-            {% include aside.html %}
-          </aside>
-        </div>
-      </div>
-      {% include footer.html %}
-    </div>
-    {% include scripts.html %}
-  </body>
+		<a href="#content" class="sr-only">Skip to content</a>
+		<div class="container">
+{% include header.html %}
+			<div class="row" id="content">
+				<div class="col-md-9">
+					<article>
+						<div class="jumbotron">
+{{ content }}
+						</div>
+					</article>
+				</div>
+				<div class="col-md-3">
+					<aside>
+{% include aside.html %}
+					</aside>
+				</div>
+			</div>
+{% include footer.html %}
+		</div>
+{% include scripts.html %}
+	</body>
 </html>
