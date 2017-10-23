@@ -1,87 +1,88 @@
 <nav class="navbar navbar-default" role="navigation">
-<div class="navbar-header">
-  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-    <span class="sr-only">Toggle navigation</span>
-    <span class="icon-bar"></span>
-    <span class="icon-bar"></span>
-    <span class="icon-bar"></span>
-  </button>
-</div>
-<div class="collapse navbar-collapse navbar-ex1-collapse">
-  <ul class="nav navbar-nav">
-    <li><a href="/{{ page.lang }}"><i class="fa fa-home fa-fw" aria-hidden="true"></i></a></li>
-    <li class="dropdown">
-      <a href="#" class="dropdown-toggle" data-toggle="dropdown"><img border="0" src="/assets/ico/roland.png" width="16" height="16"> Roland <b class="caret"></b></a>
-      <ul class="dropdown-menu">
+    <div class="container-fluid">
+        <div class="navbar-header navbar-left">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="/{{ page.lang }}" class="navbar-brand">E-Drums Project</a>
+        </div><!-- Navbar Header -->
+        <div class="collapse navbar-collapse navbar-right" id="navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown"><img border="0" src="/assets/ico/roland.png" width="16" height="16"> Roland <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
 {% if page.lang == 'en' %}
-        <li><a href="/en/roland/adding_pads">Adding pads to Roland TD-12 and TD-20</a></li>
-        <li><a href="/en/roland/dynamic">Dynamic</a></li>
-        <li><a href="/en/roland/trigger_settings">Trigger Settings</a></li>
+                    <li><a href="/en/roland/adding_pads">Adding pads to Roland TD-12 and TD-20</a></li>
+                    <li><a href="/en/roland/dynamic">Dynamic</a></li>
+                    <li><a href="/en/roland/trigger_settings">Trigger Settings</a></li>
 {% elsif page.lang == 'it' %}
-        <li><a href="/it/roland/adding_pads">Aggiungere pad alla Roland TD-12 e TD-20</a></li>
-        <li><a href="/it/roland/dynamic">Dinamica</a></li>
-        <li><a href="/it/roland/trigger_settings">Impostazioni Trigger</a></li>
+                    <li><a href="/it/roland/adding_pads">Aggiungere pad alla Roland TD-12 e TD-20</a></li>
+                    <li><a href="/it/roland/dynamic">Dinamica</a></li>
+                    <li><a href="/it/roland/trigger_settings">Impostazioni Trigger</a></li>
 {% endif %}
-        <li><a href="/en/roland/dsub25_cable">D-Sub 25 Cable</a></li>
-      </ul>
-    </li>
-    <li class="dropdown">
-      <a href="#" class="dropdown-toggle" data-toggle="dropdown"><img border="0" src="/assets/ico/diy.png" width="16" height="16"> DIY <b class="caret"></b></a>
-      <ul class="dropdown-menu">
-        <li><a href="/en/diy/cymbal_piezo">Cymbal (2 and 3 Zones) using piezos</a></li>
-        <li><a href="/en/diy/cymbal_switch">Cymbal (2 and 3 Zones) using switches</a></li>
-        <li><a href="/en/diy/hihat">HiHat using FSR sensor</a></li>
-        <li><a href="/en/diy/keith_pp_2_ps">Keith Raper's Piezo/Piezo to Piezo/Switch Adapter</a></li>
-        <li><a href="/en/diy/mesh_heads">Mesh heads</a></li>
-        <li><a href="/en/diy/octobans">Octobans</a></li>
-        <li><a href="/en/diy/piezo_wiring">Piezo Wiring</a></li>
-        <li><a href="/en/diy/splash">Splash</a></li>
-      </ul>
-    </li>
-    <li class="dropdown">
-      <a href="#" class="dropdown-toggle" data-toggle="dropdown"><img border="0" src="/assets/ico/arch.png" width="16" height="16">Archlinux <b class="caret"></b></a>
-      <ul class="dropdown-menu">
-        <li><a href="/en/archlinux/realtime">Realtime</a></li>
-        <li><a href="/en/archlinux/services">Services</a></li>
-      </ul>
-    </li>
-    <li class="dropdown">
-      <a href="#" class="dropdown-toggle" data-toggle="dropdown"><img border="0" src="/assets/ico/linuxsampler.png" width="16" height="16"> Linuxsampler <b class="caret"></b></a>
-      <ul class="dropdown-menu">
-        <li><a href="/en/linuxsampler/sfz">SFZ</a></li>
-        <li><a href="/en/linuxsampler/docs">Docs</a></li>
-      </ul>
-    </li>
-    <!--li class="dropdown">
-      <a href="#" class="dropdown-toggle" data-toggle="dropdown"><img border="0" src="/assets/ico/samplerbox.png" width="16" height="16"> SamplerBox <b class="caret"></b></a>
-      <ul class="dropdown-menu">
-        <li><a href="/en/samplerbox/home">Home</a></li>
-        <li><a href="/en/samplerbox/build">Build</a></li>
-        <li><a href="/en/samplerbox/faq">FAQ</a></li>
-      </ul>
-    </li-->
-    <li class="dropdown">
-      <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-      <img border="0" src="/assets/flags/{{ page.lang }}.png" width="16" height="11"><b class="caret"></b></a>
-      <ul class="dropdown-menu">
-        <li>
-            <a href="/en/">
-            <img border="0" src="/assets/flags/en.png" width="16" height="11"> English</a>
-        </li>
-        <li>
-            <a href="/it/">
-            <img border="0" src="/assets/flags/it.png" width="16" height="11"> Italiano</a>
-        </li>
-      </ul>
-    </li>
-
+                    <li><a href="/en/roland/dsub25_cable">D-Sub 25 Cable</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown"><img border="0" src="/assets/ico/diy.png" width="16" height="16"> DIY <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="/en/diy/cymbal_piezo">Cymbal (2 and 3 Zones) using piezos</a></li>
+                    <li><a href="/en/diy/cymbal_switch">Cymbal (2 and 3 Zones) using switches</a></li>
+                    <li><a href="/en/diy/hihat">HiHat using FSR sensor</a></li>
+                    <li><a href="/en/diy/keith_pp_2_ps">Keith Raper's Piezo/Piezo to Piezo/Switch Adapter</a></li>
+                    <li><a href="/en/diy/mesh_heads">Mesh heads</a></li>
+                    <li><a href="/en/diy/octobans">Octobans</a></li>
+                    <li><a href="/en/diy/piezo_wiring">Piezo Wiring</a></li>
+                    <li><a href="/en/diy/splash">Splash</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown"><img border="0" src="/assets/ico/arch.png" width="16" height="16">Archlinux <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="/en/archlinux/realtime">Realtime</a></li>
+                    <li><a href="/en/archlinux/services">Services</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown"><img border="0" src="/assets/ico/linuxsampler.png" width="16" height="16"> Linuxsampler <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="/en/linuxsampler/sfz">SFZ</a></li>
+                    <li><a href="/en/linuxsampler/docs">Docs</a></li>
+                  </ul>
+                </li>
+                <!--li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown"><img border="0" src="/assets/ico/samplerbox.png" width="16" height="16"> SamplerBox <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="/en/samplerbox/home">Home</a></li>
+                    <li><a href="/en/samplerbox/build">Build</a></li>
+                    <li><a href="/en/samplerbox/faq">FAQ</a></li>
+                  </ul>
+                </li-->
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                  <img border="0" src="/assets/flags/{{ page.lang }}.png" width="16" height="11"><b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li>
+                        <a href="/en/">
+                        <img border="0" src="/assets/flags/en.png" width="16" height="11"> English</a>
+                    </li>
+                    <li>
+                        <a href="/it/">
+                        <img border="0" src="/assets/flags/it.png" width="16" height="11"> Italiano</a>
+                    </li>
+                  </ul>
+                </li>
 {% assign search_txt = "Search" %}
 {% if page.lang == "it" %} {% assign search_txt = "Cerca" %} {% endif %}
-  <form class="navbar-form navbar-right" role="search" action="/{{ page.lang }}/search/">
-    <div class="form-group">
-        <input type="text" class="form-control" placeholder="{{ search_txt }}" name="q">
-        <i class="fa fa-search fa-fw" aria-hidden="true" style="color:#cfcfcf;"></i>
-    </div>
-  </form>
-</div>
-</nav>
+                <form class="navbar-form navbar-right" role="search" action="/{{ page.lang }}/search/">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="{{ search_txt }}" name="q">
+                    </div>
+                </form>
+            </ul>
+        </div>
+    </div><!-- End Container -->
+</nav><!-- End Navbar -->
