@@ -1,0 +1,44 @@
+@brand-primary:              #222;
+@header-color:               #fafafa;
+@header-bg-color:            @brand-primary;
+@link-color:                 #0078B4;
+@link-hover-color:           @link-color;
+@tr-even-color:              #cfcfcf;
+
+aside .nav-pills > li > a {
+	padding: 5px 8px;
+	color: @text-color;
+}
+aside .nav-pills > li > a:hover {
+	color: @brand-primary;
+}
+.panel-default > .panel-heading {
+	background-color: @header-bg-color;
+	color: @header-color;
+}
+table .progress {
+	margin-bottom: 0;
+}
+th {
+	background-color: @header-bg-color;
+	color: @header-color;
+	text-align: center;
+}
+th.header {
+	cursor: pointer;
+}
+td, th {
+	border: 1px solid @text-color;
+}
+tr:nth-child(even) {
+	background-color: @tr-even-color;
+}
+.list-group {
+	margin-top: 20px;
+}
+.navbar-brand {
+	font-size:2em;
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	user-select:none;
+}
