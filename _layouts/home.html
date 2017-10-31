@@ -1,37 +1,40 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    {% include head.html %}
-  </head>
-  <body>
-    <a href="#content" class="sr-only">Skip to content</a>
-    <div class="container">
-      {% include header.html %}
-      <div class="row" id="content">
-        <div class="col-md-9">
-          <article>
-            {{ content }}
-          </article>
-        </div>
-        <div class="col-md-3">
-          <aside>
-            {% include aside.html %}
-          </aside>
-        </div>
-      </div>
-      {% include footer.html %}
-    </div>
-    {% include scripts.html %}
-    {% if site.disqus_shortname %}
-    <script type="text/javascript">
-      var disqus_shortname = "{{ site.disqus_shortname }}";
-      (function () {
-        var s = document.createElement('script'); s.async = true;
-        s.type = 'text/javascript';
-        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
-        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-      }());
-    </script>
-    {% endif %}
-  </body>
+{% include variables.html %}
+	<head>
+{% include head.html %}
+	</head>
+	<body>
+		<a href="#content" class="sr-only">Skip to content</a>
+		<div class="container">
+{% include header.html %}
+			<div class="row" id="content">
+				<div class="col-md-9">
+					<article>
+						<div class="jumbotron">
+{{ content }}
+						</div>
+					</article>
+				</div>
+				<div class="col-md-3">
+					<aside>
+{% include aside.html %}
+					</aside>
+				</div>
+			</div>
+{% include footer.html %}
+		</div>
+{% include scripts.html %}
+{% if site.disqus_shortname %}
+		<script type="text/javascript">
+			var disqus_shortname = "{{ site.disqus_shortname }}";
+			(function () {
+			var s = document.createElement('script'); s.async = true;
+			s.type = 'text/javascript';
+			s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+			(document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+			}());
+		</script>
+{% endif %}
+	</body>
 </html>
