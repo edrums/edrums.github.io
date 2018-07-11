@@ -29,3 +29,5 @@ Decay, Reverb, Chorus, and CC.
 
 All editing for the pads plugged into your external trigger is now done on the
 TD-20 (except for trigger settings like sens. threshold etc.).
+
+Source: [VDrums.com Forum](https://www.vdrums.com/forum/advanced/technical/31138-tmc-6-td-20-how-to-sticky)

@@ -87,5 +87,7 @@ Keith Raper
 
 <http://www.kdel.co.uk>
 
+Source: [ToonTrack Forum](https://www.toontrack.com/forum/e-drum-workshop/design-piezo-piezo-to-piezo-switch-adaptor-by-keith-raper/)
+
 There is an article on this topic in the
 [october issue of DigitalDrummer magazine](./digitalDrummer_October_final.pdf#page=50).

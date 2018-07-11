@@ -34,3 +34,5 @@ lang: it
    i volumi corretti per tutte le percussioni.
 
 Infine riattivare il compressore, EQ e ambiance.
+
+Origine: [VDrums.com forum](https://www.vdrums.com/forum/advanced/technical/64545-still-struggling-with-td-12?p=776033#post776033)
