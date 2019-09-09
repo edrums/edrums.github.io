@@ -1,6 +1,5 @@
 ---
 title: Trigger Settings
-refdir: roland/trigger_settings/
 lang: en
 ---
 ## BASIC
