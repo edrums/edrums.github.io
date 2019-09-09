@@ -11,7 +11,7 @@ I choosed the latter option.
 
 To run Windows applications I choosed [wine-staging] package.
 
-## [WineASIO]
+## [WineASIO - ASIO to JACK driver for Wine]
 
 Install [wineasio] package from AUR.
 At the moment there could be a [wineasio build problem] because a missing
@@ -51,7 +51,7 @@ Sources:
 [unofficial user repositories]: https://wiki.archlinux.org/index.php/unofficial_user_repositories#ownstuff
 [Wine Staging]: https://wiki.winehq.org/Wine-Staging
 [wine-staging]: https://www.archlinux.org/packages/multilib/x86_64/wine-staging/
-[WineASIO]: https://sourceforge.net/projects/wineasio/
+[WineASIO - ASIO to JACK driver for Wine]: https://sourceforge.net/projects/wineasio/
 [wineasio]: https://aur.archlinux.org/packages/wineasio/
 [wineasio build problem]: https://aur.archlinux.org/packages/wineasio/#comment-693696
 [WineASIO and REAPER]: https://kx.studio/Documentation:Manual:wineasio_and_reaper
