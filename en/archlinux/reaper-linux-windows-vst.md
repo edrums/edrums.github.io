@@ -47,7 +47,7 @@ Sources:
 - <https://www.youtube.com/watch?v=PiaWozQ69eE>
 
 [Mingw-w64 - GCC for Windows 64 & 32 bits]: http://mingw-w64.org
-[compiler and runtimes from from AUR]: https://aur.archlinux.org/packages/mingw-w64-gcc/
+[compiler and runtimes from AUR]: https://aur.archlinux.org/packages/mingw-w64-gcc/
 [unofficial user repositories]: https://wiki.archlinux.org/index.php/unofficial_user_repositories#ownstuff
 [Wine Staging]: https://wiki.winehq.org/Wine-Staging
 [wine-staging]: https://www.archlinux.org/packages/multilib/x86_64/wine-staging/
