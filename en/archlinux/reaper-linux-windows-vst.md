@@ -1,6 +1,8 @@
 ---
 title: How to Use Windows VSTs in REAPER Linux-Native builds (Archlinux)
 ---
+<img src="./reaper-linux-windows-vst.png" alt="Windows VSTs in REAPER Linux-Native snapshot" class="img-responsive">
+
 ## [Mingw-w64 - GCC for Windows 64 & 32 bits]
 
 Required by Carla bridges, you can choose to install
