@@ -14,3 +14,7 @@ Prepare using a annealed (soft) copper ring:
 Sew the net on the copper ring:
 
 <img src="./mesh2.jpg" alt="Sewing" class="img-responsive">
+
+Source: [Instructables website](http://www.instructables.com/id/Homemade-Electronic-Drum-Kit/)
+
+Also [here some tips](https://www.edrums.info/diy-window-screen-mesh-drum-heads/)

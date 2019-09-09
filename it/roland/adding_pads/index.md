@@ -30,3 +30,5 @@ riverbero, chorus e CC di ciascun strumento.
 Ora tutte le modifiche per i pad collegati al vostro trigger esterno sono
 impostate nel vostro modulo (tranne le impostazioni dei trigger quali sensibilità,
 threshold ecc.).
+
+Origine: [VDrums.com Forum](https://www.vdrums.com/forum/advanced/technical/31138-tmc-6-td-20-how-to-sticky)

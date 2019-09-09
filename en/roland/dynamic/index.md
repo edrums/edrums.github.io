@@ -34,3 +34,5 @@ lang: en
    and cymbals all sound correct in their volume relative to eachother.
 
 After that you can get in to the compressor, EQ, and ambiance.
+
+Source: [VDrums.com forum](https://www.vdrums.com/forum/advanced/technical/64545-still-struggling-with-td-12?p=776033#post776033)

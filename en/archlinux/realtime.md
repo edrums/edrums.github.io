@@ -4,10 +4,10 @@ refdir: archlinux/
 lang: en
 ---
 
-See also
-[Realtime kernel](https://wiki.archlinux.org/index.php/Realtime_kernel) and
-[Professional Audio](https://wiki.archlinux.org/index.php/Professional_audio)
-on Archlinux Wiki.
+### Documentation
+
+* [Realtime kernel](https://wiki.archlinux.org/index.php/Realtime_kernel_patchset)
+* [Professional Audio](https://wiki.archlinux.org/index.php/Professional_audio)
 
 ### Packages required:
 
