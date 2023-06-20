@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html
+	lang="en"
+	data-bs-theme="auto"
+>
+	<head>		<meta charset="utf-8">
+
+		<title>
+		
+		EDrums
+		</title>
+
+		
+		<meta name="author" content="EDrums Organization">
+		
+		<meta name="web-author" content="EDrums Organization">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<script src="assets/js/color-modes.js"></script>
+
+		<!-- Atom Feeds -->
+		<link href="atom.xml" rel="alternate" title="News"type="application/atom+xml" />
+
+		
+		<!-- realfavicongenerator.net -->
+		<link rel="apple-touch-icon" sizes="180x180" href="assets/ico/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="assets/ico/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="assets/ico/favicon-16x16.png">
+		<link rel="manifest" href="assets/ico/site.webmanifest">
+		<link rel="mask-icon" href="assets/ico/safari-pinned-tab.svg" color="#5bbad5">
+		<link rel="shortcut icon" href="assets/ico/favicon.ico">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-config" content="assets/ico/browserconfig.xml">
+		<meta name="theme-color" content="#ffffff">
+		<!-- Stylesheets -->
+		<link href="assets/css/style.min.css" rel="stylesheet" media="screen">		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/highlight.js@11.8.0/styles/github.min.css"
+			disabled="disabled"
+			id="hljs_light"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/highlight.js@11.8.0/styles/github-dark-dimmed.min.css"
+			disabled="disabled"
+			id="hljs_dark"
+		/>
+
+		<!-- Font Awesome Icons -->
+		<script src="https://kit.fontawesome.com/8d25d19870.js"></script>
+	</head>
+	<body>
+		<button onclick="topFunction()" id="scrollButton" title="Go to top">Top</button>
+		<div class="container">			<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+				<symbol id="sun-fill" viewBox="0 0 16 16">
+					<path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"/>
+				</symbol>
+				<symbol id="moon-stars-fill" viewBox="0 0 16 16">
+					<path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"/>
+					<path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z"/>
+				</symbol>
+				<symbol id="circle-half" viewBox="0 0 16 16">
+					<path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z"/>
+				</symbol>
+				<symbol id="check2" viewBox="0 0 16 16">
+					<path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+				</symbol>
+			</svg>
+			<nav
+				class="navbar navbar-expand-lg bg-dark text-bg-dark"
+				data-bs-theme="dark"
+			>
+				<div class="container">
+
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#navbarContent"
+						aria-controls="navbarContent"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+
+					<a
+						class="navbar-brand"
+						href="."
+						>
+							<img
+								src="assets/img/logo-white.svg"
+								width="30" height="30" class="d-inline-block align-top" alt=""
+							>
+						EDrums
+					</a>
+
+					<div class="collapse navbar-collapse" id="navbarContent">
+						<ul class="navbar-nav me-auto mt-2 mt-lg-0">
+								
+							<li class="nav-item dropdown">
+								<a
+									class="nav-link dropdown-toggle"
+									href="#"
+									id="navbarRoland"
+									role="button"
+									data-bs-toggle="dropdown"
+									aria-expanded="false"
+									aria-haspopup="true"
+								>Roland
+								</a>
+								<ul
+									class="dropdown-menu"
+									aria-labelledby="navbarRoland"
+								>
+									<li>
+										<a class="dropdown-item"
+											href="en/roland/adding_pads"
+										>
+											Adding pads to Roland TD-12 and TD-20
+										</a>
+									</li>
+									<li>
+										<a class="dropdown-item"
+											href="en/roland/dynamic"
+										>
+											Dynamic
+										</a>
+									</li>
+									<li>
+										<a class="dropdown-item"
+											href="en/roland/trigger_settings"
+										>
+											Trigger Settings
+										</a>
+									</li>
+									<li>
+										<a class="dropdown-item"
+											href="en/roland/dsub25_cable"
+										>
+											D-Sub 25 Cable
+										</a>
+									</li>
+								</ul>
+							</li>
+								
+							<li class="nav-item dropdown">
+								<a
+									class="nav-link dropdown-toggle"
+									href="#"
+									id="navbarDIY"
+									role="button"
+									data-bs-toggle="dropdown"
+									aria-expanded="false"
+									aria-haspopup="true"
+								>DIY
+								</a>
+								<ul
+									class="dropdown-menu"
+									aria-labelledby="navbarDIY"
+								>
+									<li>
+										<a class="dropdown-item"
+											href="en/diy/piezo_wiring/"
+										>
+											Piezo Wiring
+										</a>
+									</li>
+									<li>
+										<a class="dropdown-item"
+											href="en/diy/sensor_cushion/"
+										>
+											Sensor Cushion
+										</a>
+									</li>
+									<li>
+										<a class="dropdown-item"
+											href="en/diy/mesh_heads/"
+										>
+											Mesh head
+										</a>
+									</li>
+									<li>
+										<a class="dropdown-item"
+											href="en/diy/hihat/"
+										>
+											HiHat
+										</a>
+									</li>
+									<li>
+										<a class="dropdown-item"
+											href="en/diy/cymbal_switch/"
+										>
+											Cymbal (2 and 3 Zones) using switches
+										</a>
+									</li>
+									<li>
+										<a class="dropdown-item"
+											href="en/diy/cymbal_piezo/"
+										>
+											Cymbal (2 and 3 Zones) using piezos
+										</a>
+									</li>
+									<li>
+										<a class="dropdown-item"
+											href="en/diy/splash/"
+										>
+											Splash
+										</a>
+									</li>
+									<li>
+										<a class="dropdown-item"
+											href="en/diy/octobans/"
+										>
+											Octobans
+										</a>
+									</li>
+									<li>
+										<a class="dropdown-item"
+											href="en/diy/keith_pp_2_ps/"
+										>
+											Keith Raper's Piezo/Piezo to Piezo/Switch Adapter
+										</a>
+									</li>
+								</ul>
+							</li>
+								
+							<li class="nav-item dropdown">
+								<a
+									class="nav-link dropdown-toggle"
+									href="#"
+									id="navbarArchlinux"
+									role="button"
+									data-bs-toggle="dropdown"
+									aria-expanded="false"
+									aria-haspopup="true"
+								>Archlinux
+								</a>
+								<ul
+									class="dropdown-menu"
+									aria-labelledby="navbarArchlinux"
+								>
+									<li>
+										<a class="dropdown-item"
+											href="en/archlinux/reaper-linux-windows-vst"
+										>
+											Windows VSTs in REAPER Linux-Native
+										</a>
+									</li>
+									<li>
+										<a class="dropdown-item"
+											href="en/archlinux/realtime"
+										>
+											Realtime
+										</a>
+									</li>
+									<li>
+										<a class="dropdown-item"
+											href="en/archlinux/services"
+										>
+											Services
+										</a>
+									</li>
+								</ul>
+							</li>
+								
+							<li class="nav-item dropdown">
+								<a
+									class="nav-link dropdown-toggle"
+									href="#"
+									id="navbarLinuxsampler"
+									role="button"
+									data-bs-toggle="dropdown"
+									aria-expanded="false"
+									aria-haspopup="true"
+								>Linuxsampler
+								</a>
+								<ul
+									class="dropdown-menu"
+									aria-labelledby="navbarLinuxsampler"
+								>
+									<li>
+										<a class="dropdown-item"
+											href="en/linuxsampler/sfz"
+										>
+											SFZ
+										</a>
+									</li>
+									<li>
+										<a class="dropdown-item"
+											href="en/linuxsampler/docs"
+										>
+											Docs
+										</a>
+									</li>
+								</ul>
+							</li>
+							<li class="nav-item">
+								<a
+									class="nav-link"
+									href="en/news"
+								>
+									News
+								</a>
+							</li>
+						</ul>
+						<ul class="navbar-nav">
+						
+							<li class="nav-item">
+									<a
+										href="#"
+										class="nav-link"
+										data-bs-toggle="modal"
+										data-bs-target="#mkdocs_search_modal">
+											<i class="fa fa-search"></i> Search
+									</a>
+							</li>
+							<li class="nav-item dropdown">
+								<button
+									class="btn btn-link nav-link py-2 px-0 px-lg-2 dropdown-toggle d-flex align-items-center"
+									id="bd-theme"
+									type="button"
+									aria-expanded="false"
+									data-bs-toggle="dropdown"
+									data-bs-display="static"
+									aria-label="Toggle theme (auto)">
+									<svg class="bi my-1 theme-icon-active"><use href="#circle-half"></use></svg>
+									<span class="d-lg-none ms-2" id="bd-theme-text">Toggle theme</span>
+								</button>
+								<ul class="dropdown-menu dropdown-menu-end" aria-labelledby="bd-theme-text">
+									<li>
+										<button
+											type="button"
+											class="dropdown-item d-flex align-items-center"
+											data-bs-theme-value="light"
+											aria-pressed="false">
+											<svg class="bi me-2 opacity-50 theme-icon"><use href="#sun-fill"></use></svg>
+											Light
+											<svg class="bi ms-auto d-none"><use href="#check2"></use></svg>
+										</button>
+									</li>
+									<li>
+										<button
+											type="button"
+											class="dropdown-item d-flex align-items-center"
+											data-bs-theme-value="dark"
+											aria-pressed="false">
+											<svg class="bi me-2 opacity-50 theme-icon"><use href="#moon-stars-fill"></use></svg>
+											Dark
+											<svg class="bi ms-auto d-none"><use href="#check2"></use></svg>
+										</button>
+									</li>
+									<li>
+										<button
+											type="button"
+											class="dropdown-item d-flex align-items-center active"
+											data-bs-theme-value="auto"
+											aria-pressed="true">
+											<svg class="bi me-2 opacity-50 theme-icon"><use href="#circle-half"></use></svg>
+											Auto
+											<svg class="bi ms-auto d-none"><use href="#check2"></use></svg>
+										</button>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+			<div class="row mt-4" id="content">
+				<div class="col-md-9">
+					<article><h1>Welcome</h1><p>Here some tutorials and hints to build electronic drums.</p>
+<p>Most of the pad that can be found on the market don't give the same feeling as
+an acoustic drum, so we can convert an acoustic drum to e-drum using mesh heads
+and adding piezo sensors to connect to e-drum modules.</p>
+					</article>
+				</div>
+				<div class="col-md-3">
+					<aside>
+						<div class="card mb-3">
+							<div class="card-header bg-dark text-bg-dark">
+								<i class="fas fa-link"
+									aria-hidden="true"></i>
+								Quick links
+							</div>
+							<div class="card-body" style="padding: 0.5rem">
+								<ul class="nav nav-pills flex-column"><li class="nav-item">
+										<a class="nav-link" href="https://github.com/edrums/"
+											title="GitHub" style="padding: 0.35rem 0.25rem">
+										<i class="fab fa-github fa-fw"
+										aria-hidden="true"></i>
+										GitHub</a>
+									</li><li class="nav-item">
+										<a class="nav-link" href="https://www.vdrums.com/"
+											title="VDrums Forum" style="padding: 0.35rem 0.25rem">
+										<i class="fas fa-users fa-fw"
+										aria-hidden="true"></i>
+										VDrums Forum</a>
+									</li><li class="nav-item">
+										<a class="nav-link" href="http://www.megadrum.info/"
+											title="MegaDrum" style="padding: 0.35rem 0.25rem">
+										<i class="fas fa-microchip fa-fw"
+										aria-hidden="true"></i>
+										MegaDrum</a>
+									</li><li class="nav-item">
+										<a class="nav-link" href="http://www.vdrumlib.com/"
+											title="VDrumLib" style="padding: 0.35rem 0.25rem">
+										<i class="fas fa-download fa-fw"
+										aria-hidden="true"></i>
+										VDrumLib</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						
+					</aside>
+				</div>
+			</div>			<hr>
+			<footer>
+				<p style="text-align:left">
+					Copyright &copy; 2017-2023
+					EDrums Organization
+					<span style="float:right">
+						This site is open source.
+						<a href="https://github.com/edrums/edrums.github.io/edit/master/docs/index.md">
+						Improve this page</a>
+					</span>
+				</p>
+			</footer>
+		</div>		<script>
+			var base_url	= ".",
+					shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+		</script>
+		<script src="assets/js/base.js" defer></script>
+		<script src="/assets/js/scripts.min.js" defer></script>
+		<script src="search/main.js" defer></script>		<script
+			type="text/javascript"
+			src="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets@11.8.0/highlight.min.js">
+		</script>
+		<script
+			type="text/javascript"
+			src="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets@11.8.0/languages/cpp.min.js">
+		</script>
+		<script
+			type="text/javascript"
+			src="https://cdn.jsdelivr.net/gh/sfz/highlight.js@master/dist/sfz.min.js">
+		</script>
+		<script>hljs.highlightAll();</script>
+		<script>
+			anchors.options.placement = 'left';
+			anchors.add();
+		</script><!-- Search Dialog -->
+<div
+	class="modal"
+	id="mkdocs_search_modal"
+	tabindex="-1"
+	role="dialog"
+	aria-labelledby="searchModalLabel"
+	aria-hidden="true"
+>
+	<div class="modal-dialog modal-dialog-centered">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h4 class="modal-title"
+						id="searchModalLabel">Search</h4>
+				<button
+					type="button"
+					class="btn-close"
+					data-bs-dismiss="modal"
+					aria-label="Close"
+				>
+				</button>
+			</div>
+			<div class="modal-body">
+				<p>From here you can search these documents. Enter your search terms below.</p>
+				<form>
+					<div class="form-group">
+						<input
+							type="search"
+							class="form-control"
+							placeholder="Search..."
+							id="mkdocs-search-query"
+							title="Type search term here"
+						>
+					</div>
+				</form>
+				<div
+						id="mkdocs-search-results"
+						data-no-results-text="No results found">
+				</div>
+			</div>
+			<div class="modal-footer"></div>
+		</div>
+	</div>
+</div><!-- Keyboard Dialog -->
+				<div
+						class="modal"
+						id="mkdocs_keyboard_modal"
+						tabindex="-1"
+						role="dialog"
+						aria-labelledby="keyboardModalLabel"
+						aria-hidden="true"
+				>
+						<div class="modal-dialog">
+								<div class="modal-content">
+										<div class="modal-header">
+												<h4 class="modal-title"
+														id="keyboardModalLabel">Keyboard Shortcuts</h4>
+												<button
+														type="button"
+														class="close"
+														data-dismiss="modal"
+												>
+														<span aria-hidden="true">&times;</span>
+														<span class="visually-hidden">Close</span>
+												</button>
+										</div>
+										<div class="modal-body">
+										<table class="table">
+												<thead>
+												<tr>
+														<th style="width: 20%;">Keys</th>
+														<th>Action</th>
+												</tr>
+												</thead>
+												<tbody>
+												<tr>
+														<td class="help shortcut"><kbd>?</kbd></td>
+														<td>Open this help</td>
+												</tr>
+												<tr>
+														<td class="next shortcut"><kbd>n</kbd></td>
+														<td>Next page</td>
+												</tr>
+												<tr>
+														<td class="prev shortcut"><kbd>p</kbd></td>
+														<td>Previous page</td>
+												</tr>
+												<tr>
+														<td class="search shortcut"><kbd>s</kbd></td>
+														<td>Search</td>
+												</tr>
+												</tbody>
+										</table>
+										</div>
+										<div class="modal-footer">
+										</div>
+								</div>
+						</div>
+				</div>
+	</body>
+</html>

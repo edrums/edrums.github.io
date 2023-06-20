@@ -1,317 +1,322 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://edrums.github.io/en/en/</loc>
+         <loc>https://edrums.github.io/</loc>
          <lastmod>2023-06-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://edrums.github.io/en/en/archlinux/</loc>
+         <loc>https://edrums.github.io/en/</loc>
          <lastmod>2023-06-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://edrums.github.io/en/en/archlinux/realtime/</loc>
+         <loc>https://edrums.github.io/en/archlinux/</loc>
          <lastmod>2023-06-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://edrums.github.io/en/en/archlinux/reaper-linux-windows-vst/</loc>
+         <loc>https://edrums.github.io/en/archlinux/realtime/</loc>
          <lastmod>2023-06-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://edrums.github.io/en/en/archlinux/services/</loc>
+         <loc>https://edrums.github.io/en/archlinux/reaper-linux-windows-vst/</loc>
          <lastmod>2023-06-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://edrums.github.io/en/en/diy/cymbal_piezo/</loc>
+         <loc>https://edrums.github.io/en/archlinux/services/</loc>
          <lastmod>2023-06-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://edrums.github.io/en/en/diy/cymbal_switch/</loc>
+         <loc>https://edrums.github.io/en/diy/cymbal_piezo/</loc>
          <lastmod>2023-06-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://edrums.github.io/en/en/diy/hihat/</loc>
+         <loc>https://edrums.github.io/en/diy/cymbal_switch/</loc>
          <lastmod>2023-06-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://edrums.github.io/en/en/diy/keith_pp_2_ps/</loc>
+         <loc>https://edrums.github.io/en/diy/hihat/</loc>
          <lastmod>2023-06-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://edrums.github.io/en/en/diy/mesh_heads/</loc>
+         <loc>https://edrums.github.io/en/diy/keith_pp_2_ps/</loc>
          <lastmod>2023-06-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://edrums.github.io/en/en/diy/octobans/</loc>
+         <loc>https://edrums.github.io/en/diy/mesh_heads/</loc>
          <lastmod>2023-06-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://edrums.github.io/en/en/diy/piezo_wiring/</loc>
+         <loc>https://edrums.github.io/en/diy/octobans/</loc>
          <lastmod>2023-06-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://edrums.github.io/en/en/diy/sensor_cushion/</loc>
+         <loc>https://edrums.github.io/en/diy/piezo_wiring/</loc>
          <lastmod>2023-06-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://edrums.github.io/en/en/diy/splash/</loc>
+         <loc>https://edrums.github.io/en/diy/sensor_cushion/</loc>
          <lastmod>2023-06-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://edrums.github.io/en/en/linuxsampler/</loc>
+         <loc>https://edrums.github.io/en/diy/splash/</loc>
          <lastmod>2023-06-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://edrums.github.io/en/en/linuxsampler/docs/</loc>
+         <loc>https://edrums.github.io/en/linuxsampler/</loc>
          <lastmod>2023-06-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://edrums.github.io/en/en/linuxsampler/docs/gigedit/</loc>
+         <loc>https://edrums.github.io/en/linuxsampler/docs/</loc>
          <lastmod>2023-06-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://edrums.github.io/en/en/linuxsampler/docs/gigedit/scripts/</loc>
+         <loc>https://edrums.github.io/en/linuxsampler/docs/gigedit/</loc>
          <lastmod>2023-06-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://edrums.github.io/en/en/linuxsampler/docs/nksp/</loc>
+         <loc>https://edrums.github.io/en/linuxsampler/docs/gigedit/scripts/</loc>
          <lastmod>2023-06-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://edrums.github.io/en/en/linuxsampler/docs/nksp/language/</loc>
+         <loc>https://edrums.github.io/en/linuxsampler/docs/nksp/</loc>
          <lastmod>2023-06-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://edrums.github.io/en/en/linuxsampler/docs/nksp/reference/</loc>
+         <loc>https://edrums.github.io/en/linuxsampler/docs/nksp/language/</loc>
          <lastmod>2023-06-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://edrums.github.io/en/en/linuxsampler/docs/sfz/</loc>
+         <loc>https://edrums.github.io/en/linuxsampler/docs/nksp/reference/</loc>
          <lastmod>2023-06-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://edrums.github.io/en/en/linuxsampler/docs/sfz/opcode/hibend/</loc>
+         <loc>https://edrums.github.io/en/linuxsampler/docs/sfz/</loc>
          <lastmod>2023-06-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://edrums.github.io/en/en/linuxsampler/docs/sfz/opcode/hichan/</loc>
+         <loc>https://edrums.github.io/en/linuxsampler/docs/sfz/opcode/hibend/</loc>
          <lastmod>2023-06-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://edrums.github.io/en/en/linuxsampler/docs/sfz/opcode/hikey/</loc>
+         <loc>https://edrums.github.io/en/linuxsampler/docs/sfz/opcode/hichan/</loc>
          <lastmod>2023-06-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://edrums.github.io/en/en/linuxsampler/docs/sfz/opcode/hirand/</loc>
+         <loc>https://edrums.github.io/en/linuxsampler/docs/sfz/opcode/hikey/</loc>
          <lastmod>2023-06-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://edrums.github.io/en/en/linuxsampler/docs/sfz/opcode/hivel/</loc>
+         <loc>https://edrums.github.io/en/linuxsampler/docs/sfz/opcode/hirand/</loc>
          <lastmod>2023-06-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://edrums.github.io/en/en/linuxsampler/docs/sfz/opcode/key/</loc>
+         <loc>https://edrums.github.io/en/linuxsampler/docs/sfz/opcode/hivel/</loc>
          <lastmod>2023-06-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://edrums.github.io/en/en/linuxsampler/docs/sfz/opcode/lobend/</loc>
+         <loc>https://edrums.github.io/en/linuxsampler/docs/sfz/opcode/key/</loc>
          <lastmod>2023-06-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://edrums.github.io/en/en/linuxsampler/docs/sfz/opcode/lochan/</loc>
+         <loc>https://edrums.github.io/en/linuxsampler/docs/sfz/opcode/lobend/</loc>
          <lastmod>2023-06-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://edrums.github.io/en/en/linuxsampler/docs/sfz/opcode/lokey/</loc>
+         <loc>https://edrums.github.io/en/linuxsampler/docs/sfz/opcode/lochan/</loc>
          <lastmod>2023-06-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://edrums.github.io/en/en/linuxsampler/docs/sfz/opcode/lorand/</loc>
+         <loc>https://edrums.github.io/en/linuxsampler/docs/sfz/opcode/lokey/</loc>
          <lastmod>2023-06-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://edrums.github.io/en/en/linuxsampler/docs/sfz/opcode/lovel/</loc>
+         <loc>https://edrums.github.io/en/linuxsampler/docs/sfz/opcode/lorand/</loc>
          <lastmod>2023-06-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://edrums.github.io/en/en/linuxsampler/docs/sfz/opcode/sample/</loc>
+         <loc>https://edrums.github.io/en/linuxsampler/docs/sfz/opcode/lovel/</loc>
          <lastmod>2023-06-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://edrums.github.io/en/en/linuxsampler/docs/sfz/opcode/script/</loc>
+         <loc>https://edrums.github.io/en/linuxsampler/docs/sfz/opcode/sample/</loc>
          <lastmod>2023-06-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://edrums.github.io/en/en/linuxsampler/docs/sfz/opcode/seq_length/</loc>
+         <loc>https://edrums.github.io/en/linuxsampler/docs/sfz/opcode/script/</loc>
          <lastmod>2023-06-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://edrums.github.io/en/en/linuxsampler/docs/sfz/opcode/seq_position/</loc>
+         <loc>https://edrums.github.io/en/linuxsampler/docs/sfz/opcode/seq_length/</loc>
          <lastmod>2023-06-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://edrums.github.io/en/en/linuxsampler/docs/sfz/opcode/set_ccn/</loc>
+         <loc>https://edrums.github.io/en/linuxsampler/docs/sfz/opcode/seq_position/</loc>
          <lastmod>2023-06-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://edrums.github.io/en/en/linuxsampler/docs/sfz/opcode/transpose/</loc>
+         <loc>https://edrums.github.io/en/linuxsampler/docs/sfz/opcode/set_ccn/</loc>
          <lastmod>2023-06-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://edrums.github.io/en/en/linuxsampler/docs/sfz/opcode/tune/</loc>
+         <loc>https://edrums.github.io/en/linuxsampler/docs/sfz/opcode/transpose/</loc>
          <lastmod>2023-06-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://edrums.github.io/en/en/linuxsampler/docs/sfz/section/global/</loc>
+         <loc>https://edrums.github.io/en/linuxsampler/docs/sfz/opcode/tune/</loc>
          <lastmod>2023-06-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://edrums.github.io/en/en/linuxsampler/sfz/</loc>
+         <loc>https://edrums.github.io/en/linuxsampler/docs/sfz/section/global/</loc>
          <lastmod>2023-06-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://edrums.github.io/en/en/news/</loc>
+         <loc>https://edrums.github.io/en/linuxsampler/sfz/</loc>
          <lastmod>2023-06-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://edrums.github.io/en/en/news/posts/2017-07-02-new-website-launched/</loc>
+         <loc>https://edrums.github.io/en/news/</loc>
          <lastmod>2023-06-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://edrums.github.io/en/en/roland/adding_pads/</loc>
+         <loc>https://edrums.github.io/en/news/posts/2017-07-02-new-website-launched/</loc>
          <lastmod>2023-06-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://edrums.github.io/en/en/roland/dsub25_cable/</loc>
+         <loc>https://edrums.github.io/en/roland/adding_pads/</loc>
          <lastmod>2023-06-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://edrums.github.io/en/en/roland/dynamic/</loc>
+         <loc>https://edrums.github.io/en/roland/dsub25_cable/</loc>
          <lastmod>2023-06-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://edrums.github.io/en/en/roland/trigger_settings/</loc>
+         <loc>https://edrums.github.io/en/roland/dynamic/</loc>
          <lastmod>2023-06-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://edrums.github.io/en/en/roland/vh11/</loc>
+         <loc>https://edrums.github.io/en/roland/trigger_settings/</loc>
          <lastmod>2023-06-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://edrums.github.io/en/en/samplerbox/build/</loc>
+         <loc>https://edrums.github.io/en/roland/vh11/</loc>
          <lastmod>2023-06-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://edrums.github.io/en/en/samplerbox/faq/</loc>
+         <loc>https://edrums.github.io/en/samplerbox/build/</loc>
          <lastmod>2023-06-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://edrums.github.io/en/en/samplerbox/home/</loc>
+         <loc>https://edrums.github.io/en/samplerbox/faq/</loc>
          <lastmod>2023-06-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://edrums.github.io/en/en/search/</loc>
+         <loc>https://edrums.github.io/en/samplerbox/home/</loc>
          <lastmod>2023-06-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://edrums.github.io/en/en/sfz/drumkits/</loc>
+         <loc>https://edrums.github.io/en/search/</loc>
          <lastmod>2023-06-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://edrums.github.io/en/en/utilities/</loc>
+         <loc>https://edrums.github.io/en/sfz/drumkits/</loc>
          <lastmod>2023-06-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://edrums.github.io/en/it/</loc>
+         <loc>https://edrums.github.io/en/utilities/</loc>
          <lastmod>2023-06-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://edrums.github.io/en/it/diy/sensor_cushion/</loc>
+         <loc>https://edrums.github.io/it/</loc>
          <lastmod>2023-06-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://edrums.github.io/en/it/news/</loc>
+         <loc>https://edrums.github.io/it/diy/sensor_cushion/</loc>
          <lastmod>2023-06-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://edrums.github.io/en/it/news/posts/2017-07-02-nuovo-sito-avviato/</loc>
+         <loc>https://edrums.github.io/it/news/</loc>
          <lastmod>2023-06-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://edrums.github.io/en/it/roland/adding_pads/</loc>
+         <loc>https://edrums.github.io/it/news/posts/2017-07-02-nuovo-sito-avviato/</loc>
          <lastmod>2023-06-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://edrums.github.io/en/it/roland/dynamic/</loc>
+         <loc>https://edrums.github.io/it/roland/adding_pads/</loc>
          <lastmod>2023-06-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://edrums.github.io/en/it/roland/trigger_settings/</loc>
+         <loc>https://edrums.github.io/it/roland/dynamic/</loc>
          <lastmod>2023-06-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://edrums.github.io/en/it/teensy/i2c/</loc>
+         <loc>https://edrums.github.io/it/roland/trigger_settings/</loc>
+         <lastmod>2023-06-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://edrums.github.io/it/teensy/i2c/</loc>
          <lastmod>2023-06-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
