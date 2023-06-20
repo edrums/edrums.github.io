@@ -1,5 +1,4 @@
-/.bundle
-/_site/
-/node_modules/
-Gemfile.lock
+__pycache__/
+_site/
+node_modules/
 package-lock.json

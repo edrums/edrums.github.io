@@ -1,0 +1,17 @@
+# Drumkits Download
+
+- [60s Rogers Pop Kit](https://www.drumdrops.com/drum-samples/60s-Rogers-Pop-Kit/intro)
+- [AVL Drumkits](http://www.bandshed.net/avldrumkits/)
+- [AVL Drumkits LV2 Plugin](https://x42-plugins.com/x42/x42-avldrums)
+- [Big Mono Free Drum Samples for Kontakt](https://www.analoguedrums.com/products/big-mono/)
+- [Colombo Acoustic Drum Kit](https://freepats.zenvoid.org/Percussion/acoustic-drum-kit.html)
+- [G&S Custom Work Drum Kits for Kontakt](https://www.autodafe.net/samples/kontakt-libraries/g-s-custom-work-drum-kits-for-kontakt-2-0.html)
+- [Jazz Funk Drum Library](https://www.orangetreesamples.com/blog/free-jazz-funk-drum-sample-library)
+- [Jazz Funk Drum Library SFZ mapping](http://www.drealm.info/sfz/GregJazz/)
+- [Kingston Drums](http://www.michaelkingston.fi/kingstondrums/files.html)
+- [Pettinhouse Drum Kits](http://www.pettinhouse.com/html/download.html)
+- [Salamander Drumkit](https://github.com/endolith/Salamander-Drumkit)
+- [Salamander Drumkit Download](SalamanderDrumkit_archive.torrent)
+- [Salamander Drumkit Kick Fix](https://github.com/johnsen/drumsandpercussion/tree/master/SalamanderKick)
+- [Sennheiser DrumMic’a! for Kontakt](https://en-us.sennheiser.com/drummica#static-html-17872)
+- [SM Drums for Sforzando](https://smmdrums.wordpress.com/for-sfz-sforzando/)

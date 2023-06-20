@@ -1,0 +1,65 @@
+docs_dir:         "docs"
+
+site_name:        "EDrums"
+site_author:      "EDrums Organization"
+site_url:         "https://edrums.github.io/en"
+site_dir:         "_site"
+site_description: "EDrums website"
+
+repo_name:        "GitHub"
+repo_url:         "https://github.com/edrums/edrums.github.io"
+edit_uri:         "edit/master/docs/"
+remote_branch:    "www"
+
+extra:
+  site_web_author: "EDrums Organization"
+  repo_owner_url:  "https://github.com/edrums"
+  repo_branch:     "master"
+  cards:           "data/layout/cards.yml"
+  nav:             "data/layout/navigation.yml"
+
+hooks:
+- hooks.py
+
+plugins:
+  search: {}
+  blogging:
+    dirs:
+    - en/news/posts
+    locale: en
+    full_content: true
+    paging: true
+    show_total: false
+    size: 5
+    template: "blogging-template.html"
+    meta_time_format: "%Y-%m-%d %H:%M:%S"
+    time_format: "%Y-%m-%d %H:%M:%S"
+  exclude: # TODO: to remove when 1.5 comes out
+    glob:
+    - "*.j2"
+
+theme:
+  name:        null
+  custom_dir: "layout"
+  base_url:   "en"
+  highlightjs: true
+  hljs_light: "github"
+  hljs_dark:  "github-dark-dimmed"
+  nav_style:  "dark"
+  locale:     "en"
+  bootstrap_version: "5.3.0"
+  favicons:
+    apple_touch_icon_size: "180x180"
+    msapp_tilecolor: "#ffffff"
+    theme_color: "#ffffff"
+  shortcuts:
+    help:     191 # ?
+    next:      78 # n
+    previous:  80 # p
+    search:    83 # s
+
+watch:
+- data
+- docs
+- layout
+- blogging-template.html
