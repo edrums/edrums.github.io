@@ -1,0 +1,2454 @@
+<!DOCTYPE html>
+<html
+	lang="en"
+	data-bs-theme="auto"
+>
+	<head>		<meta charset="utf-8">
+
+		<title>
+		
+		LinuxSampler SFZ Reference -
+		
+		EDrums
+		</title>
+
+		
+		<meta name="author" content="EDrums Organization">
+		
+		<meta name="web-author" content="EDrums Organization">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<script src="../../../assets/js/color-modes.js"></script>
+
+		<!-- Atom Feeds -->
+		<link href="../../../atom.xml" rel="alternate" title="News"type="application/atom+xml" />
+
+		
+		<!-- realfavicongenerator.net -->
+		<link rel="apple-touch-icon" sizes="180x180" href="../../../assets/ico/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="../../../assets/ico/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="../../../assets/ico/favicon-16x16.png">
+		<link rel="manifest" href="../../../assets/ico/site.webmanifest">
+		<link rel="mask-icon" href="../../../assets/ico/safari-pinned-tab.svg" color="#5bbad5">
+		<link rel="shortcut icon" href="../../../assets/ico/favicon.ico">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-config" content="../../../assets/ico/browserconfig.xml">
+		<meta name="theme-color" content="#ffffff">
+		<!-- Stylesheets -->
+		<link href="../../../assets/css/style.min.css" rel="stylesheet" media="screen">		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/highlight.js@11.8.0/styles/github.min.css"
+			disabled="disabled"
+			id="hljs_light"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/highlight.js@11.8.0/styles/github-dark-dimmed.min.css"
+			disabled="disabled"
+			id="hljs_dark"
+		/>
+
+		<!-- Font Awesome Icons -->
+		<script src="https://kit.fontawesome.com/8d25d19870.js"></script>
+	</head>
+	<body>
+		<button onclick="topFunction()" id="scrollButton" title="Go to top">Top</button>
+		<div class="container">			<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+				<symbol id="sun-fill" viewBox="0 0 16 16">
+					<path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"/>
+				</symbol>
+				<symbol id="moon-stars-fill" viewBox="0 0 16 16">
+					<path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"/>
+					<path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z"/>
+				</symbol>
+				<symbol id="circle-half" viewBox="0 0 16 16">
+					<path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z"/>
+				</symbol>
+				<symbol id="check2" viewBox="0 0 16 16">
+					<path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+				</symbol>
+			</svg>
+			<nav
+				class="navbar navbar-expand-lg bg-dark text-bg-dark"
+				data-bs-theme="dark"
+			>
+				<div class="container">
+
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#navbarContent"
+						aria-controls="navbarContent"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+
+					<a
+						class="navbar-brand"
+						href="../../.."
+						>
+							<img
+								src="../../../assets/img/logo-white.svg"
+								width="30" height="30" class="d-inline-block align-top" alt=""
+							>
+						EDrums
+					</a>
+
+					<div class="collapse navbar-collapse" id="navbarContent">
+						<ul class="navbar-nav me-auto mt-2 mt-lg-0">
+								
+							<li class="nav-item dropdown">
+								<a
+									class="nav-link dropdown-toggle"
+									href="#"
+									id="navbarRoland"
+									role="button"
+									data-bs-toggle="dropdown"
+									aria-expanded="false"
+									aria-haspopup="true"
+								>Roland
+								</a>
+								<ul
+									class="dropdown-menu"
+									aria-labelledby="navbarRoland"
+								>
+									<li>
+										<a class="dropdown-item"
+											href="../../roland/adding_pads"
+										>
+											Adding pads to Roland TD-12 and TD-20
+										</a>
+									</li>
+									<li>
+										<a class="dropdown-item"
+											href="../../roland/dynamic"
+										>
+											Dynamic
+										</a>
+									</li>
+									<li>
+										<a class="dropdown-item"
+											href="../../roland/trigger_settings"
+										>
+											Trigger Settings
+										</a>
+									</li>
+									<li>
+										<a class="dropdown-item"
+											href="../../roland/dsub25_cable"
+										>
+											D-Sub 25 Cable
+										</a>
+									</li>
+								</ul>
+							</li>
+								
+							<li class="nav-item dropdown">
+								<a
+									class="nav-link dropdown-toggle"
+									href="#"
+									id="navbarDIY"
+									role="button"
+									data-bs-toggle="dropdown"
+									aria-expanded="false"
+									aria-haspopup="true"
+								>DIY
+								</a>
+								<ul
+									class="dropdown-menu"
+									aria-labelledby="navbarDIY"
+								>
+									<li>
+										<a class="dropdown-item"
+											href="../../diy/piezo_wiring/"
+										>
+											Piezo Wiring
+										</a>
+									</li>
+									<li>
+										<a class="dropdown-item"
+											href="../../diy/sensor_cushion/"
+										>
+											Sensor Cushion
+										</a>
+									</li>
+									<li>
+										<a class="dropdown-item"
+											href="../../diy/mesh_heads/"
+										>
+											Mesh head
+										</a>
+									</li>
+									<li>
+										<a class="dropdown-item"
+											href="../../diy/hihat/"
+										>
+											HiHat
+										</a>
+									</li>
+									<li>
+										<a class="dropdown-item"
+											href="../../diy/cymbal_switch/"
+										>
+											Cymbal (2 and 3 Zones) using switches
+										</a>
+									</li>
+									<li>
+										<a class="dropdown-item"
+											href="../../diy/cymbal_piezo/"
+										>
+											Cymbal (2 and 3 Zones) using piezos
+										</a>
+									</li>
+									<li>
+										<a class="dropdown-item"
+											href="../../diy/splash/"
+										>
+											Splash
+										</a>
+									</li>
+									<li>
+										<a class="dropdown-item"
+											href="../../diy/octobans/"
+										>
+											Octobans
+										</a>
+									</li>
+									<li>
+										<a class="dropdown-item"
+											href="../../diy/keith_pp_2_ps/"
+										>
+											Keith Raper's Piezo/Piezo to Piezo/Switch Adapter
+										</a>
+									</li>
+								</ul>
+							</li>
+								
+							<li class="nav-item dropdown">
+								<a
+									class="nav-link dropdown-toggle"
+									href="#"
+									id="navbarArchlinux"
+									role="button"
+									data-bs-toggle="dropdown"
+									aria-expanded="false"
+									aria-haspopup="true"
+								>Archlinux
+								</a>
+								<ul
+									class="dropdown-menu"
+									aria-labelledby="navbarArchlinux"
+								>
+									<li>
+										<a class="dropdown-item"
+											href="../../archlinux/reaper-linux-windows-vst"
+										>
+											Windows VSTs in REAPER Linux-Native
+										</a>
+									</li>
+									<li>
+										<a class="dropdown-item"
+											href="../../archlinux/realtime"
+										>
+											Realtime
+										</a>
+									</li>
+									<li>
+										<a class="dropdown-item"
+											href="../../archlinux/services"
+										>
+											Services
+										</a>
+									</li>
+								</ul>
+							</li>
+								
+							<li class="nav-item dropdown">
+								<a
+									class="nav-link dropdown-toggle"
+									href="#"
+									id="navbarLinuxsampler"
+									role="button"
+									data-bs-toggle="dropdown"
+									aria-expanded="false"
+									aria-haspopup="true"
+								>Linuxsampler
+								</a>
+								<ul
+									class="dropdown-menu"
+									aria-labelledby="navbarLinuxsampler"
+								>
+									<li>
+										<a class="dropdown-item"
+											href="."
+										>
+											SFZ
+										</a>
+									</li>
+									<li>
+										<a class="dropdown-item"
+											href="../docs"
+										>
+											Docs
+										</a>
+									</li>
+								</ul>
+							</li>
+							<li class="nav-item">
+								<a
+									class="nav-link"
+									href="../../news"
+								>
+									News
+								</a>
+							</li>
+						</ul>
+						<ul class="navbar-nav">
+						
+							<li class="nav-item">
+									<a
+										href="#"
+										class="nav-link"
+										data-bs-toggle="modal"
+										data-bs-target="#mkdocs_search_modal">
+											<i class="fa fa-search"></i> Search
+									</a>
+							</li>
+							<li class="nav-item dropdown">
+								<button
+									class="btn btn-link nav-link py-2 px-0 px-lg-2 dropdown-toggle d-flex align-items-center"
+									id="bd-theme"
+									type="button"
+									aria-expanded="false"
+									data-bs-toggle="dropdown"
+									data-bs-display="static"
+									aria-label="Toggle theme (auto)">
+									<svg class="bi my-1 theme-icon-active"><use href="#circle-half"></use></svg>
+									<span class="d-lg-none ms-2" id="bd-theme-text">Toggle theme</span>
+								</button>
+								<ul class="dropdown-menu dropdown-menu-end" aria-labelledby="bd-theme-text">
+									<li>
+										<button
+											type="button"
+											class="dropdown-item d-flex align-items-center"
+											data-bs-theme-value="light"
+											aria-pressed="false">
+											<svg class="bi me-2 opacity-50 theme-icon"><use href="#sun-fill"></use></svg>
+											Light
+											<svg class="bi ms-auto d-none"><use href="#check2"></use></svg>
+										</button>
+									</li>
+									<li>
+										<button
+											type="button"
+											class="dropdown-item d-flex align-items-center"
+											data-bs-theme-value="dark"
+											aria-pressed="false">
+											<svg class="bi me-2 opacity-50 theme-icon"><use href="#moon-stars-fill"></use></svg>
+											Dark
+											<svg class="bi ms-auto d-none"><use href="#check2"></use></svg>
+										</button>
+									</li>
+									<li>
+										<button
+											type="button"
+											class="dropdown-item d-flex align-items-center active"
+											data-bs-theme-value="auto"
+											aria-pressed="true">
+											<svg class="bi me-2 opacity-50 theme-icon"><use href="#circle-half"></use></svg>
+											Auto
+											<svg class="bi ms-auto d-none"><use href="#check2"></use></svg>
+										</button>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+			<div class="row mt-4" id="content">
+				<div class="col-md-9">
+					<article><h1>LinuxSampler SFZ Reference</h1><p>Last update: 3 June, 2012.</p>
+<h3 id="table-of-contents">Table of Contents</h3>
+<p><strong>LinuxSampler SFZ Implementation</strong></p>
+<ul>
+<li><a href="#Introduction">Introduction</a><ul>
+<li><a href="#Structure">Structure</a></li>
+<li><a href="#Region">Region</a></li>
+<li><a href="#Group">Group</a></li>
+<li><a href="#Global">Global</a></li>
+<li><a href="#Control">Control</a></li>
+<li><a href="#Curve">Curve</a></li>
+<li><a href="#Effects">Effects</a></li>
+<li><a href="#Comments">Comments</a></li>
+<li><a href="#Units">Units</a></li>
+<li><a href="#MIDI">MIDI Continuous Controller</a></li>
+<li><a href="#Modulation">Modulation</a></li>
+<li><a href="#Controllers">Additional Controllers</a></li>
+</ul>
+</li>
+<li><a href="#Table1.1">Table 1.1 Sample Definition</a></li>
+<li><a href="#Table1.2">Table 1.2 Control</a></li>
+<li><a href="#Table1.3">Table 1.3 Loading</a></li>
+<li><a href="#Table1.4">Table 1.4 Wavetable Oscillator</a></li>
+<li><a href="#Table1.5">Table 1.5 Input Controls</a></li>
+<li><a href="#Table1.6">Table 1.6 Sample Player</a></li>
+<li><a href="#Table1.7">Table 1.7 Amplifier</a></li>
+<li><a href="#Table1.8">Table 1.8 Pitch</a></li>
+<li><a href="#Table1.9">Table 1.9 Filter</a></li>
+<li><a href="#Table1.10">Table 1.10 Envelope Generators</a></li>
+<li><a href="#Table1.11">Table 1.11 Low-Frequency Oscillators</a></li>
+<li><a href="#Table1.12">Table 1.12 Equalizer</a></li>
+<li><a href="#Table1.13">Table 1.13 Effects (SFZ v2)</a></li>
+<li><a href="#Table1.14">Table 1.14 Effects (SFZ v1)</a></li>
+<li><a href="#Table1.15">Table 1.15 Amplifier EG (SFZ v1)</a></li>
+<li><a href="#Table1.16">Table 1.16 Amplifier LFO (SFZ v1)</a></li>
+<li><a href="#Table1.17">Table 1.17 Filter EG (SFZ v1)</a></li>
+<li><a href="#Table1.18">Table 1.18 Filter LFO (SFZ v1)</a></li>
+<li><a href="#Table1.19">Table 1.19 Pitch EG (SFZ v1)</a></li>
+<li><a href="#Table1.20">Table 1.20 Pitch LFO (SFZ v1)</a></li>
+<li><a href="#Table1.21">Table 1.21 Curve</a></li>
+<li><a href="#Table1.22">Table 1.22 Global</a></li>
+</ul>
+<p><strong>This is a work in progress!</strong></p>
+<p><a name="Introduction"></p>
+<h1 id="introduction">Introduction</h1>
+<p>SFZ is a file format to define how a collection of samples and other type of
+oscillators are arranged for performance.
+The goal behind the SFZ format is to provide a free, simple, minimalistic and
+expandable format to arrange, distribute and use audio samples with the highest
+possible quality and the highest possible performance flexibility. Soundware,
+software and hardware developers can create, use and distribute the SFZ format
+files for free, for either free or commercial applications.
+The following is an overview of the implementation of SFZ in LinuxSampler. It
+will serve as a chart of the state of our implementation. The numbering of
+tables (up to 1.20) correspond to <em>Cakewalk Synthesizers Appendix A</em>. Some opcodes
+introduced by Garritan/Plogue in their ARIA engine have been included. Missing
+and otherwise omitted opcodes have also been added to the tables by us.
+<strong>This document represents LinuxSamplers interpretation of the SFZ format and is
+not guaranteed to be correct in any way, shape or form.</strong>
+~~Stricken~~ opcodes in tables are not implemented by LinuxSampler at this time.
+All opcodes are in lower case, capitalized <code>N</code>, <code>X</code> and <code>Y</code> in opcode
+names indicate an integer number.</p>
+<p><a name="Structure"></p>
+<h2 id="structure">Structure</h2>
+<p>An instrument in the SFZ format is a collection of sample files and a SFZ
+definition file. A SFZ definition file contain two types of tokens: <em>headers</em> and
+<em>opcodes</em>. Headers starts with a lesser-than character (&lt;) and ends with a
+greater-than character (&gt;). Opcodes are key/value pairs separated by an equal to
+sign (=). The opcode values can either be integers, floating point numbers or strings.</p>
+<p><a name="Region"></p>
+<h3 id="region">Region</h3>
+<p>An instrument is defined as a collection of regions. A region include the
+definition for the input controls (when and how the region will be triggered for
+playback), the samples to be played and the performance parameters (how to play
+those samples). A region starts with the <code>&lt;region&gt;</code> header and is followed
+by one or more opcodes.</p>
+<p><a name="Group"></p>
+<h3 id="group">Group</h3>
+<p>Regions can be arranged into groups. Groups allow entering common parameters for
+multiple regions, think of it as a template for regions. A group start with the
+<code>&lt;group&gt;</code> header and is followed by one or more opcodes.</p>
+<p><a name="Global"></p>
+<h3 id="global">Global</h3>
+<p>Global settings applying to the whole SFZ definition file can be defined. Think
+of it as a template for all groups and regions. Some opcodes can only be set here.
+The global settings start with the <code>&lt;global&gt;</code> header and is followed by one
+or more opcodes (see <a href="#Table1.22">Table 1.22</a>).</p>
+<p><a name="Control"></p>
+<h3 id="control">Control</h3>
+<p>Control directives are used to specify a default path to the location of samples
+or set the default position for any MIDI continuous controller. Those are special
+opcodes that can only be set here. The control settings start with the
+<code>&lt;control&gt;</code> header and is followed by one or more opcodes (see <a href="#Table1.2">Table 1.2</a>).</p>
+<p><a name="Curve"></p>
+<h3 id="curve">Curve</h3>
+<p>The player define up to six curves internally but additional custom curves can
+also be defined. A custom curve start with the <code>&lt;curve&gt;</code> header and is
+followed by one or more curve value opcodes (see <a href="#Table1.21">Table 1.21</a>).</p>
+<p><a name="Effects"></p>
+<h3 id="effects">Effects</h3>
+<p>Effects that should apply to all voices can be defined. Effects start with the
+<code>&lt;effects&gt;</code> header and is followed by one or more effect opcodes (see <a href="#Table1.13">Table 1.13</a>).</p>
+<p><a name="Comments"></p>
+<h2 id="comments">Comments</h2>
+<p>Comment lines can be inserted anywhere inside the file. A comment line starts
+with two slash characters ('//') and it extends until the end of the line.</p>
+<p><a name="Units"></p>
+<h2 id="units">Units</h2>
+<p>All units in the SFZ format are in real-world values. Frequencies are expressed
+in <em>Hertz</em>, pitches in <em>cents</em>, amplitudes in <em>percentage</em> and volumes in <em>decibels</em>.
+Notes are expressed in MIDI Note Numbers, or in note names according to the
+International Pitch Notation (IPN) convention. According to this rules, middle C
+in the keyboard is C4 and the MIDI note number 60.</p>
+<p><a name="MIDI"></p>
+<h2 id="midi-continuous-controller">MIDI Continuous Controller</h2>
+<p><a name="Modulation"></p>
+<h3 id="modulation">Modulation</h3>
+<p>Everything that can be modulated by a continuous controller has a <code>_oncc</code>
+opcode suffix. A <code>_smoothcc</code> suffix sets the speed of parameter change in
+milliseconds. A <code>_stepcc</code> sets in what steps the parameter change is
+introduced. A <code>_curvecc</code> suffix sets the curve defined in the file.</p>
+<p><a name="Controllers"></p>
+<h3 id="additional-controllers">Additional Controllers</h3>
+<p>SFZ support an extended set of MIDI CC messages generated by the various Cakewalk
+synthesizers GUIs. Events for the following CC numbers are generated by other
+MIDI events or internal generators and therefore <em>might</em> be applicable to our
+implementation:</p>
+<ul>
+<li>128: bend</li>
+<li>129: channel aftertouch</li>
+<li>130: polyphonic aftertouch</li>
+<li>131: velocity</li>
+<li>132: release velocity</li>
+<li>133: keyboard (noye 0=0, note 127=1)</li>
+<li>134: key gate (0 if no keys are pressed, 1 otherwise)</li>
+<li>135: random (0 to 1)</li>
+<li>136: random (-1 to 1)</li>
+<li>137: alternate (changes from 0 to 1 and vice versa)</li>
+</ul>
+<p><a name="Table1.1"></p>
+<h1 id="table-11-sample-definition">Table 1.1 Sample Definition</h1>
+<p>| Opcode           | Description | Type | Range
+| ---------------- | ----------- | ---- |
+| <code>sample=</code>        | This opcode defines which sample file the region will play.<br><br>The value of this opcode is the filename of the sample file, including the extension. The filename must be stored in the same folder where the definition file is, or specified relatively to it. If the sample file is not found, the player will ignore the whole region contents.<br><br>Long names and names with blank spaces and other special characters (excepting the = character) are allowed in the sample definition.<br><br>The sample file can either be a WAVE, AIFF or OGG file. | string | n/a |
+| ~~<code>md5=</code>~~       | ~~Verifies the MD5 hash of a sample on loading.~~ | ~~string~~ | ~~n/a~~
+| ~~<code>waveguide=</code>~~ | ~~Instructs the player to treat the loaded sample as an impulse which is directed to a waveguide.~~ | ~~string~~ | ~~on off~~</p>
+<p><a name="Table1.2"></p>
+<h1 id="table-12-control">Table 1.2 Control</h1>
+<p>There can be multiple <code>&lt;control&gt;</code> headers in a file. Their effects lasts
+until the end of the file or the next <code>&lt;control&gt;</code> header.</p>
+<table>
+<thead>
+<tr>
+<th>Opcode</th>
+<th>Description</th>
+<th>Type</th>
+<th>Range</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>default_path=</code></td>
+<td>This defines a default path, which will be added to every path in the <code>sample</code> opcode.</td>
+<td>string</td>
+<td>n/a</td>
+</tr>
+<tr>
+<td><code>octave_offset=</code></td>
+<td>This opcode sets an offset which will be applied to all note names and numbers in a definition.</td>
+<td>integer</td>
+<td>n/a</td>
+</tr>
+<tr>
+<td><code>note_offset=</code></td>
+<td>Shifts all notes in a given map.</td>
+<td>integer</td>
+<td>n/a</td>
+</tr>
+<tr>
+<td><code>set_ccN=</code></td>
+<td>Sets the named MIDI CC initial value.</td>
+<td>integer</td>
+<td>0 to 127</td>
+</tr>
+<tr>
+<td>~~<code>#define</code>~~</td>
+<td>~~Allows for macro/text pre-processing~~</td>
+<td>~~string~~</td>
+<td>~~n/a~~</td>
+</tr>
+</tbody>
+</table>
+<p><a name="Table1.3"></p>
+<h1 id="table-13-loading">Table 1.3 Loading</h1>
+<table>
+<thead>
+<tr>
+<th>Opcode</th>
+<th>Description</th>
+<th>Type</th>
+<th>Range</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>~~<code>load_mode=</code>~~</td>
+<td>~~Similar to "load mode" in Dimension Pro, but on a per-region basis.<br><br><strong>0</strong>: load as 32-bit<br><strong>1</strong>: load as 16-bit~~</td>
+<td>~~integer~~</td>
+<td>~~0 to 1~~</td>
+</tr>
+<tr>
+<td>~~<code>load_start=</code>~~ ~~<code>load_end=</code>~~</td>
+<td>~~Allows loading only part of a sample into memory.~~</td>
+<td>~~integer~~</td>
+<td>~~0 to 4294967296~~</td>
+</tr>
+<tr>
+<td>~~<code>sample_quality=</code>~~</td>
+<td>~~Sets the quality for sample-playback.<br><br><strong>1</strong>: linear<br><strong>2</strong>: high<br><strong>3-10</strong>: different sinc interpolated modes~~</td>
+<td>~~integer~~</td>
+<td>~~1 to 10~~</td>
+</tr>
+<tr>
+<td>~~<code>image=</code>~~</td>
+<td>~~Allows loading a BMP image, with or without alpha-channel for display purposes.~~</td>
+<td>~~string~~</td>
+<td>~~n/a~~</td>
+</tr>
+</tbody>
+</table>
+<p><a name="Table1.4"></p>
+<h1 id="table-14-wavetable-oscillator">Table 1.4 Wavetable Oscillator</h1>
+<table>
+<thead>
+<tr>
+<th>Opcode</th>
+<th>Description</th>
+<th>Type</th>
+<th>Range</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>~~<code>oscillator=</code>~~</td>
+<td>~~If the value is set to on, the region becomes a wavetable oscillator. The sample specified in the region will be used to extract the spectral information and construct the wavetable.~~</td>
+<td>~~string~~</td>
+<td>~~on, off~~</td>
+</tr>
+<tr>
+<td>~~<code>oscillator_phase=</code>~~</td>
+<td>~~Sets the initial phase for the oscillator, from 0 to 360 degrees. A negative value will make the oscillator start at a random phase.~~</td>
+<td>~~integer~~</td>
+<td>~~-360 to 360 degrees~~</td>
+</tr>
+<tr>
+<td>~~<code>oscillator_quality=</code>~~</td>
+<td>~~Sets the quality for wavetable playback.<br><br><strong>0</strong>: nearest<br><strong>1</strong>: linear<br><strong>2</strong>: high<br><strong>3</strong>: dual-high~~</td>
+<td>~~integer~~</td>
+<td>~~0 to 3~~</td>
+</tr>
+<tr>
+<td>~~<code>oscillator_table_size=</code>~~</td>
+<td>~~Defines the table size of the wavetable used for the oscillator playback.~~</td>
+<td>~~integer~~</td>
+<td>~~0 to 4294967296~~</td>
+</tr>
+<tr>
+<td>~~<code>oscillator_multi=</code>~~</td>
+<td>~~Sets the oscillator to play in multi mode.<br><br>When <code>oscillator_mode=0</code><br><br><strong>1</strong>: engage a single oscillator<br><strong>2</strong>: engage ring modulation~~</td>
+<td>~~integer~~</td>
+<td>~~3 to 9~~</td>
+</tr>
+<tr>
+<td>~~<code>oscillator_mode=</code>~~</td>
+<td>~~Defines the playback mode for the oscillator.<br><br><strong>0</strong>: normal and ring modulation<br><strong>1</strong>: phase modulation<br><strong>2</strong>: frequency modulation~~</td>
+<td>~~integer~~</td>
+<td>~~0 to 2~~</td>
+</tr>
+<tr>
+<td>~~<code>oscillator_detune=</code>~~</td>
+<td>~~Sets the detune between the oscillators when in Multi, Ring, PM or FM modes.~~</td>
+<td>~~integer~~</td>
+<td>~~-100 to 100 cents~~</td>
+</tr>
+<tr>
+<td>~~<code>oscillator_detune_onccN=</code>~~</td>
+<td>~~Sets the detune between the oscillators modulated by MIDI continuous controller N.~~</td>
+<td>~~integer~~</td>
+<td>~~-100 to 100 cents~~</td>
+</tr>
+<tr>
+<td>~~<code>oscillator_mod_depth=</code>~~</td>
+<td>~~Sets the depth of modulation in PM/FM modes.~~</td>
+<td>~~integer~~</td>
+<td>~~-1200 to 1200 cents~~</td>
+</tr>
+<tr>
+<td>~~<code>oscillator_mod_depth_onccN=</code>~~</td>
+<td>~~Sets the depth of modulation in PM/FM modes modulated by MIDI continuous controller N.~~</td>
+<td>~~integer~~</td>
+<td>~~-1200 to 1200 cents~~</td>
+</tr>
+<tr>
+<td>~~<code>oscillator_mod_smoothcc=</code>~~</td>
+<td>~~Sets the control smooth for the depth of modulation when in PM/FM modes.~~</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><a name="Table1.5"></p>
+<h1 id="table-15-input-controls">Table 1.5 Input Controls</h1>
+<p>The input controls define the conditions under which a region will get triggered and play back. Some input control states are defined at the instrument level while others (timer, sequence, key switches and groups) are defined at the region level.</p>
+<p>A region can be triggered by either a key or controller. The key and velocity will be used if triggered by a key. The controller number and value will be used if triggered by a controller.</p>
+<table>
+<thead>
+<tr>
+<th>Opcode</th>
+<th>Description</th>
+<th>Type</th>
+<th>Range</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>lochan=</code> <code>hichan=</code></td>
+<td>If incoming notes have a MIDI channel between <code>lochan</code> and <code>hichan</code>, the region will play.</td>
+<td>integer</td>
+<td>1 to 16</td>
+</tr>
+<tr>
+<td><code>lokey=</code> <code>hikey=</code> <code>key=</code></td>
+<td>If a note equal to or higher than <code>lokey</code> AND equal to or lower than <code>hikey</code> is played, the region will play.</td>
+<td>integer</td>
+<td>0 to 127</td>
+</tr>
+<tr>
+<td><code>lovel=</code> <code>hivel=</code></td>
+<td>If a note with velocity value equal to or higher than <code>lovel</code> AND equal to or lower than <code>hivel</code> is played, the region will play.</td>
+<td>integer</td>
+<td>0 to 127</td>
+</tr>
+<tr>
+<td><code>loccN=</code> <code>hiccN=</code></td>
+<td>Defines the range of the last MIDI controller N required for the region to play.</td>
+<td>integer</td>
+<td>0 to 127</td>
+</tr>
+<tr>
+<td><code>lobend=</code> <code>hibend=</code></td>
+<td>Defines the range of the last Pitch Bend message required for the region to play.</td>
+<td>integer</td>
+<td>-8192 to 8192</td>
+</tr>
+<tr>
+<td><code>lobpm=</code> <code>hibpm=</code></td>
+<td>Host tempo value. The region will play if the host tempo is equal to or higher than <code>lobpm</code>, and lower than <code>hibpm</code>.</td>
+<td>integer</td>
+<td>0 to 500</td>
+</tr>
+<tr>
+<td><code>lochanaft=</code> <code>hichanaft=</code></td>
+<td>Defines the range of last Channel Aftertouch message required for the region to play.</td>
+<td>integer</td>
+<td>0 to 127</td>
+</tr>
+<tr>
+<td><code>lopolyaft=</code> <code>hipolyaft=</code></td>
+<td>Defines the range of last Polyphonic Aftertouch message required for the region to play.</td>
+<td>integer</td>
+<td>0 to 127</td>
+</tr>
+<tr>
+<td><code>loprog=</code> <code>hiprog=</code></td>
+<td>Sets a region playback based on the value of the last Program Change message recieved.</td>
+<td>integer</td>
+<td>0 to 127</td>
+</tr>
+<tr>
+<td><code>lorand=</code> <code>hirand=</code></td>
+<td>Random values. The player will generate a new random number on every note-on event, in the range 0~1.<br><br>The region will play if the random number is equal to or higher than <code>lorand</code>, and lower than <code>hirand</code>.</td>
+<td>float</td>
+<td>0 to 1</td>
+</tr>
+<tr>
+<td><code>lotimer=</code> <code>hitimer=</code></td>
+<td>Set the region to play if the specified time has elapsed since a region in the same group has played.</td>
+<td>float</td>
+<td>n/a</td>
+</tr>
+<tr>
+<td>~~<code>reverse_loccN=</code>~~ ~~<code>reverse_hiccN=</code>~~</td>
+<td>~~Sets the region into reverse playback based on a CC.~~</td>
+<td>~~integer~~</td>
+<td>~~0 to 127~~</td>
+</tr>
+<tr>
+<td><code>seq_length=</code></td>
+<td>Sequence length. The player will keep an internal counter creating a consecutive note-on sequence for each region, starting at 1 and resetting at <code>seq_length</code>.</td>
+<td>integer</td>
+<td>1 to 100</td>
+</tr>
+<tr>
+<td><code>seq_position=</code></td>
+<td>Sequence position. The region will play if the internal sequence counter is equal to <code>seq_position</code>.</td>
+<td>integer</td>
+<td>1 to 100</td>
+</tr>
+<tr>
+<td><code>start_loccN=</code> <code>start_hiccN=</code> <code>stop_loccN=</code> <code>stop_hiccN=</code></td>
+<td>Defines a range of values to start a region playback, and another range of values of a control to stop the region playback (as replacements for note-on and note-off messages).</td>
+<td>integer</td>
+<td>0 to 127</td>
+</tr>
+<tr>
+<td><code>sw_lokey=</code> <code>sw_hikey=</code></td>
+<td>Defines the range of the keyboard to be used as trigger selectors for the <code>sw_last</code> opcode.</td>
+<td>integer</td>
+<td>0 to 127</td>
+</tr>
+<tr>
+<td><code>sw_last=</code></td>
+<td>Enables the region to play if the last key pressed in the range specified by <code>sw_lokey</code> and <code>sw_hikey</code> is equal to the <code>sw_last</code> value.</td>
+<td>integer</td>
+<td>0 to 127</td>
+</tr>
+<tr>
+<td><code>sw_down=</code></td>
+<td>Enables the region to play if the key equal to <code>sw_down</code> value is depressed.<br><br>Key has to be in the range specified by <code>sw_lokey</code> and <code>sw_hikey</code>.</td>
+<td>integer</td>
+<td>0 to 127</td>
+</tr>
+<tr>
+<td><code>sw_up=</code></td>
+<td>Enables the region to play if the key equal to <code>sw_up</code> value is not depressed.<br><br>Key has to be in the range specified by <code>sw_lokey</code> and <code>sw_hikey</code>.</td>
+<td>integer</td>
+<td>0 to 127</td>
+</tr>
+<tr>
+<td><code>sw_previous=</code></td>
+<td>Previous note value. The region will play if last note-on message was equal to <code>sw_previous</code> value.</td>
+<td>integer</td>
+<td>0 to 127</td>
+</tr>
+<tr>
+<td><code>sw_vel=</code></td>
+<td>This opcode allows overriding the velocity for the region with the velocity of the previous note. Values can be:<br><br><strong>current</strong>: Region uses the velocity of current note.<br><br><strong>previous</strong>: Region uses the velocity of the previous note.</td>
+<td>string</td>
+<td>current, previous</td>
+</tr>
+<tr>
+<td><code>trigger=</code></td>
+<td>Sets the trigger which will be used for the sample to play. Values can be:<br><br><strong>attack</strong> (default): Region will play on note-on.<br><br><strong>release</strong>: Region will play on note-off. The velocity used to play the note-off sample is the velocity value of the corresponding (previous) note-on message.<br><br><strong>first</strong>: Region will play on note-on, but if there's no other note going on (staccato, or first note in a legato phrase).<br><br><strong>legato</strong>: Region will play on note-on, but only if there's a note going on (notes after first note in a legato phrase).</td>
+<td>string</td>
+<td>attack, release, first, legato</td>
+</tr>
+<tr>
+<td><code>group=</code></td>
+<td>Exclusive group number for this region.</td>
+<td>integer</td>
+<td>0 to 4294967296</td>
+</tr>
+<tr>
+<td><code>off_by=</code></td>
+<td>Region off group. When a new region with a group number equal to <code>off_by</code> plays, this region will be turned off.</td>
+<td>integer</td>
+<td>0 to 4294967296</td>
+</tr>
+<tr>
+<td><code>off_mode=</code></td>
+<td>Region off mode. This opcode will determinate how a region is turned off by an <code>off_by</code> opcode. Values can be:<br><br><strong>fast</strong> (default): The voice will be turned off immediately. Release settings will not have any effect.<br><br><strong>normal</strong>: The region will be set into release stage. All envelope generators will enter in release stage, and region will expire when the amplifier envelope generator expired.</td>
+<td>string</td>
+<td>fast, normal</td>
+</tr>
+<tr>
+<td><code>on_loccN=</code> <code>on_hiccN=</code></td>
+<td>Sample trigger on MIDI continuous control N. If a MIDI control message with a value between <code>on_loccN</code> and <code>on_hiccN</code> is received, the region will play.</td>
+<td>integer</td>
+<td>0 to 127</td>
+</tr>
+</tbody>
+</table>
+<p><a name="Table1.6"></p>
+<h1 id="table-16-sample-player">Table 1.6 Sample Player</h1>
+<table>
+<thead>
+<tr>
+<th>Opcode</th>
+<th>Description</th>
+<th>Type</th>
+<th>Range</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>count=</code></td>
+<td>The number of times the sample will be played. If this opcode is specified, the sample will restart as many times as defined. Envelope generators will not be retriggered on sample restart. When this opcode is defined, loopmode is automatically set to <code>one_shot</code>.</td>
+<td>integer</td>
+<td>0 to 4294967296</td>
+</tr>
+<tr>
+<td><code>delay=</code></td>
+<td>Region delay time, in seconds. If a <code>delay</code> value is specified, the region playback will be postponed for the specified time. If the region receives a note-off message before delay time, the region won't play. All envelope generators delay stage will start counting after region delay time.</td>
+<td>float</td>
+<td>0 to 100 seconds</td>
+</tr>
+<tr>
+<td><code>delay_onccN=</code></td>
+<td>Region delay time modulated by MIDI continuous controller N, in seconds. If the region receives a note-off message before delay time, the region won't play. All envelope generators delay stage will start counting after region delay time.</td>
+<td>float</td>
+<td>0 to 100 seconds</td>
+</tr>
+<tr>
+<td><code>delay_random=</code></td>
+<td>Region random delay time, in seconds. If the region receives a note-off message before delay time, the region won't play.</td>
+<td>float</td>
+<td>0 to 100 seconds</td>
+</tr>
+<tr>
+<td><code>delay_beats=</code> <code>stop_beats=</code></td>
+<td>Specify a region delay, or time-to-stop in beats, synchronized to host tempo.</td>
+<td>integer</td>
+<td>0 to 32 beats</td>
+</tr>
+<tr>
+<td><code>delay_samples=</code> <code>delay_samples_onccN=</code></td>
+<td>Allows specifying a delay for a given region in samples (independent of sample rate).</td>
+<td>integer</td>
+<td>0 to 4294967296</td>
+</tr>
+<tr>
+<td><code>end=</code></td>
+<td>The endpoint of the sample, in sample units. The player will reproduce the whole sample if end is not specified.<br><br>If end value is -1, the sample will not play. Marking a region end with -1 can be used to use a silent region to turn off other regions by using the group and <code>off_by</code> opcodes.</td>
+<td>integer</td>
+<td>-1 to 4294967296</td>
+</tr>
+<tr>
+<td><code>loop_crossfade=</code></td>
+<td>Set a value for loop crossfading, in seconds.</td>
+<td>float</td>
+<td>0 to 100 seconds</td>
+</tr>
+<tr>
+<td><code>offset=</code></td>
+<td>The offset used to play the sample, in sample units. The player will reproduce samples starting with the very first sample in the file, unless <code>offset</code> is specified. It will start playing the file at the <code>offset</code> sample in this case.</td>
+<td>integer</td>
+<td>0 to 4294967296</td>
+</tr>
+<tr>
+<td><code>offset_random=</code></td>
+<td>Random offset added to the region offset, in sample units.</td>
+<td>integer</td>
+<td>0 to 4294967296</td>
+</tr>
+<tr>
+<td><code>offset_onccN=</code></td>
+<td>The offset used to play the sample according to last position of MIDI continuous controller N, in sample units.</td>
+<td>integer</td>
+<td>0 to 4294967296</td>
+</tr>
+<tr>
+<td><code>loop_mode=</code></td>
+<td>If <code>loop_mode</code> is not specified, each sample will play according to its predefined loop mode. That is, the player will play the sample looped using the first defined loop, if available. If no loops are defined, the wave will play unlooped.<br><br>The <code>loop_mode</code> opcode allows playing samples with loops defined in the unlooped mode. The possible values are:<br><br><strong>no_loop</strong>: no looping will be performed. Sample will play straight from start to end, or until note off, whatever reaches first. (Default for samples without a loop defined.)<br><br><strong>one_shot</strong>: sample will play from start to end, ignoring note off. This mode is engaged automatically if the count opcode is defined.<br><br><strong>loop_continuous</strong>: once the player reaches sample loop point, the loop will play until note expiration.<br><br><strong>loop_sustain</strong>: the player will play the loop while the note is held, by keeping it depressed or by using the sustain pedal (CC64). The rest of the sample will play after note release. (Default for samples with defined loop(s).)</td>
+<td>string</td>
+<td>no_loop, one_shot, loop_continuous, loop_sustain</td>
+</tr>
+<tr>
+<td><code>loop_start=</code></td>
+<td>The loop start point, in samples.<br><br>If <code>loop_start</code> is not specified and the sample has a loop defined, the sample start point will be used.<br><br>If <code>loop_start</code> is specified, it will overwrite the loop start point defined in the sample. This opcode will not have any effect if loopmode is set to <strong>no_loop</strong>.</td>
+<td>integer</td>
+<td>0 to 4294967296</td>
+</tr>
+<tr>
+<td><code>loop_end=</code></td>
+<td>The loop end point, in samples. This opcode will not have any effect if loopmode is set to <strong>no_loop</strong>.<br><br>If <code>loop_end</code> is not specified and the sample have a loop defined, the sample loop end point will be used.<br><br>If <code>loop_end</code> is specified, it will overwrite the loop end point defined in the sample.</td>
+<td>integer</td>
+<td>0 to 4294967296</td>
+</tr>
+<tr>
+<td><code>sync_beats=</code></td>
+<td>Region playing synchronization to host position.<br><br>When <code>sync_beats</code> is specified and after input controls instruct the region to play, the playback will be postponed until the next multiple of the specified value is crossed.</td>
+<td>integer</td>
+<td>0 to 32 beats</td>
+</tr>
+<tr>
+<td><code>sync_offset=</code></td>
+<td>Region playing synchronization to host position offset.<br><br>When <code>sync_beats</code> is specified and after input controls instruct the region to play, the playback will be postponed until the next multiple of the specified value plus the <code>sync_offset</code> value is crossed.</td>
+<td>integer</td>
+<td>0 to 32 beats</td>
+</tr>
+</tbody>
+</table>
+<p><a name="Table1.7"></p>
+<h1 id="table-17-amplifier">Table 1.7 Amplifier</h1>
+<table>
+<thead>
+<tr>
+<th>Opcode</th>
+<th>Description</th>
+<th>Type</th>
+<th>Range</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>volume=</p>
+<p>The volume for the region, in dB.</p>
+<p>float</p>
+<p>-144 to 6 dB</p>
+<p>volume_onccN=</p>
+<p>volume_smoothccN=</p>
+<p>volume_curveccN=</p>
+<p>amplitude=</p>
+<p>The amplitude for the region, in percent.</p>
+<p>float</p>
+<p>0 to 100 %</p>
+<p>amplitude_onccN=</p>
+<p>amplitude_smoothccN=</p>
+<p>amplitude_curveccN=</p>
+<p>pan=</p>
+<p>The panoramic position for the region, in percent.</p>
+<p>If a mono sample is used, pan value defines the position in the stereo image where the sample will be placed. When a stereo sample is used, the pan value the relative amplitude of one channel respect the other.</p>
+<p>A value of zero means centered, negative values move the panoramic to the left, positive to the right.</p>
+<p>float</p>
+<p>-100 to 100 %</p>
+<p>pan_onccN=</p>
+<p>pan_smoothccN=</p>
+<p>pan_curveccN=</p>
+<p>pan_law=</p>
+<p>string</p>
+<p>no_law</p>
+<p>width=</p>
+<p>Only operational for stereo samples, width defines the amount of channel mixing applied to play the sample.</p>
+<p>A width value of 0 makes a stereo sample play as if it were mono (adding both channels and compensating for the resulting volume change). A value of 100 will make the stereo sample play as original.</p>
+<p>Any value in between will mix left and right channels with a part of the other, resulting in a narrower stereo field image.</p>
+<p>Negative width values will reverse left and right channels.</p>
+<p>float</p>
+<p>-100 to 100 %</p>
+<p>width_onccN=</p>
+<p>width_smoothccN=</p>
+<p>width_curveccN=</p>
+<p>position=</p>
+<p>Only operational for stereo samples, positionwidth opcode. defines the position in the stereo field of a stereo signal, after channel mixing as defined in the</p>
+<p>A value of zero means centered, negative values move the panoramic to the left, positive to the right.</p>
+<p>float</p>
+<p>-100 to 100 %</p>
+<p>position_onccN=</p>
+<p>position_smoothccN=</p>
+<p>position_curveccN=</p>
+<p>amp_keytrack=</p>
+<p>Amplifier keyboard tracking (change in amplitude per key) in dB.</p>
+<p>float</p>
+<p>-96 to 12 dB</p>
+<p>amp_keycenter=</p>
+<p>Center key for amplifier keyboard tracking. In this key, the amplifier keyboard tracking will have no effect.</p>
+<p>integer</p>
+<p>0 to 127</p>
+<p>amp_veltrack=</p>
+<p>Amplifier velocity tracking, represents how much the amplitude changes with incoming note velocity.</p>
+<p>Volume changes with incoming velocity in a concave shape according to the following expression:</p>
+<p>Amplitude(dB) = 20 log (127^2 / Velocity^2)</p>
+<p>The amp_velcurve_N opcodes allow overriding the default velocity curve.</p>
+<p>float</p>
+<p>-100 to 100 %</p>
+<p>amp_velcurve_N=</p>
+<p>User-defined amplifier velocity curve. This opcode range allows defining a specific curve for the amplifier velocity. The value of the opcode indicates the normalized amplitude (0 to 1) for the specified velocity.</p>
+<p>float</p>
+<p>0 to 1</p>
+<p>amp_random=</p>
+<p>Random volume for the region, in dB.</p>
+<p>float</p>
+<p>0 to 24 dB</p>
+<p>rt_decay=</p>
+<p>The volume decay amount when the region is set to play in release trigger mode, in decibels per second since note-on message.</p>
+<p>float</p>
+<p>0 to 200 dB</p>
+<p>output=</p>
+<p>The stereo output number for this region. If the player doesn't feature multiple outputs, this opcode is ignored.</p>
+<p>n/a</p>
+<p>0 to 1024</p>
+<p>gain_onccN=</p>
+<p>Gain applied on MIDI control N, in dB.</p>
+<p>float</p>
+<p>-144 to 48 dB</p>
+<p>gain_smoothccN=</p>
+<p>gain_curveccN=</p>
+<p>xfin_lokey=</p>
+<p>xfin_hikey=</p>
+<p>Fade in control.</p>
+<p>xfin_lokey and xfin_hikey define the fade-in keyboard zone for the region.</p>
+<p>The volume of the region will be zero for keys lower than or equal to xfin_lokey, and maximum (as defined by the volume opcode) for keys greater than or equal to xfin_hikey.</p>
+<p>integer</p>
+<p>0 to 127</p>
+<p>xfout_lokey=</p>
+<p>xfout_hikey=</p>
+<p>Fade out control.</p>
+<p>xfout_lokey and xfout_hikey define the fade-out keyboard zone for the region.</p>
+<p>The volume of the region will be maximum (as defined by the volume opcode) for keys lower than or equal to xfout_lokey, and zero for keys greater than or equal to xfout_hikey.</p>
+<p>integer</p>
+<p>0 to 127</p>
+<p>xf_keycurve=</p>
+<p>Keyboard crossfade curve for the region. Values can be:</p>
+<p>gain: Linear gain crossfade. This setting is best when crossfading phase-aligned material. Linear gain crossfades keep constant amplitude during the crossfade, preventing clipping.</p>
+<p>power: Equal-power RMS crossfade. This setting works better to mix very different material, as a constant power level is kept during the crossfade.</p>
+<p>string</p>
+<p>gain, power</p>
+<p>xfin_lovel=</p>
+<p>xfin_hivel=</p>
+<p>Fade in control.</p>
+<p>xfin_lovel and xfin_hivel define the fade-in velocity range for the region.</p>
+<p>The volume of the region will be zero for velocities lower than or equal to xfin_lovel, and maximum (as defined by the volume opcode) for velocities greater than or equal to xfin_hivel.</p>
+<p>integer</p>
+<p>0 to 127</p>
+<p>xfout_lovel=</p>
+<p>xfout_hivel=</p>
+<p>Fade out control.</p>
+<p>xfout_lokey and xfout_hikey define the fade-out velocity range for the region.</p>
+<p>The volume of the region will be maximum (as defined by the volume opcode) for velocities lower than or equal to xfout_lovel, and zero for velocities greater than or equal to xfout_hivel.</p>
+<p>integer</p>
+<p>0 to 127</p>
+<p>xf_velcurve=</p>
+<p>Velocity crossfade curve for the region. Values can be:</p>
+<p>gain: Linear gain crossfade. This setting is best when crossfading phase-aligned material. Linear gain crossfades keep constant amplitude during the crossfade, preventing clipping.</p>
+<p>power: Equal-power RMS crossfade. This setting works better to mix very different material, as a constant power level is kept during the crossfade.</p>
+<p>string</p>
+<p>gain, power</p>
+<p>xfin_loccN=</p>
+<p>xfin_hiccN=</p>
+<p>Fade in control.</p>
+<p>xfin_loccN and xfin_hiccN set the range of values in the MIDI continuous controller N which will perform a fade-in in the region.</p>
+<p>The volume of the region will be zero for values of the MIDI continuous controller N lower than or equal to xfin_loccN, and maximum (as defined by the volume opcode) for values greater than or equal to xfin_hiccN.</p>
+<p>integer</p>
+<p>0 to 127</p>
+<p>xfout_loccN=</p>
+<p>xfout_hiccN=</p>
+<p>Fade out control.</p>
+<p>xfout_loccN and xfout_hiccN set the range of values in the MIDI continuous controller N which will perform a fade-out in the region.</p>
+<p>The volume of the region will be maximum (as defined by the volume opcode) for values of the MIDI continuous controller N lower than or equal to xfout_loccN, and zero for values greater than or equal to xfout_hiccN.</p>
+<p>integer</p>
+<p>0 to 127</p>
+<p>xf_cccurve=</p>
+<p>MIDI controllers crossfade curve for the region. Values can be:</p>
+<p>gain: Linear gain crossfade. This setting is best when crossfading phase-aligned material. Linear gain crossfades keep constant amplitude during the crossfade, preventing clipping.</p>
+<p>power: Equal-power RMS crossfade. This setting works better to mix very different material, as a constant power level is kept during the crossfade.</p>
+<p>string</p>
+<p>gain, power</p>
+<p>Table 1.8 Pitch</p>
+<p>Opcode</p>
+<p>Description</p>
+<p>Type</p>
+<p>Range</p>
+<p>transpose=</p>
+<p>The transposition value for this region which will be applied to the sample.</p>
+<p>integer</p>
+<p>-127 to 127</p>
+<p>transpose_onccN=</p>
+<p>transpose_smoothccN=</p>
+<p>transpoe_curveccN=</p>
+<p>tune=</p>
+<p>The fine tuning for the sample, in cents. Range is ±1 semitone, from -100 to 100. Only negative values must be prefixed with sign.</p>
+<p>integer</p>
+<p>-100 to 100 cents</p>
+<p>tune_onccN=</p>
+<p>tune_smoothccN=</p>
+<p>tune_curveccN=</p>
+<p>pitch_keycenter=</p>
+<p>Root key for the sample.</p>
+<p>integer</p>
+<p>-127 to 127</p>
+<p>pitch_keytrack=</p>
+<p>Within the region, this value defines how much the pitch changes with every note. Default value is 100, which means pitch will change one hundred cents (one semitone) per played note.</p>
+<p>Setting this value to zero means that all notes in the region will play the same pitch, particularly useful when mapping drum sounds.</p>
+<p>integer</p>
+<p>-1200 to 1200 cents</p>
+<p>pitch_veltrack=</p>
+<p>Pitch velocity tracking, represents how much the pitch changes with incoming note velocity, in cents.</p>
+<p>integer</p>
+<p>-9600 to 9600 cents</p>
+<p>pitch_random=</p>
+<p>Random tuning for the region, in cents. Random pitch will be centered, with positive and negative values.</p>
+<p>integer</p>
+<p>0 to 9600 cents</p>
+<p>bend_up=</p>
+<p>Pitch bend range when Pitch Wheel or Joystick is moved up, in cents.</p>
+<p>integer</p>
+<p>-9600 to 9600 cents</p>
+<p>bend_down=</p>
+<p>Pitch bend range when Pitch Wheel or Joystick is moved down, in cents.</p>
+<p>integer</p>
+<p>-9600 to 9600 cents</p>
+<p>bend_step=</p>
+<p>Pitch bend step, in cents.</p>
+<p>integer</p>
+<p>1 to 1200 cents</p>
+<p>Table 1.9 Filter </p>
+<p>Two filters are available in SFZ version 2. To use the second filter, use opcode with the number 2.</p>
+<p>Opcode</p>
+<p>Description</p>
+<p>Type</p>
+<p>Range</p>
+<p>fil_type=</p>
+<p>fil2_type=</p>
+<p>Filter type. Avaliable types are:</p>
+<p>lpf_1p: one-pole low pass filter (6dB/octave).</p>
+<p>hpf_1p: one-pole high pass filter (6dB/octave).</p>
+<p>bpf_1p: one-pole band pass filter (6dB/octave).</p>
+<p>brf_1p: one-pole band rejection filter (6dB/octave).</p>
+<p>apf_1p: one-pole all pass filter (6dB/octave).</p>
+<p>lpf_2p: two-pole low pass filter (12dB/octave).</p>
+<p>hpf_2p: two-pole high pass filter (12dB/octave).</p>
+<p>bpf_2p: two-pole band pass filter (12dB/octave).</p>
+<p>brf_2p: two-pole band rejection filter (12dB/octave).</p>
+<p>pkf_2p: two-pole peak filter (12dB/octave).</p>
+<p>lpf_4p: four-pole low pass filter (24dB/octave).</p>
+<p>hpf_4p: four-pole high pass filter (24dB/octave).</p>
+<p>lpf_6p: six-pole low pas filter (36dB/octave).</p>
+<p>hpf_6p: six-pole high pass filter (36dB/octave).</p>
+<p>comb: comb filter</p>
+<p>pink: pink filter</p>
+<p>string</p>
+<p>lpf_1p, hpf_1p, bpf_1p, brf_1p, apf_1p, lpf_2p, hpf_2p, bpf_2p, brf_2p, pkf_2p, lpf_4p, hpf_4p, lpf_6p, hpf_6p, comb, pink</p>
+<p>cutoff=</p>
+<p>cutoff2=</p>
+<p>The filter cutoff frequency, in Hz.</p>
+<p>If the cutoff is not specified, the filter will be disabled, with the consequent CPU drop in the player.</p>
+<p>float</p>
+<p>0 to SR/2</p>
+<p>cutoff_onccN=</p>
+<p>cutoff2_onccN=</p>
+<p>The variation in the cutoff frequency when MIDI continuous controller N is received, in cents.</p>
+<p>integer</p>
+<p>-9600 to 9600 cents</p>
+<p>cutoff_smoothccN=</p>
+<p>cutoff2_smoothccN=</p>
+<p>The smooth factor defines how smooth the change is. Smooth is a low pass filter on speed of parameter changes and its in milliseconds.</p>
+<p>integer</p>
+<p>-9600 to 9600 cents</p>
+<p>cutoff_stepccN=</p>
+<p>cutoff2_stepccN=</p>
+<p>The step factor sets in what steps that the variation is introduced.</p>
+<p>integer</p>
+<p>-9600 to 9600 cents</p>
+<p>cutoff_curveccN=</p>
+<p>cutoff2_curveccN=</p>
+<p>Select a curve defined internally or in a <curve> section.</p>
+<p>integer</p>
+<p>?</p>
+<p>cutoff_chanaft=</p>
+<p>cutoff2_chanaft=</p>
+<p>The variation in the cutoff frequency when MIDI channel aftertouch messages are received, in cents.</p>
+<p>integer</p>
+<p>-9600 to 9600 cents</p>
+<p>cutoff_polyaft=</p>
+<p>cutoff2_polyaft=</p>
+<p>The variation in the cutoff frequency when MIDI polyphonic aftertouch messages are received, in cents.</p>
+<p>integer</p>
+<p>-9600 to 9600 cents</p>
+<p>resonance=</p>
+<p>resonance2=</p>
+<p>The filter cutoff resonance value, in dB.</p>
+<p>float</p>
+<p>0 to 40 dB</p>
+<p>resonance_onccN=</p>
+<p>resonance2_onccN=</p>
+<p>The filter cutoff resonance value modulated by MIDI continuous controller N, in dB.</p>
+<p>float</p>
+<p>0 to 40 dB</p>
+<p>resonance_smoothccN=</p>
+<p>resonance2_smoothccN=</p>
+<p>The smooth factor defines how smooth the modulation is. Smooth is a low pass filter on speed of parameter changes and its in milliseconds.</p>
+<p>float</p>
+<p>0 to 40 dB</p>
+<p>resonance_stepccN=</p>
+<p>resonance2_stepccN=</p>
+<p>The step factor sets in what steps that the modulation is introduced.</p>
+<p>float</p>
+<p>0 to 40 dB</p>
+<p>resonance_curveccN=</p>
+<p>resonance2_curveccN=</p>
+<p>Select a curve defined internally or in a <curve> section.</p>
+<p>integer</p>
+<p>0 to 4294967296</p>
+<p>fil_keytrack=</p>
+<p>fil2_keytrack=</p>
+<p>Filter keyboard tracking (change on cutoff for each key) in cents.</p>
+<p>integer</p>
+<p>0 to 1200 cents</p>
+<p>fil_keycenter=</p>
+<p>fil2_keycenter=</p>
+<p>Center key for filter keyboard tracking. In this key, the filter keyboard tracking will have no effect.</p>
+<p>integer</p>
+<p>0 to 127</p>
+<p>fil_veltrack=</p>
+<p>fil2_veltrack=</p>
+<p>Filter velocity tracking, represents how much the cutoff changes with incoming note velocity.</p>
+<p>integer</p>
+<p>-9600 to 9600 cents</p>
+<p>fil_random=</p>
+<p>fil2_random=</p>
+<p>Random cutoff added to the region, in cents.</p>
+<p>integer</p>
+<p>0 to 9600 cents</p>
+<p>Table 1.10 Envelope Generators</p>
+<p>The first seven EGs might already be in use by the player. To be compatible across different players start with EG number 8.</p>
+<p>Opcode</p>
+<p>Description</p>
+<p>Type</p>
+<p>Range</p>
+<p>egN_timeX=</p>
+<p>Set the time of the node X in the envelope generator N to the specified value.</p>
+<p>float</p>
+<p>0 to 100 seconds</p>
+<p>egN_timeX_onccY=</p>
+<p>Set the time of the node X in the envelope generator N to the specified value modulated by MIDI continuous controller X.</p>
+<p>float</p>
+<p>0 to 100 seconds</p>
+<p>egN_levelX=</p>
+<p>Sets the level of the node X in the envelope generator N to the specified value.</p>
+<p>float</p>
+<p>0 to 1</p>
+<p>egN_levelX_onccY=</p>
+<p>Sets the level of the node X in the envelope generator N to the specified value modulated by MIDI continuous controller X.</p>
+<p>float</p>
+<p>0 to 1</p>
+<p>egN_shapeX=</p>
+<p>Sets the shape of the segment X in the flexible envelope generator N to one of the predefined shapes.</p>
+<p>float</p>
+<p>0 to 1</p>
+<p>egN_curveX=</p>
+<p>Defines the curve of the segment X in the envelope generator N.</p>
+<p>float</p>
+<p>0 to 1</p>
+<p>egN_sustain=</p>
+<p>Sets the specified node as the sustain node for the envelope generator N.</p>
+<p>integer</p>
+<p>0 to 100</p>
+<p>egN_loop=</p>
+<p>Sets the specified node as the loop node for the envelope generator N.</p>
+<p>integer</p>
+<p>0 to 100</p>
+<p>egN_loop_count=</p>
+<p>Defines the number of repeats for the loop in the envelope generator N.</p>
+<p>integer</p>
+<p>0 to 4294967296</p>
+<p>egN_volume=</p>
+<p>Patch envelope generator N to the amplifier. The EGs normalized output will be multiplied by the opcode value and added to the destination.</p>
+<p>float</p>
+<p>-144 to 6 dB</p>
+<p>egN_amplitude=</p>
+<p>-"-</p>
+<p>float</p>
+<p>0 to 100 %</p>
+<p>egN_pan=</p>
+<p>egN_width=</p>
+<p>egN_position=</p>
+<p>-"-</p>
+<p>float</p>
+<p>-100 to 100 %</p>
+<p>egN_pan_curve=</p>
+<p>egN_pan_curveccX=</p>
+<p>Select a curve defined internally or in a <curve> section.</p>
+<p>integer</p>
+<p>?</p>
+<p>egN_volume_onccX=</p>
+<p>Patch envelope generator N to the amplifier. The EGs normalized output will be multiplied by the opcode value and added to the destination in addition to being modulated by MIDI continuous controller X.</p>
+<p>float</p>
+<p>-144 to 6 dB</p>
+<p>egN_amplitude_onccX=</p>
+<p>-"-</p>
+<p>float</p>
+<p>0 to 100 %</p>
+<p>egN_pan_onccX=</p>
+<p>egN_width_onccX=</p>
+<p>egN_position_onccX=</p>
+<p>-"-</p>
+<p>float</p>
+<p>-100 to 100%</p>
+<p>egN_freq_lfoX=</p>
+<p>Patch envelope generator N to LFO X. The EGs normalized output will be multiplied by the opcode value and added to the destination.</p>
+<p>float</p>
+<p>0 to 20 Hz</p>
+<p>egN_depth_lfoX=</p>
+<p>egN_depthadd_lfoX=</p>
+<p>-"-</p>
+<p>integer</p>
+<p>-1200 to 1200 cents</p>
+<p>egN_pitch=</p>
+<p>Patch envelope generator N to the pitch. The EGs normalized output will be multiplied by the opcode value and added to the destination.</p>
+<p>integer</p>
+<p>-9600 to 9600 cents</p>
+<p>egN_pitch_onccX=</p>
+<p>Patch envelope generator N to the pitch. The EGs normalized output will be multiplied by the opcode value and added to the destination in addition to being modulated by MIDI continuous controller X.</p>
+<p>integer</p>
+<p>-9600 to 9600 cents</p>
+<p>egN_cutoff=</p>
+<p>egN_cutoff2=</p>
+<p>Patch envelope generator N to the filter. The EGs normalized output will be multiplied by the opcode value and added to the destination.</p>
+<p>integer</p>
+<p>-9600 to 9600 cents</p>
+<p>egN_resonance=</p>
+<p>egN_resonance2=</p>
+<p>-"-</p>
+<p>float</p>
+<p>0 to 40dB</p>
+<p>egN_cutoff_onccX=</p>
+<p>egN_cutoff2_onccX=</p>
+<p>Patch envelope generator N to the filter. The EGs normalized output will be multiplied by the opcode value and added to the destination in addition to being modulated by MIDI continuous controller X.</p>
+<p>integer</p>
+<p>-9600 to 9600 cents</p>
+<p>egN_resonance_onccX=</p>
+<p>egN_resonance2_onccX=</p>
+<p>-"-</p>
+<p>float</p>
+<p>0 to 40 dB</p>
+<p>egN_eq1freq=</p>
+<p>egN_eq2freq=</p>
+<p>egN_eq3freq=</p>
+<p>Patch envelope generator N to the per voice equalizer. The EGs normalized output will be multiplied by the opcode value and added to the destination.</p>
+<p>float</p>
+<p>0 to 30000 Hz</p>
+<p>egN_eq1bw=</p>
+<p>egN_eq2bw=</p>
+<p>egN_eq3bw=</p>
+<p>-"-</p>
+<p>float</p>
+<p>0.001 to 4 octaves</p>
+<p>egN_eq1gain=</p>
+<p>egN_eq2gain=</p>
+<p>egN_eq3gain=</p>
+<p>-"-</p>
+<p>float</p>
+<p>-96 to 24 dB</p>
+<p>egN_eq1freq_onccX=</p>
+<p>egN_eq2freq_onccX=</p>
+<p>egN_eq3freq_onccX=</p>
+<p>Patch envelope generator N to the per voice equalizer. The EGs normalized output will be multiplied by the opcode value and added to the destination in addition to being modulated by MIDI continuous controller X.</p>
+<p>float</p>
+<p>0 to 30000 Hz</p>
+<p>egN_eq1bw_onccX=</p>
+<p>egN_eq2bw_onccX=</p>
+<p>egN_eq3bw_onccX=</p>
+<p>-"-</p>
+<p>float</p>
+<p>0.001 to 4 octaves</p>
+<p>egN_eq1gain_onccX=</p>
+<p>egN_eq2gain_onccX=</p>
+<p>egN_eq3gain_onccX=</p>
+<p>-"-</p>
+<p>float</p>
+<p>-96 to 24 dB</p>
+<p>egN_decim=</p>
+<p>egN_bitred=</p>
+<p>egN_rectify=</p>
+<p>egN_ringmod=</p>
+<p>egN_noiselevel=</p>
+<p>egN_noisestep=</p>
+<p>egN_noisetone=</p>
+<p>egN_driveshape=</p>
+<p>Patch envelope generator N to effects. The EGs normalized output will be multiplied by the opcode value and added to the destination.</p>
+<p>?</p>
+<p>?</p>
+<p>egN_decim_onccX=</p>
+<p>egN_bitred_onccX=</p>
+<p>egN_rectify_onccX=</p>
+<p>egN_ringmod_onccX=</p>
+<p>egN_noiselevel_onccX=</p>
+<p>egN_noisestep_onccX=</p>
+<p>egN_noisetone_onccX=</p>
+<p>egN_driveshape_onccX=</p>
+<p>The EGs normalized output will be multiplied by the opcode value and added to the destination in addition to being modulated by MIDI continuous controller X</p>
+<p>?</p>
+<p>?</p>
+<p>Table 1.11 Low-Frequency Oscillators</p>
+<p>The first seven LFOs might already be in use by the player. To be compatible across different players start with LFO number 8.</p>
+<p>Opcode</p>
+<p>Description</p>
+<p>Type</p>
+<p>Range</p>
+<p>lfoN_freq=</p>
+<p>Defines the frequency for the LFO N, in Hz.</p>
+<p>float</p>
+<p>0 to 20 Hz</p>
+<p>lfoN_freq_onccX=</p>
+<p>Defines the frequency variation modulated by MIDI continuous controller X for the LFO N, in Hz.</p>
+<p>float</p>
+<p>0 to 20 Hz</p>
+<p>lfoN_freq_smoothccX=</p>
+<p>The smooth factor defines how smooth MIDI continuous controller X modulation is. Smooth is a low pass filter on speed of parameter changes and its in milliseconds.</p>
+<p>integer</p>
+<p>?</p>
+<p>lfoN_freq_stepccX=</p>
+<p>The step factor sets in what steps that variation is introduced.</p>
+<p>float</p>
+<p>0 to 20 Hz</p>
+<p>lfoN_delay=</p>
+<p>Sets a delay time from the region instantiation to the LFO N starts working, in seconds.</p>
+<p>float</p>
+<p>0 to 100 seconds</p>
+<p>lfoN_delay_onccX=</p>
+<p>Sets a delay time from the region instantiation to the LFO N starts working modulated by MIDI continuous controller X, in seconds.</p>
+<p>float</p>
+<p>0 to 100 seconds</p>
+<p>lfoN_fade=</p>
+<p>Defines a fade-in ramp from region instantiation for the LFO N output, in seconds.</p>
+<p>float</p>
+<p>0 to 100 seconds</p>
+<p>lfoN_fade_onccX=</p>
+<p>Defines a fade-in ramp from the region instantiation for the LFO N output modulated by MIDI continuous controller X, in seconds.</p>
+<p>float</p>
+<p>0 to 100 seconds</p>
+<p>lfoN_depth=</p>
+<p>lfoN_depth_onccN=</p>
+<p>lfoN_phase=</p>
+<p>Sets the initial phase of the LFO N.</p>
+<p>float</p>
+<p>0 to 360 degrees</p>
+<p>lfoN_phase_onccX=</p>
+<p>Sets the initial phase of LFO N modulated by MIDI continuous controller X.</p>
+<p>float</p>
+<p>0 to 360 degrees</p>
+<p>lfoN_count=</p>
+<p>Defines a cycle count for the LFO N. After that cycle count, the LFO will stop. Default is infinite.</p>
+<p>integer</p>
+<p>0 to 4294967296</p>
+<p>lfoN_wave=</p>
+<p>Set the waveform for LFO N. The wave pool is player dependant, but the following waveforms are mandatory:</p>
+<p>0: triangle</p>
+<p>1: sine</p>
+<p>2: pulse 75%</p>
+<p>3: square (pulse 50%)</p>
+<p>4: pulse 25%</p>
+<p>5: pulse 12.5%</p>
+<p>6: saw up</p>
+<p>7: saw down</p>
+<p>integer</p>
+<p>0 to 4294967296</p>
+<p>lfoN_steps=</p>
+<p>Turns the LFO N into a step sequencer, with a number of steps specified in the value.</p>
+<p>integer</p>
+<p>0 to 4294967296</p>
+<p>lfoN_stepX=</p>
+<p>Defines the level of step X in the LFO N.</p>
+<p>float</p>
+<p>0 to 1</p>
+<p>lfoN_smooth=</p>
+<p>Sets the smoothing for the LFO N output.</p>
+<p>?</p>
+<p>?</p>
+<p>lfoN_smooth_onccX=</p>
+<p>Sets the smoothing for the LFO N output modulated by MIDI continuous controller X.</p>
+<p>?</p>
+<p>?</p>
+<p>lfoN_volume=</p>
+<p>Patch LFO N to amplifier. The LFOs normalized output will be multiplied by the opcode value and added to the destination.</p>
+<p>float</p>
+<p>-144 to 6 dB</p>
+<p>lfoN_amplitude=</p>
+<p>-"-</p>
+<p>float</p>
+<p>0 to 100 %</p>
+<p>lfoN_pan=</p>
+<p>lfoN_width=</p>
+<p>lfoN_position=</p>
+<p>-"-</p>
+<p>float</p>
+<p>-100 to 100 %</p>
+<p>lfoN_volume_onccX=</p>
+<p>Patch LFO N to amplifier. The LFOs normalized output will be multiplied by the opcode value and added to the destination in addition to being modulated by MIDI continuous controller X.</p>
+<p>float</p>
+<p>-144 to 6 dB</p>
+<p>lfoN_amplitude_onccX=</p>
+<p>-"-</p>
+<p>float</p>
+<p>0 to 100 %</p>
+<p>lfoN_pan_onccX=</p>
+<p>lfoN_width_onccX=</p>
+<p>lfoN_position_onccX=</p>
+<p>-"-</p>
+<p>float</p>
+<p>-100 to 100 %</p>
+<p>lfoN_volume_smoothccX=</p>
+<p>lfoN_amplitude_smoothccX=</p>
+<p>lfoN_pan_smoothccX=</p>
+<p>lfoN_width_smoothccX=</p>
+<p>lfoN_position_smoothccX=</p>
+<p>The smooth factor defines how smooth the modulation is. Smooth is a low pass filter on speed of parameter changes and its in milliseconds.</p>
+<p>integer</p>
+<p>?</p>
+<p>lfoN_volume_stepccX=</p>
+<p>lfoN_amplitude_stepccX=</p>
+<p>lfoN_pan_stepccX=</p>
+<p>lfoN_width_stepccX=</p>
+<p>lfoN_position_stepccX=</p>
+<p>The step factor sets in what steps that modulation is introduced.</p>
+<p>integer</p>
+<p>0 to 4294967296</p>
+<p>lfoN_freq_lfoX=</p>
+<p>Patch LFO N to LFO X. The LFOs normalized output will be multiplied by the opcode value and added to the destination.</p>
+<p>float</p>
+<p>0 to 20 Hz</p>
+<p>lfoN_depth_lfoX=</p>
+<p>lfoN_depthadd_lfoX=</p>
+<p>-"-</p>
+<p>integer</p>
+<p>-1200 to 1200 cents</p>
+<p>lfoN_pitch=</p>
+<p>Patch LFO N to the pitch. The LFOs normalized output will be multiplied by the opcode value and added to the destination.</p>
+<p>integer</p>
+<p>-9600 to 9600 cents</p>
+<p>lfoN_pitch_onccX=</p>
+<p>Pitch of LFO N modulated by MIDI continuous controller X.</p>
+<p>?</p>
+<p>?</p>
+<p>lfoN_pitch_smoothccX=</p>
+<p>Smooth is a low pass filter on speed of parameter changes and its in milliseconds.</p>
+<p>integer</p>
+<p>lfoN_pitch_stepccX=</p>
+<p>The step factor sets in what steps that variation is introduced.</p>
+<p>integer</p>
+<p>0 to 4294967296</p>
+<p>lfoN_cutoff=</p>
+<p>lfoN_cutoff2=</p>
+<p>Patch LFO N to the filter. The LFOs normalized output will be multiplied by the opcode value and added to the destination.</p>
+<p>integer</p>
+<p>-9600 to 9600 cents</p>
+<p>lfoN_resonance=</p>
+<p>lfoN_resonance2=</p>
+<p>-"-</p>
+<p>float</p>
+<p>0 to 40 dB</p>
+<p>lfoN_cutoff_onccX=</p>
+<p>lfoN_cutoff2_onccX=</p>
+<p>Patch LFO N to the filter. The LFOs normalized output will be multiplied by the opcode value and added to the destination in addition to being modulated by MIDI continuous controller X.</p>
+<p>integer</p>
+<p>-9600 to 9600 cents</p>
+<p>lfoN_resonance_onccX=</p>
+<p>lfoN_resonance2_onccX=</p>
+<p>-"-</p>
+<p>float</p>
+<p>0 to 40 dB</p>
+<p>lfoN_cutoff_smoothccX=</p>
+<p>lfoN_cutoff2_smoothccX=</p>
+<p>lfoN_resonance_smoothccX=</p>
+<p>lfoN_resonance2_smoothX=</p>
+<p>The smooth factor defines how smooth the change is. Smooth is a low pass filter on speed of parameter changes and its in milliseconds.</p>
+<p>integer</p>
+<p>?</p>
+<p>lfoN_cutoff_stepccX=</p>
+<p>lfoN_cutoff2_stepccX=</p>
+<p>lfoN_resonance_stepccX=</p>
+<p>lfoN_resonance2_stepccX=</p>
+<p>The step factor sets in what steps that variation is introduced.</p>
+<p>integer</p>
+<p>0 to 4294967296</p>
+<p>lfoN_eq1freq=</p>
+<p>lfoN_eq2freq=</p>
+<p>lfoN_eq3freq=</p>
+<p>Patch LFO N to the per voice equalizer. The LFOs normalized output will be multiplied by the opcode value and added to the destination.</p>
+<p>float</p>
+<p>0 to 30000 Hz</p>
+<p>lfoN_eq1bw=</p>
+<p>lfoN_eq2bw=</p>
+<p>lfoN_eq3bw=</p>
+<p>-"-</p>
+<p>float</p>
+<p>0.001 to 4 octaves</p>
+<p>lfoN_eq1gain=</p>
+<p>lfoN_eq2gain=</p>
+<p>lfoN_eq3gain=</p>
+<p>-"-</p>
+<p>float</p>
+<p>-96 to 24 dB</p>
+<p>lfoN_eq1freq_onccX=</p>
+<p>lfoN_eq2freq_onccX=</p>
+<p>lfoN_eq3freq_onccX=</p>
+<p>Patch LFO N to the per voice equalizer. The LFOs normalized output will be multiplied by the opcode value and added to the destination in addition to being modulated by MIDI continuous controller X.</p>
+<p>float</p>
+<p>0 to 30000 Hz</p>
+<p>lfoN_eq1bw_onccX=</p>
+<p>lfoN_eq2bw_onccX=</p>
+<p>lfoN_eq3bw_onccX=</p>
+<p>-"-</p>
+<p>float</p>
+<p>0.001 to 4 octaves</p>
+<p>lfoN_eq1gain_onccX=</p>
+<p>lfoN_eq2gain_onccX=</p>
+<p>lfoN_eq3gain_onccX=</p>
+<p>-"-</p>
+<p>float</p>
+<p>-96 to 24 dB</p>
+<p>lfoN_eq1freq_smoothccX=</p>
+<p>lfoN_eq2freq_smoothccX=</p>
+<p>lfoN_eq3freq_smoothccX=</p>
+<p>lfoN_eq1bw_smoothccX=</p>
+<p>lfoN_eq2bw_smoothccX=</p>
+<p>lfoN_eq3bw_smoothccX=</p>
+<p>lfoN_eq1gain_smoothccX=</p>
+<p>lfoN_eq2gain_smoothccX=</p>
+<p>lfoN_eq3gain_smoothccX=</p>
+<p>The smooth factor defines how smooth the change is. Smooth is a low pass filter on speed of parameter changes and its in milliseconds.</p>
+<p>integer</p>
+<p>?</p>
+<p>lfoN_eq1freq_stepccX=</p>
+<p>lfoN_eq2freq_stepccX=</p>
+<p>lfoN_eq3freq_stepccX=</p>
+<p>lfoN_eq1bw_stepccX=</p>
+<p>lfoN_eq2bw_stepccX=</p>
+<p>lfoN_eq3bw_stepccX=</p>
+<p>lfoN_eq1gain_stepccX=</p>
+<p>lfoN_eq2gain_stepccX=</p>
+<p>lfoN_eq3gain_stepccX=</p>
+<p>The step factor sets in what steps that variation is introduced.</p>
+<p>integer</p>
+<p>0 to 4294967296</p>
+<p>lfoN_decim=</p>
+<p>lfoN_bitred=</p>
+<p>lfoN_noiselevel=</p>
+<p>lfoN_noisestep=</p>
+<p>lfoN_noisetone=</p>
+<p>lfoN_drive=</p>
+<p>Patch LFO N to effects.</p>
+<p>?</p>
+<p>?</p>
+<p>lfoN_decim_onccX=</p>
+<p>lfoN_bitred_onccX=</p>
+<p>lfoN_noiselevel_onccX=</p>
+<p>lfoN_noisestep_onccX=</p>
+<p>lfoN_noisetone_onccX=</p>
+<p>lfoN_drive_onccX=</p>
+<p>Modulated by MIDI continuous control N.</p>
+<p>?</p>
+<p>?</p>
+<p>lfoN_decim_smoothccX=</p>
+<p>lfoN_bitred_smoothccX=</p>
+<p>lfoN_noiselevel_smoothccX=</p>
+<p>lfoN_noisestep_smoothccX=</p>
+<p>lfoN_noisetone_smoothccX=</p>
+<p>lfoN_drive_smoothccX=</p>
+<p>The smooth factor defines how smooth the change is. Smooth is a low pass filter on speed of parameter changes and its in milliseconds.</p>
+<p>integer</p>
+<p>?</p>
+<p>lfoN_decim_stepccX=</p>
+<p>lfoN_bitred_stepccX=</p>
+<p>lfoN_noiselevel_stepccX=</p>
+<p>lfoN_noisestep_stepccX=</p>
+<p>lfoN_noisetone_stepccX=</p>
+<p>lfoN_drive_stepccX=</p>
+<p>The step factor sets in what steps that variation is introduced.</p>
+<p>?</p>
+<p>?</p>
+<p>Table 1.12 Equalizer </p>
+<p>Note that the <effects> equalizers are monophonic (i.e. they apply to all notes playing) while these are polyphonic (i.e. they apply per voice).</p>
+<p>Opcode</p>
+<p>Description</p>
+<p>Type</p>
+<p>Range</p>
+<p>eq1_freq=</p>
+<p>eq2_freq=</p>
+<p>eq3_freq=</p>
+<p>Frequency of the equalizer band, in Hz.</p>
+<p>float</p>
+<p>0 to 30000 Hz</p>
+<p>eq1_freq_onccN=</p>
+<p>eq2_freq_onccN=</p>
+<p>eq3_freq_onccN=</p>
+<p>Frequency change of the equalizer band modulated by MIDI continuous control N, in Hz.</p>
+<p>float</p>
+<p>-30000 to 30000 Hz</p>
+<p>eq1_vel2freq=</p>
+<p>eq2_vel2freq=</p>
+<p>eq3_vel2freq=</p>
+<p>Frequency change of the equalizer band with MIDI velocity, in Hz.</p>
+<p>float</p>
+<p>-30000 to 30000 Hz</p>
+<p>eq1_bw=</p>
+<p>eq2_bw=</p>
+<p>eq3_bw=</p>
+<p>Bandwidth of the equalizer band, in octaves.</p>
+<p>float</p>
+<p>0.001 to 4 octaves</p>
+<p>eq1_bw_onccN=</p>
+<p>eq2_bw_onccN=</p>
+<p>eq3_bw_onccN=</p>
+<p>Bandwidth change of the equalizer band modulated by MIDI continuous control N, in octaves.</p>
+<p>float</p>
+<p>-4 to 4 octaves</p>
+<p>eq1_gain=</p>
+<p>eq2_gain=</p>
+<p>eq3_gain=</p>
+<p>Gain of the equalizer band, in dB.</p>
+<p>float</p>
+<p>-96 to 24 dB</p>
+<p>eq1_gain_onccN=</p>
+<p>eq2_gain_onccN=</p>
+<p>eq3_gain_onccN=</p>
+<p>Gain change of the equalizer band modulated by MIDI continuous control N, in dB.</p>
+<p>float</p>
+<p>-96 to 24 dB</p>
+<p>eq1_vel2gain=</p>
+<p>eq2_vel2gain=</p>
+<p>eq3_vel2gain=</p>
+<p>Gain change of the equalizer band with MIDI velocity, in dB.</p>
+<p>float</p>
+<p>-96 to 24 dB</p>
+<p>Table 1.13 Effects (SFZ v2)</p>
+<p>All effects should be prefaced with the <effects> header.</p>
+<p>Opcode</p>
+<p>Description</p>
+<p>Type</p>
+<p>Range</p>
+<p>Table 1.14 Effects (SFZ v1)</p>
+<p>Opcode</p>
+<p>Description</p>
+<p>Type</p>
+<p>Range</p>
+<p>effect1=</p>
+<p>Level of effect1 send (reverb).</p>
+<p>float</p>
+<p>0 to 100 %</p>
+<p>effect2=</p>
+<p>Level of effect2 send (chorus).</p>
+<p>float</p>
+<p>0 to 100 %</p>
+<p>Table 1.15 Amplifier EG (SFZ v1)</p>
+<p>These have been deprecated. Use the much more flexible EGs in Table 1.10 instead.</p>
+<p>Opcode</p>
+<p>Description</p>
+<p>Type</p>
+<p>Range</p>
+<p>ampeg_delay=</p>
+<p>Amplifier EG delay time, in seconds. This is the time elapsed from note on to the start of the Attack stage.</p>
+<p>float</p>
+<p>0 to 100 seconds</p>
+<p>ampeg_start=</p>
+<p>Amplifier EG start level, in percentage.</p>
+<p>float</p>
+<p>0 to 100 %</p>
+<p>ampeg_attack=</p>
+<p>Amplifier EG attack time, in seconds.</p>
+<p>float</p>
+<p>0 to 100 seconds</p>
+<p>ampeg_hold=</p>
+<p>Amplifier EG hold time, in seconds. During the hold stage, EG output will remain at its maximum value.</p>
+<p>float</p>
+<p>0 to 100 seconds</p>
+<p>ampeg_decay=</p>
+<p>Amplifier EG decay time, in seconds.</p>
+<p>float</p>
+<p>0 to 100 seconds</p>
+<p>ampeg_sustain=</p>
+<p>Amplifier EG sustain level, in percentage.</p>
+<p>float</p>
+<p>0 to 100 %</p>
+<p>ampeg_release=</p>
+<p>Amplifier EG release time (after note release), in seconds.</p>
+<p>float</p>
+<p>0 to 100 seconds</p>
+<p>ampeg_vel2delay=</p>
+<p>Velocity effect on amplifier EG delay time, in seconds.</p>
+<p>float</p>
+<p>-100 to 100 seconds</p>
+<p>ampeg_vel2attack=</p>
+<p>Velocity effect on amplifier EG attack time, in seconds.</p>
+<p>float</p>
+<p>-100 to 100 seconds</p>
+<p>ampeg_vel2hold=</p>
+<p>Velocity effect on amplifier EG hold time, in seconds.</p>
+<p>float</p>
+<p>-100 to 100 seconds</p>
+<p>ampeg_vel2decay=</p>
+<p>Velocity effect on amplifier EG decay time, in seconds</p>
+<p>float</p>
+<p>-100 to 100 seconds</p>
+<p>ampeg_vel2sustain=</p>
+<p>Velocity effect on amplifier EG sustain level, in percentage.</p>
+<p>float</p>
+<p>-100 to 100 %</p>
+<p>ampeg_vel2release=</p>
+<p>Velocity effect on amplifier EG release time, in seconds.</p>
+<p>float</p>
+<p>-100 to 100 seconds</p>
+<p>ampeg_delay_onccN=</p>
+<p>Amplifier EG delay time added on MIDI control N, in seconds.</p>
+<p>float</p>
+<p>-100 to 100 seconds</p>
+<p>ampeg_start_onccN=</p>
+<p>Amplifier EG start level added on MIDI control N, in percentage.</p>
+<p>float</p>
+<p>-100 to 100 %</p>
+<p>ampeg_attack_onccN=</p>
+<p>Amplifier EG attack time added on MIDI control N, in seconds.</p>
+<p>float</p>
+<p>-100 to 100 second</p>
+<p>ampeg_hold_onccN=</p>
+<p>Amplifier EG hold time added on MIDI control N, in seconds.</p>
+<p>float</p>
+<p>-100 to 100 seconds</p>
+<p>ampeg_decay_onccN=</p>
+<p>Amplifier EG decay time added on MIDI control N, in seconds.</p>
+<p>float</p>
+<p>-100 to 100 seconds</p>
+<p>ampeg_sustain_onccN=</p>
+<p>Amplifier EG sustain level added on MIDI control N, in percentage.</p>
+<p>float</p>
+<p>-100 to 100 %</p>
+<p>ampeg_release_onccN=</p>
+<p>Amplifier EG release time added on MIDI control N, in seconds.</p>
+<p>float</p>
+<p>-100 to 100 seconds</p>
+<p>Table 1.16 Amplifier LFO (SFZ v1)</p>
+<p>These have been deprecated. Use the much more flexible LFOs in Table 1.11 instead.</p>
+<p>Opcode</p>
+<p>Description</p>
+<p>Type</p>
+<p>Range</p>
+<p>amplfo_delay=</p>
+<p>The time before the Amplifier LFO starts oscillating, in seconds.</p>
+<p>float</p>
+<p>0 to 100 seconds</p>
+<p>amplfo_delay_onccN=</p>
+<p>The time before the Amplifier LFO starts oscillating modulated by MIDI continuous controller N, in seconds.</p>
+<p>float</p>
+<p>0 to 100 seconds</p>
+<p>amplfo_fade=</p>
+<p>Amplifier LFO fade-in effect time, in seconds.</p>
+<p>float</p>
+<p>0 to 100 seconds</p>
+<p>amplfo_fade_onccN=</p>
+<p>Amplifier LFO fade-in effect time modulated by MIDI continuous controller N, in seconds.</p>
+<p>float</p>
+<p>0 to 100 seconds</p>
+<p>amplfo_freq=</p>
+<p>Amplifier LFO frequency, in hertz.</p>
+<p>float</p>
+<p>0 to 20 hertz</p>
+<p>amplfo_freq_onccN=</p>
+<p>Amplifier LFO frequency change when MIDI continuous controller N is received, in hertz.</p>
+<p>float</p>
+<p>-200 to 200 hertz</p>
+<p>amplfo_freqchanaft=</p>
+<p>Amplifier LFO frequency change when channel aftertouch MIDI messages are received, in hertz.</p>
+<p>float</p>
+<p>-200 to 200 hertz</p>
+<p>amplfo_freqpolyaft=</p>
+<p>Amplifier LFO frequency change when polyphonic aftertouch MIDI messages are received, in hertz.</p>
+<p>float</p>
+<p>-200 to 200 hertz</p>
+<p>amplfo_depth=</p>
+<p>Amplifier LFO depth, in decibels.</p>
+<p>float</p>
+<p>-10 to 10 dB</p>
+<p>amplfo_depth_onccN=</p>
+<p>Amplifier LFO depth when MIDI continuous controller N is received, in decibels.</p>
+<p>float</p>
+<p>-10 to 10 dB</p>
+<p>amplfo_depthchanaft=</p>
+<p>Amplifier LFO depth when polyphonic aftertouch MIDI messages are received, in cents.</p>
+<p>float</p>
+<p>-10 to 10 dB</p>
+<p>amplfo_depthpolyaft=</p>
+<p>Amplifier LFO frequency change when polyphonic aftertouch MIDI messages are received, in hertz.</p>
+<p>float</p>
+<p>-10 to 10 dB</p>
+<p>Table 1.17 Filter EG (SFZ v1)</p>
+<p>These have been deprecated. Use the much more flexible EGs in Table 1.10 instead.</p>
+<p>Opcode</p>
+<p>Description</p>
+<p>Type</p>
+<p>Range</p>
+<p>fileg_delay=</p>
+<p>Filter EG delay time, in seconds. This is the time elapsed from note on to the start of the Attack stage.</p>
+<p>float</p>
+<p>0 to 100 seconds</p>
+<p>fileg_start=</p>
+<p>Filter EG start level, in percentage.</p>
+<p>float</p>
+<p>0 to 100 %</p>
+<p>fileg_attack=</p>
+<p>Filter EG attack time, in seconds.</p>
+<p>float</p>
+<p>0 to 100 seconds</p>
+<p>fileg_hold=</p>
+<p>Filter EG hold time, in seconds. During the hold stage, EG output will remain at its maximum value.</p>
+<p>float</p>
+<p>0 to 100 seconds</p>
+<p>fileg_decay=</p>
+<p>Filter EG decay time, in seconds.</p>
+<p>float</p>
+<p>0 to 100 seconds</p>
+<p>fileg_sustain=</p>
+<p>Filter EG sustain level, in percentage.</p>
+<p>float</p>
+<p>0 to 100 %</p>
+<p>fileg_release=</p>
+<p>Filter EG release time (after note release), in seconds.</p>
+<p>float</p>
+<p>0 to 100 seconds</p>
+<p>fileg_depth=</p>
+<p>Depth or the filter EG, in cents.</p>
+<p>integer</p>
+<p>-12000 to 12000 cents</p>
+<p>fileg_vel2delay=</p>
+<p>Velocity effect on filter EG delay time, in seconds.</p>
+<p>float</p>
+<p>-100 to 100 seconds</p>
+<p>fileg_vel2attack=</p>
+<p>Velocity effect on filter EG attack time, in seconds.</p>
+<p>float</p>
+<p>-100 to 100 seconds</p>
+<p>fileg_vel2hold=</p>
+<p>Velocity effect on filter EG hold time, in seconds.</p>
+<p>float</p>
+<p>-100 to 100 seconds</p>
+<p>fileg_vel2decay=</p>
+<p>Velocity effect on filter EG decay time, in seconds.</p>
+<p>float</p>
+<p>-100 to 100 seconds</p>
+<p>fileg_vel2sustain=</p>
+<p>Velocity effect on filter EG sustain level, in percentage.</p>
+<p>float</p>
+<p>-100 to 100 %</p>
+<p>fileg_vel2release=</p>
+<p>Velocity effect on filter EG release time, in seconds.</p>
+<p>float</p>
+<p>-100 to 100 seconds</p>
+<p>fileg_vel2depth=</p>
+<p>integer</p>
+<p>-12000 to 12000 cents</p>
+<p>fileg_delay_onccN=</p>
+<p>float</p>
+<p>-100 to 100 seconds</p>
+<p>fileg_start_onccN=</p>
+<p>float</p>
+<p>-100 to 100  seconds</p>
+<p>fileg_attack_onccN=</p>
+<p>float</p>
+<p>-100 to 100  seconds</p>
+<p>fileg_hold_onccN=</p>
+<p>float</p>
+<p>-100 to 100  seconds</p>
+<p>fileg_decay_onccN=</p>
+<p>float</p>
+<p>-100 to 100  seconds</p>
+<p>fileg_sustain_onccN=</p>
+<p>float</p>
+<p>-100 to 100 %</p>
+<p>fileg_release_onccN=</p>
+<p>float</p>
+<p>-100 to 100  seconds</p>
+<p>fileg_depth_onccN=</p>
+<p>integer</p>
+<p>-12000 to 12000 cents</p>
+<p>Table 1.18 Filter LFO (SFZ v1)</p>
+<p>These have been deprecated. Use the much more flexible LFOs in Table 1.11 instead.</p>
+<p>Opcode</p>
+<p>Description</p>
+<p>Type</p>
+<p>Range</p>
+<p>fillfo_delay=</p>
+<p>The time before the filter LFO starts oscillating, in seconds.</p>
+<p>float</p>
+<p>0 to 100 seconds</p>
+<p>fillfo_delay_onccN=</p>
+<p>float</p>
+<p>-100 to 100 seconds</p>
+<p>fillfo_fade=</p>
+<p>Filter LFO fade-in effect time.</p>
+<p>float</p>
+<p>0 to 100 seconds</p>
+<p>fillfo_fade_onccN=</p>
+<p>float</p>
+<p>-100 to 100 seconds</p>
+<p>fillfo_freq=</p>
+<p>Filter LFO frequency, in hertz.</p>
+<p>float</p>
+<p>0 to 20 hertz</p>
+<p>fillfo_freq_onccN=</p>
+<p>Filter LFO frequency change when MIDI continuous controller N is received, in hertz.</p>
+<p>float</p>
+<p>-200 to 200 hertz</p>
+<p>fillfo_freqchanaft=</p>
+<p>Filter LFO frequency change when channel aftertouch MIDI messages are received, in hertz.</p>
+<p>float</p>
+<p>-200 to 200 hertz</p>
+<p>fillfo_freqpolyaft=</p>
+<p>Filter LFO frequency change when polyphonic aftertouch MIDI messages are received, in hertz.</p>
+<p>float</p>
+<p>-200 to 200 hertz</p>
+<p>fillfo_depth=</p>
+<p>Filter LFO depth, in cents.</p>
+<p>integer</p>
+<p>-1200 to 1200 cents</p>
+<p>fillfo_depth_onccN=</p>
+<p>Filter LFO depth when MIDI continuous controller N is received, in cents.</p>
+<p>integer</p>
+<p>-1200 to 1200 cents</p>
+<p>fillfo_depthchanaft=</p>
+<p>Filter LFO depth when channel aftertouch MIDI messages are received, in cents.</p>
+<p>integer</p>
+<p>-1200 to 1200 cents</p>
+<p>fillfo_depthpolyaft=</p>
+<p>Filter LFO depth when polyphonic aftertouch MIDI messages are received, in cents.</p>
+<p>integer</p>
+<p>-1200 to 1200 cents</p>
+<p>Table 1.19 Pitch EG (SFZ v1)</p>
+<p>These have been deprecated. Use the much more flexible EGs in Table 1.10 instead.</p>
+<p>Opcode</p>
+<p>Description</p>
+<p>Type</p>
+<p>Range</p>
+<p>pitcheg_delay=</p>
+<p>Pitch EG delay time, in seconds. This is the time elapsed from note on to the start of the Attack stage.</p>
+<p>float</p>
+<p>0 to 100 seconds</p>
+<p>pitcheg_start=</p>
+<p>Pitch EG start level, in percentage.</p>
+<p>float</p>
+<p>0 to 100 %</p>
+<p>pitcheg_attack=</p>
+<p>Pitch EG attack time, in seconds.</p>
+<p>float</p>
+<p>0 to 100 seconds</p>
+<p>pitcheg_hold=</p>
+<p>Pitch EG hold time, in seconds. During the hold stage, EG output will remain at its maximum value.</p>
+<p>float</p>
+<p>0 to 100 seconds</p>
+<p>pitcheg_decay=</p>
+<p>Pitch EG decay time, in seconds.</p>
+<p>float</p>
+<p>0 to 100 seconds</p>
+<p>pitcheg_sustain=</p>
+<p>Pitch EG release time (after note release), in seconds.</p>
+<p>float</p>
+<p>0 to 100 %</p>
+<p>pitcheg_release=</p>
+<p>Pitch EG release time (after note release), in seconds.</p>
+<p>float</p>
+<p>0 to 100 seconds</p>
+<p>pitcheg_depth=</p>
+<p>Depth for the pitch EG, in cents.</p>
+<p>integer</p>
+<p>-12000 to 12000 cents</p>
+<p>pitcheg_vel2delay=</p>
+<p>Velocity effect on pitch EG delay time, in seconds.</p>
+<p>float</p>
+<p>-100 to 100 seconds</p>
+<p>pitcheg_vel2attack=</p>
+<p>Velocity effect on pitch EG attack time, in seconds.</p>
+<p>float</p>
+<p>-100 to 100 seconds</p>
+<p>pitcheg_vel2hold=</p>
+<p>Velocity effect on pitch EG hold time, in seconds.</p>
+<p>float</p>
+<p>-100 to 100 seconds</p>
+<p>pitcheg_vel2decay=</p>
+<p>Velocity effect on pitch EG decay time, in seconds.</p>
+<p>float</p>
+<p>-100 to 100 seconds</p>
+<p>pitcheg_vel2sustain=</p>
+<p>Velocity effect on pitch EG sustain level, in percentage.</p>
+<p>float</p>
+<p>-100 to 100 %</p>
+<p>pitcheg_vel2release=</p>
+<p>Velocity effect on pitch EG release time, in seconds.</p>
+<p>float</p>
+<p>-100 to 100 seconds</p>
+<p>pitcheg_vel2depth=</p>
+<p>Velocity effect on pitch EG depth, in cents.</p>
+<p>integer</p>
+<p>-12000 to 12000 cents</p>
+<p>pitcheg_delay_onccN=</p>
+<p>float</p>
+<p>-100 to 100 seconds</p>
+<p>pitcheg_start_onccN=</p>
+<p>float</p>
+<p>-100 to 100 seconds</p>
+<p>pitcheg_attack_onccN=</p>
+<p>float</p>
+<p>-100 to 100 seconds</p>
+<p>pitcheg_hold_onccN=</p>
+<p>float</p>
+<p>-100 to 100 seconds</p>
+<p>pitcheg_decay_onccN=</p>
+<p>float</p>
+<p>-100 to 100 seconds</p>
+<p>pitcheg_sustain_onccN=</p>
+<p>float</p>
+<p>-100 to 100 %</p>
+<p>pitcheg_release_onccN=</p>
+<p>float</p>
+<p>-100 to 100 seconds</p>
+<p>pitcheg_depth_onccN=</p>
+<p>integer</p>
+<p>-12000 to 12000 cents</p>
+<p>Table 1.20 Pitch LFO (SFZ v1)</p>
+<p>These have been deprecated. Use the much more flexible LFOs in Table 1.11 instead.</p>
+<p>Opcode</p>
+<p>Description</p>
+<p>Type</p>
+<p>Range</p>
+<p>pitchlfo_delay=</p>
+<p>The time before the Pitch LFO starts oscillating, in seconds.</p>
+<p>float</p>
+<p>0 to 100 seconds</p>
+<p>pitchlfo_delay_onccN=</p>
+<p>float</p>
+<p>-100 to 100 seconds</p>
+<p>pitchlfo_fade=</p>
+<p>Pitch LFO fade-in effect time.</p>
+<p>float</p>
+<p>0 to 100 seconds</p>
+<p>pitchlfo_fade_onccN=</p>
+<p>float</p>
+<p>-100 to 100 seconds</p>
+<p>pitchlfo_freq=</p>
+<p>Pitch LFO frequency, in hertz.</p>
+<p>float</p>
+<p>0 to 20 hertz</p>
+<p>pitchlfo_freq_onccN=</p>
+<p>Pitch LFO frequency change when MIDI continuous controller N is received, in hertz.</p>
+<p>float</p>
+<p>-200 to 200 hertz</p>
+<p>pitchlfo_freqchanaft=</p>
+<p>Pitch LFO frequency change when channel aftertouch MIDI messages are received, in hertz.</p>
+<p>float</p>
+<p>-200 to 200 hertz</p>
+<p>pitchlfo_freqpolyaft=</p>
+<p>Pitch LFO frequency change when polyphonic aftertouch MIDI messages are received, in hertz.</p>
+<p>float</p>
+<p>-200 to 200 hertz</p>
+<p>pitchlfo_depth=</p>
+<p>Pitch LFO depth, in cents.</p>
+<p>integer</p>
+<p>-1200 to 1200 cents</p>
+<p>pitchlfo_depth_onccN=</p>
+<p>Pitch LFO depth when MIDI continuous controller N is received, in cents.</p>
+<p>integer</p>
+<p>-1200 to 1200 cents</p>
+<p>pitchlfo_depthchanaft=</p>
+<p>Pitch LFO depth when channel aftertouch MIDI messages are received, in cents.</p>
+<p>integer</p>
+<p>-1200 to 1200 cents</p>
+<p>pitchlfo_depthpolyaft=</p>
+<p>Pitch LFO depth when polyphonic aftertouch MIDI messages are received, in cents.</p>
+<p>integer</p>
+<p>-1200 to 1200 cents</p>
+<p><a name="Table1.21"></p>
+<h3 id="table-121-curve">Table 1.21 Curve</h3>
+<p>The first six curves are predefined by the player and usually player specific if
+implemented, custom curve number 7 and up can be defined using the <code>&lt;curve&gt;</code>
+header.</p>
+<table>
+<thead>
+<tr>
+<th>Opcode</th>
+<th>Description</th>
+<th>Type</th>
+<th>Range</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>vN=</code></td>
+<td>Define normalized values on curve.</td>
+<td>float</td>
+<td>0 to 1</td>
+</tr>
+</tbody>
+</table>
+<p><a name="Table1.22"></p>
+<h3 id="table-122-global">Table 1.22 Global</h3>
+<p>There can be one <code>&lt;global&gt;</code> header in a file. Their settings are global for
+the whole file. The following opcodes can only be defined in the global header.</p>
+<table>
+<thead>
+<tr>
+<th>Opcode</th>
+<th>Description</th>
+<th>Type</th>
+<th>Range</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>polyphony=</code></td>
+<td>Limits the polyphony to number of voices. The default is infinite or maximal number  of voices the player can handle, whichever comes first.</td>
+<td>integer</td>
+<td>n/a</td>
+</tr>
+<tr>
+<td><code>sustain_sw=</code></td>
+<td>Enable/disable the sustain pedal.</td>
+<td>string</td>
+<td>on, off</td>
+</tr>
+</tbody>
+</table>
+					</article>
+				</div>
+				<div class="col-md-3">
+					<aside>
+						<div class="card mb-3">
+							<div class="card-header bg-dark text-bg-dark">
+								<i class="fas fa-link"
+									aria-hidden="true"></i>
+								Quick links
+							</div>
+							<div class="card-body" style="padding: 0.5rem">
+								<ul class="nav nav-pills flex-column"><li class="nav-item">
+										<a class="nav-link" href="https://github.com/edrums/"
+											title="GitHub" style="padding: 0.35rem 0.25rem">
+										<i class="fab fa-github fa-fw"
+										aria-hidden="true"></i>
+										GitHub</a>
+									</li><li class="nav-item">
+										<a class="nav-link" href="https://www.vdrums.com/"
+											title="VDrums Forum" style="padding: 0.35rem 0.25rem">
+										<i class="fas fa-users fa-fw"
+										aria-hidden="true"></i>
+										VDrums Forum</a>
+									</li><li class="nav-item">
+										<a class="nav-link" href="http://www.megadrum.info/"
+											title="MegaDrum" style="padding: 0.35rem 0.25rem">
+										<i class="fas fa-microchip fa-fw"
+										aria-hidden="true"></i>
+										MegaDrum</a>
+									</li><li class="nav-item">
+										<a class="nav-link" href="http://www.vdrumlib.com/"
+											title="VDrumLib" style="padding: 0.35rem 0.25rem">
+										<i class="fas fa-download fa-fw"
+										aria-hidden="true"></i>
+										VDrumLib</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						
+					</aside>
+				</div>
+			</div>			<hr>
+			<footer>
+				<p style="text-align:left">
+					Copyright &copy; 2017-2023
+					EDrums Organization
+					<span style="float:right">
+						This site is open source.
+						<a href="https://github.com/edrums/edrums.github.io/edit/master/docs/en/linuxsampler/sfz/index.md">
+						Improve this page</a>
+					</span>
+				</p>
+			</footer>
+		</div>		<script>
+			var base_url	= "../../..",
+					shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+		</script>
+		<script src="../../../assets/js/base.js" defer></script>
+		<script src="/assets/js/scripts.min.js" defer></script>
+		<script src="../../../search/main.js" defer></script>		<script
+			type="text/javascript"
+			src="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets@11.8.0/highlight.min.js">
+		</script>
+		<script
+			type="text/javascript"
+			src="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets@11.8.0/languages/cpp.min.js">
+		</script>
+		<script
+			type="text/javascript"
+			src="https://cdn.jsdelivr.net/gh/sfz/highlight.js@master/dist/sfz.min.js">
+		</script>
+		<script>hljs.highlightAll();</script>
+		<script>
+			anchors.options.placement = 'left';
+			anchors.add();
+		</script><!-- Search Dialog -->
+<div
+	class="modal"
+	id="mkdocs_search_modal"
+	tabindex="-1"
+	role="dialog"
+	aria-labelledby="searchModalLabel"
+	aria-hidden="true"
+>
+	<div class="modal-dialog modal-dialog-centered">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h4 class="modal-title"
+						id="searchModalLabel">Search</h4>
+				<button
+					type="button"
+					class="btn-close"
+					data-bs-dismiss="modal"
+					aria-label="Close"
+				>
+				</button>
+			</div>
+			<div class="modal-body">
+				<p>From here you can search these documents. Enter your search terms below.</p>
+				<form>
+					<div class="form-group">
+						<input
+							type="search"
+							class="form-control"
+							placeholder="Search..."
+							id="mkdocs-search-query"
+							title="Type search term here"
+						>
+					</div>
+				</form>
+				<div
+						id="mkdocs-search-results"
+						data-no-results-text="No results found">
+				</div>
+			</div>
+			<div class="modal-footer"></div>
+		</div>
+	</div>
+</div><!-- Keyboard Dialog -->
+				<div
+						class="modal"
+						id="mkdocs_keyboard_modal"
+						tabindex="-1"
+						role="dialog"
+						aria-labelledby="keyboardModalLabel"
+						aria-hidden="true"
+				>
+						<div class="modal-dialog">
+								<div class="modal-content">
+										<div class="modal-header">
+												<h4 class="modal-title"
+														id="keyboardModalLabel">Keyboard Shortcuts</h4>
+												<button
+														type="button"
+														class="close"
+														data-dismiss="modal"
+												>
+														<span aria-hidden="true">&times;</span>
+														<span class="visually-hidden">Close</span>
+												</button>
+										</div>
+										<div class="modal-body">
+										<table class="table">
+												<thead>
+												<tr>
+														<th style="width: 20%;">Keys</th>
+														<th>Action</th>
+												</tr>
+												</thead>
+												<tbody>
+												<tr>
+														<td class="help shortcut"><kbd>?</kbd></td>
+														<td>Open this help</td>
+												</tr>
+												<tr>
+														<td class="next shortcut"><kbd>n</kbd></td>
+														<td>Next page</td>
+												</tr>
+												<tr>
+														<td class="prev shortcut"><kbd>p</kbd></td>
+														<td>Previous page</td>
+												</tr>
+												<tr>
+														<td class="search shortcut"><kbd>s</kbd></td>
+														<td>Search</td>
+												</tr>
+												</tbody>
+										</table>
+										</div>
+										<div class="modal-footer">
+										</div>
+								</div>
+						</div>
+				</div>
+	</body>
+</html>

@@ -1,0 +1,1164 @@
+<!DOCTYPE html>
+<html
+	lang="en"
+	data-bs-theme="auto"
+>
+	<head>		<meta charset="utf-8">
+
+		<title>
+		
+		NKSP Reference -
+		
+		EDrums
+		</title>
+
+		
+		<meta name="author" content="EDrums Organization">
+		
+		<meta name="web-author" content="EDrums Organization">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<script src="../../../../../assets/js/color-modes.js"></script>
+
+		<!-- Atom Feeds -->
+		<link href="../../../../../atom.xml" rel="alternate" title="News"type="application/atom+xml" />
+
+		
+		<!-- realfavicongenerator.net -->
+		<link rel="apple-touch-icon" sizes="180x180" href="../../../../../assets/ico/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="../../../../../assets/ico/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="../../../../../assets/ico/favicon-16x16.png">
+		<link rel="manifest" href="../../../../../assets/ico/site.webmanifest">
+		<link rel="mask-icon" href="../../../../../assets/ico/safari-pinned-tab.svg" color="#5bbad5">
+		<link rel="shortcut icon" href="../../../../../assets/ico/favicon.ico">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-config" content="../../../../../assets/ico/browserconfig.xml">
+		<meta name="theme-color" content="#ffffff">
+		<!-- Stylesheets -->
+		<link href="../../../../../assets/css/style.min.css" rel="stylesheet" media="screen">		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/highlight.js@11.8.0/styles/github.min.css"
+			disabled="disabled"
+			id="hljs_light"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/highlight.js@11.8.0/styles/github-dark-dimmed.min.css"
+			disabled="disabled"
+			id="hljs_dark"
+		/>
+
+		<!-- Font Awesome Icons -->
+		<script src="https://kit.fontawesome.com/8d25d19870.js"></script>
+	</head>
+	<body>
+		<button onclick="topFunction()" id="scrollButton" title="Go to top">Top</button>
+		<div class="container">			<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+				<symbol id="sun-fill" viewBox="0 0 16 16">
+					<path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"/>
+				</symbol>
+				<symbol id="moon-stars-fill" viewBox="0 0 16 16">
+					<path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"/>
+					<path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z"/>
+				</symbol>
+				<symbol id="circle-half" viewBox="0 0 16 16">
+					<path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z"/>
+				</symbol>
+				<symbol id="check2" viewBox="0 0 16 16">
+					<path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+				</symbol>
+			</svg>
+			<nav
+				class="navbar navbar-expand-lg bg-dark text-bg-dark"
+				data-bs-theme="dark"
+			>
+				<div class="container">
+
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#navbarContent"
+						aria-controls="navbarContent"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+
+					<a
+						class="navbar-brand"
+						href="../../../../.."
+						>
+							<img
+								src="../../../../../assets/img/logo-white.svg"
+								width="30" height="30" class="d-inline-block align-top" alt=""
+							>
+						EDrums
+					</a>
+
+					<div class="collapse navbar-collapse" id="navbarContent">
+						<ul class="navbar-nav me-auto mt-2 mt-lg-0">
+								
+							<li class="nav-item dropdown">
+								<a
+									class="nav-link dropdown-toggle"
+									href="#"
+									id="navbarRoland"
+									role="button"
+									data-bs-toggle="dropdown"
+									aria-expanded="false"
+									aria-haspopup="true"
+								>Roland
+								</a>
+								<ul
+									class="dropdown-menu"
+									aria-labelledby="navbarRoland"
+								>
+									<li>
+										<a class="dropdown-item"
+											href="../../../../roland/adding_pads"
+										>
+											Adding pads to Roland TD-12 and TD-20
+										</a>
+									</li>
+									<li>
+										<a class="dropdown-item"
+											href="../../../../roland/dynamic"
+										>
+											Dynamic
+										</a>
+									</li>
+									<li>
+										<a class="dropdown-item"
+											href="../../../../roland/trigger_settings"
+										>
+											Trigger Settings
+										</a>
+									</li>
+									<li>
+										<a class="dropdown-item"
+											href="../../../../roland/dsub25_cable"
+										>
+											D-Sub 25 Cable
+										</a>
+									</li>
+								</ul>
+							</li>
+								
+							<li class="nav-item dropdown">
+								<a
+									class="nav-link dropdown-toggle"
+									href="#"
+									id="navbarDIY"
+									role="button"
+									data-bs-toggle="dropdown"
+									aria-expanded="false"
+									aria-haspopup="true"
+								>DIY
+								</a>
+								<ul
+									class="dropdown-menu"
+									aria-labelledby="navbarDIY"
+								>
+									<li>
+										<a class="dropdown-item"
+											href="../../../../diy/piezo_wiring/"
+										>
+											Piezo Wiring
+										</a>
+									</li>
+									<li>
+										<a class="dropdown-item"
+											href="../../../../diy/sensor_cushion/"
+										>
+											Sensor Cushion
+										</a>
+									</li>
+									<li>
+										<a class="dropdown-item"
+											href="../../../../diy/mesh_heads/"
+										>
+											Mesh head
+										</a>
+									</li>
+									<li>
+										<a class="dropdown-item"
+											href="../../../../diy/hihat/"
+										>
+											HiHat
+										</a>
+									</li>
+									<li>
+										<a class="dropdown-item"
+											href="../../../../diy/cymbal_switch/"
+										>
+											Cymbal (2 and 3 Zones) using switches
+										</a>
+									</li>
+									<li>
+										<a class="dropdown-item"
+											href="../../../../diy/cymbal_piezo/"
+										>
+											Cymbal (2 and 3 Zones) using piezos
+										</a>
+									</li>
+									<li>
+										<a class="dropdown-item"
+											href="../../../../diy/splash/"
+										>
+											Splash
+										</a>
+									</li>
+									<li>
+										<a class="dropdown-item"
+											href="../../../../diy/octobans/"
+										>
+											Octobans
+										</a>
+									</li>
+									<li>
+										<a class="dropdown-item"
+											href="../../../../diy/keith_pp_2_ps/"
+										>
+											Keith Raper's Piezo/Piezo to Piezo/Switch Adapter
+										</a>
+									</li>
+								</ul>
+							</li>
+								
+							<li class="nav-item dropdown">
+								<a
+									class="nav-link dropdown-toggle"
+									href="#"
+									id="navbarArchlinux"
+									role="button"
+									data-bs-toggle="dropdown"
+									aria-expanded="false"
+									aria-haspopup="true"
+								>Archlinux
+								</a>
+								<ul
+									class="dropdown-menu"
+									aria-labelledby="navbarArchlinux"
+								>
+									<li>
+										<a class="dropdown-item"
+											href="../../../../archlinux/reaper-linux-windows-vst"
+										>
+											Windows VSTs in REAPER Linux-Native
+										</a>
+									</li>
+									<li>
+										<a class="dropdown-item"
+											href="../../../../archlinux/realtime"
+										>
+											Realtime
+										</a>
+									</li>
+									<li>
+										<a class="dropdown-item"
+											href="../../../../archlinux/services"
+										>
+											Services
+										</a>
+									</li>
+								</ul>
+							</li>
+								
+							<li class="nav-item dropdown">
+								<a
+									class="nav-link dropdown-toggle"
+									href="#"
+									id="navbarLinuxsampler"
+									role="button"
+									data-bs-toggle="dropdown"
+									aria-expanded="false"
+									aria-haspopup="true"
+								>Linuxsampler
+								</a>
+								<ul
+									class="dropdown-menu"
+									aria-labelledby="navbarLinuxsampler"
+								>
+									<li>
+										<a class="dropdown-item"
+											href="../../../sfz"
+										>
+											SFZ
+										</a>
+									</li>
+									<li>
+										<a class="dropdown-item"
+											href="../.."
+										>
+											Docs
+										</a>
+									</li>
+								</ul>
+							</li>
+							<li class="nav-item">
+								<a
+									class="nav-link"
+									href="../../../../news"
+								>
+									News
+								</a>
+							</li>
+						</ul>
+						<ul class="navbar-nav">
+						
+							<li class="nav-item">
+									<a
+										href="#"
+										class="nav-link"
+										data-bs-toggle="modal"
+										data-bs-target="#mkdocs_search_modal">
+											<i class="fa fa-search"></i> Search
+									</a>
+							</li>
+							<li class="nav-item dropdown">
+								<button
+									class="btn btn-link nav-link py-2 px-0 px-lg-2 dropdown-toggle d-flex align-items-center"
+									id="bd-theme"
+									type="button"
+									aria-expanded="false"
+									data-bs-toggle="dropdown"
+									data-bs-display="static"
+									aria-label="Toggle theme (auto)">
+									<svg class="bi my-1 theme-icon-active"><use href="#circle-half"></use></svg>
+									<span class="d-lg-none ms-2" id="bd-theme-text">Toggle theme</span>
+								</button>
+								<ul class="dropdown-menu dropdown-menu-end" aria-labelledby="bd-theme-text">
+									<li>
+										<button
+											type="button"
+											class="dropdown-item d-flex align-items-center"
+											data-bs-theme-value="light"
+											aria-pressed="false">
+											<svg class="bi me-2 opacity-50 theme-icon"><use href="#sun-fill"></use></svg>
+											Light
+											<svg class="bi ms-auto d-none"><use href="#check2"></use></svg>
+										</button>
+									</li>
+									<li>
+										<button
+											type="button"
+											class="dropdown-item d-flex align-items-center"
+											data-bs-theme-value="dark"
+											aria-pressed="false">
+											<svg class="bi me-2 opacity-50 theme-icon"><use href="#moon-stars-fill"></use></svg>
+											Dark
+											<svg class="bi ms-auto d-none"><use href="#check2"></use></svg>
+										</button>
+									</li>
+									<li>
+										<button
+											type="button"
+											class="dropdown-item d-flex align-items-center active"
+											data-bs-theme-value="auto"
+											aria-pressed="true">
+											<svg class="bi me-2 opacity-50 theme-icon"><use href="#circle-half"></use></svg>
+											Auto
+											<svg class="bi ms-auto d-none"><use href="#check2"></use></svg>
+										</button>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+			<div class="row mt-4" id="content">
+				<div class="col-md-9">
+					<article><h1>NKSP Reference</h1><p><link rel="stylesheet" href="/linuxsampler/style.css"></p>
+<p>This document gives you an overview of all built-in functions and built-in
+variables provided by the NKSP real-time instrument script language.</p>
+<h2 id="built-in-functions">Built-In Functions</h2>
+<p>These are the built-in functions available with the NKSP real-time instrument
+script language.</p>
+<h3 id="core-language-functions">Core Language Functions</h3>
+<p>Most fundamental NKSP functions, independent from any purpose of being used in a
+sampler.</p>
+<table>
+<thead>
+<tr>
+<th>Function</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="abort">abort</a>()</td>
+<td>Stops execution of a script callback.</td>
+</tr>
+<tr>
+<td><a href="array_equal">array_equal</a>()</td>
+<td>Check whether two arrays are equal.</td>
+</tr>
+<tr>
+<td><a href="fork">fork</a>()</td>
+<td>Creates new execution instances (threads).</td>
+</tr>
+<tr>
+<td><a href="callback_status">callback_status</a>()</td>
+<td>Returns the current status of a callback (thread).</td>
+</tr>
+<tr>
+<td><a href="dec">dec</a>()</td>
+<td>Decrements the passed integer variable by one.</td>
+</tr>
+<tr>
+<td><a href="inc">inc</a>()</td>
+<td>Increments the passed integer variable by one.</td>
+</tr>
+<tr>
+<td><a href="in_range">in_range</a>()</td>
+<td>Checks whether a value is between two other values.</td>
+</tr>
+<tr>
+<td><a href="message">message</a>()</td>
+<td>Prints text to the sampler's terminal.</td>
+</tr>
+<tr>
+<td><a href="search">search</a>()</td>
+<td>Search for a certain value within an array.</td>
+</tr>
+<tr>
+<td><a href="sort">sort</a>()</td>
+<td>Sort the given array.</td>
+</tr>
+<tr>
+<td><a href="exit">exit</a>()</td>
+<td>Stops execution of the current event handler instance.</td>
+</tr>
+<tr>
+<td><a href="wait">wait</a>()</td>
+<td>Pauses execution for a certain amount of time.</td>
+</tr>
+<tr>
+<td><a href="stop_wait">stop_wait</a>()</td>
+<td>Resumes execution of a suspended script callback.</td>
+</tr>
+<tr>
+<td><a href="abs">abs</a>()</td>
+<td>Calculates the absolute value of a given value.</td>
+</tr>
+<tr>
+<td><a href="random">random</a>()</td>
+<td>Random number generator.</td>
+</tr>
+<tr>
+<td><a href="min">min</a>()</td>
+<td>Calculates the minimum value of two given values.</td>
+</tr>
+<tr>
+<td><a href="max">max</a>()</td>
+<td>Calculates the maximum value of two given values.</td>
+</tr>
+<tr>
+<td><a href="num_elements">num_elements</a>()</td>
+<td>Returns the size of the requested array variable.</td>
+</tr>
+<tr>
+<td><a href="sh_left">sh_left</a>()</td>
+<td>Calculates a left bit shifted value.</td>
+</tr>
+<tr>
+<td><a href="sh_right">sh_right</a>()</td>
+<td>Calculates a right bit shifted value.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="common-sampler-functions">Common Sampler Functions</h3>
+<p>Basic sampler related functions, independent from a particular sampler format or
+sampler engine. </p>
+<table>
+<thead>
+<tr>
+<th>Function</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="">play_note</a>()</td>
+<td>Triggers a new note.</td>
+</tr>
+<tr>
+<td><a href="">change_note</a>()</td>
+<td>Change MIDI note number of note.</td>
+</tr>
+<tr>
+<td><a href="">change_pan</a>()</td>
+<td>Changes panning of voices (stereo balance).</td>
+</tr>
+<tr>
+<td><a href="">change_pan_time</a>()</td>
+<td>Changes the duration of panning (stereo balance) changes.</td>
+</tr>
+<tr>
+<td><a href="">change_pan_curve</a>()</td>
+<td>Changes the curve type of panning (stereo balance) changes.</td>
+</tr>
+<tr>
+<td><a href="">change_play_pos</a>()</td>
+<td>Change the sample playback position.</td>
+</tr>
+<tr>
+<td><a href="">change_tune</a>()</td>
+<td>Changes the tuning of voices.</td>
+</tr>
+<tr>
+<td><a href="">change_tune_time</a>()</td>
+<td>Changes the duration of tuning changes.</td>
+</tr>
+<tr>
+<td><a href="">change_tune_curve</a>()</td>
+<td>Changes the curve type of tuning changes.</td>
+</tr>
+<tr>
+<td><a href="">change_vol</a>()</td>
+<td>Changes the volume of voices.</td>
+</tr>
+<tr>
+<td><a href="">change_vol_time</a>()</td>
+<td>Changes the duration of volume changes.</td>
+</tr>
+<tr>
+<td><a href="">change_vol_curve</a>()</td>
+<td>Changes the curve type of volume changes.</td>
+</tr>
+<tr>
+<td><a href="">change_cutoff</a>()</td>
+<td>Changes filter cutoff frequency of voices.</td>
+</tr>
+<tr>
+<td><a href="">change_reso</a>()</td>
+<td>Changes filter resonance of voices.</td>
+</tr>
+<tr>
+<td><a href="">change_attack</a>()</td>
+<td>Modifies the attack time of voices.</td>
+</tr>
+<tr>
+<td><a href="">change_decay</a>()</td>
+<td>Modifies the decay time of voices.</td>
+</tr>
+<tr>
+<td><a href="">change_sustain</a>()</td>
+<td>Modifies the sustain level of voices.</td>
+</tr>
+<tr>
+<td><a href="">change_release</a>()</td>
+<td>Modifies the release time of voices.</td>
+</tr>
+<tr>
+<td><a href="">change_amp_lfo_depth</a>()</td>
+<td>Modifies the amplitude LFO depth.</td>
+</tr>
+<tr>
+<td><a href="">change_amp_lfo_freq</a>()</td>
+<td>Modifies the amplitude LFO frequency.</td>
+</tr>
+<tr>
+<td><a href="">change_pitch_lfo_depth</a>()</td>
+<td>Modifies the pitch LFO depth.</td>
+</tr>
+<tr>
+<td><a href="">change_pitch_lfo_freq</a>()</td>
+<td>Modifies the pitch LFO frequency.</td>
+</tr>
+<tr>
+<td><a href="">change_velo</a>()</td>
+<td>Change MIDI velocity of note.</td>
+</tr>
+<tr>
+<td><a href="">event_status</a>()</td>
+<td>Checks and returns whether a particular note is still alive.</td>
+</tr>
+<tr>
+<td><a href="">fade_in</a>()</td>
+<td>Fade the requested note in.</td>
+</tr>
+<tr>
+<td><a href="">fade_out</a>()</td>
+<td>Fade the requested note out.</td>
+</tr>
+<tr>
+<td><a href="">get_event_par</a>()</td>
+<td>Get the current value of a specific note parameter.</td>
+</tr>
+<tr>
+<td><a href="">set_event_par</a>()</td>
+<td>Change the value of a specific note parameter.</td>
+</tr>
+<tr>
+<td><a href="">set_controller</a>()</td>
+<td>Creates a MIDI control change event.</td>
+</tr>
+<tr>
+<td><a href="">ignore_event</a>()</td>
+<td>Drops the given event.</td>
+</tr>
+<tr>
+<td><a href="">ignore_controller</a>()</td>
+<td>Drops the given MIDI control change event.</td>
+</tr>
+<tr>
+<td><a href="">note_off</a>()</td>
+<td>Releases the requested note.</td>
+</tr>
+<tr>
+<td><a href="">set_event_mark</a>()</td>
+<td>Adds an event to an event group.</td>
+</tr>
+<tr>
+<td><a href="">delete_event_mark</a>()</td>
+<td>Removes an event from some event group.</td>
+</tr>
+<tr>
+<td><a href="">by_marks</a>()</td>
+<td>Returns all events of an event group.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="gigastudio-format-functions">GigaStudio Format Functions</h3>
+<p>Sampler format specific functions, dedicated to the individual features of the
+GigaStudio format engine.</p>
+<table>
+<thead>
+<tr>
+<th>Function</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="">gig_set_dim_zone</a>()</td>
+<td>Changes the currently active dimension zone.</td>
+</tr>
+<tr>
+<td><a href="">same_region</a>()</td>
+<td>Check whether two keys are mapped to the same region.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="built-in-variables">Built-In Variables</h2>
+<p>These are the built-in variables and built-in constants available with the NKSP
+realt-time instrument script language.</p>
+<h3 id="core-language-variables">Core Language Variables</h3>
+<p>Most fundamental NKSP built-in variables, independent from any purpose of being
+used in a sampler.</p>
+<table>
+<thead>
+<tr>
+<th>Variable</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>$CALLBACK_STATUS_QUEUE</code></td>
+<td>Built-in constant reflecting the status of a callback to be alive but suspended. See <a href="callback_status">callback_status</a>() for details.</td>
+</tr>
+<tr>
+<td><code>$CALLBACK_STATUS_RUNNING</code></td>
+<td>Built-in constant reflecting the status of a callback to be alive and currently executing. See <a href="callback_status">callback_status</a>() for details.</td>
+</tr>
+<tr>
+<td><code>$CALLBACK_STATUS_TERMINATED</code></td>
+<td>Built-in constant reflecting the status of a callback to be not alive. See <a href="callback_status">callback_status</a>() for details.</td>
+</tr>
+<tr>
+<td><code>$KSP_TIMER</code></td>
+<td>Preserved for compatiblity reasons with KSP, returns the same value as <code>$NKSP_REAL_TIMER</code> (refer to the latter for details). Note that KSP's <a href="reset_ksp_timer">reset_ksp_timer</a>() function is not available with NKSP. However when calculating time differences between two time stamps taken with <code>$NKSP_REAL_TIMER</code>, calling such a reset function is not required, because the underlying clock does not stop when it reached its value limit (which happens every 71 minutes), instead the clock will automatically restart from zero and the calculated time difference even between such transitions will reflect correct durations.</td>
+</tr>
+<tr>
+<td><code>$NKSP_PERF_TIMER</code></td>
+<td>Returns the current performance time stamp (in microseconds) of the script running. You may read this variable from time to time to take time stamps which can be used to calculate the time difference (in microseconds) which elapsed between them. A performance time stamp is based on the script's actual CPU execution time. So the internal clock which is used for generating such time stamps is only running forward if the respective script is actually executed by the CPU. Whenever your script is not really executed by the CPU (i.e. because your script got suspended by a <a href="wait">wait</a>() call or got forcely suspended due to real-time constraints, or when the entire sampler application got suspended by the OS for other applications or OS tasks) then the underlying internal clock is paused as well. <note class="important">You should only use this built-in variable for script development purposes (i.e. for bench marking the performance of your script). You should <b>not</b> use it with your final production sounds! It is not appropriate for being used in a musical context, because when an offline bounce is performed for instance, the musical timing will be completely unrelated to the CPU execution time. Plus using this variable may cause audio drop outs on some systems. In a musical context you should use <code>$ENGINE_UPTIME</code> instead, which is also safe for offline bounces.</note><note>On some systems <code>$NKSP_REAL_TIMER</code> and <code>$NKSP_PERF_TIMER</code> will actually return the same value. So the difference between them is not implemented for all systems at the moment.</note></td>
+</tr>
+<tr>
+<td><code>%NKSP_CALLBACK_CHILD_ID[]</code></td>
+<td>Reflects the callback IDs of all child threads which the current script callback instance spawned by having called <a href="fork">fork</a>() before. See the latter function for details about this array variable.</td>
+</tr>
+<tr>
+<td><code>$NKSP_CALLBACK_PARENT_ID</code></td>
+<td>If the current execution thread is a child thread spawned by a <a href="fork">fork</a>() call before, then this variable reflects the callback ID of the parent thread which created this child thread. Otherwise this variable is 0. See <a href="fork">fork</a>() for more details about this variable.</td>
+</tr>
+<tr>
+<td><code>$NKSP_REAL_TIMER</code></td>
+<td>Returns the current time stamp in reality (in microseconds). You may read this variable from time to time to take time stamps which can be used to calculate the time difference (in microseconds) which elapsed between them. A "real" time stamp is based on an internal clock which constantly proceeds, so this internal clock also continues counting while your script is either suspended (i.e. because your script got suspended by a <a href="wait">wait</a>() call or got forcely suspended due to real-time constraints) and it also continues counting even if the entire sampler application got suspended by the OS (i.e. to execute other applications for multi-tasking or to perform OS tasks). <note class="important">You should only use this built-in variable for script development purposes (i.e. for bench marking the performance of your script). You should not use it with your final production sounds! It is not appropriate for being used in a musical context, because when an offline bounce is performed for instance, the musical timing will be completely unrelated to the CPU execution time. Plus using this variable may cause audio drop outs on some systems. In a musical context you should use <code>$ENGINE_UPTIME</code> instead, which is also safe for offline bounces.</note><note>On some systems <code>$NKSP_REAL_TIMER</code> and <code>$NKSP_PERF_TIMER</code> will actually return the same value. So the difference between them is not implemented for all systems at the moment.</note></td>
+</tr>
+<tr>
+<td><code>$NI_CALLBACK_ID</code></td>
+<td>Reflects the current event handler instance's unique callback ID. For the same event type there may be more than one event handler instances running. Each one of them has its own callback ID. You can get the current event handler instance's callback ID by reading this built-in variable.</td>
+</tr>
+<tr>
+<td><code>$NI_CALLBACK_TYPE</code></td>
+<td>Reflects the event type of the current event handler. This variable may reflect one of the following built-in constants: <code>$NI_CB_TYPE_INIT</code>, <code>$NI_CB_TYPE_NOTE</code>, <code>$NI_CB_TYPE_RELEASE</code>, <code>$NI_CB_TYPE_CONTROLLER</code>.</td>
+</tr>
+<tr>
+<td><code>$NI_CB_TYPE_INIT</code></td>
+<td>Built-in constant reflecting an <code>init</code> event handler type.</td>
+</tr>
+<tr>
+<td><code>$NI_CB_TYPE_NOTE</code></td>
+<td>Built-in constant reflecting a <code>note</code> event handler type.</td>
+</tr>
+<tr>
+<td><code>$NI_CB_TYPE_RELEASE</code></td>
+<td>Built-in constant reflecting a <code>release</code> event handler type.</td>
+</tr>
+<tr>
+<td><code>$NI_CB_TYPE_CONTROLLER</code></td>
+<td>Built-in constant reflecting a <code>controller</code> event handler type.</td>
+</tr>
+<tr>
+<td><code>$NKSP_IGNORE_WAIT</code></td>
+<td>If this boolean built-in variable is 1 then all calls of your event handler instance to function <a href="wait">wait</a>() will be ignored. This may for example be the case if another event handler instance resumed your paused script by calling <a href="stop_wait">stop_wait</a>() and passing 1 to the 2nd argument of that function.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="common-sampler-variables">Common Sampler Variables</h3>
+<p>Basic sampler related built-in variables and constants, independent from a
+particular sampler format or sampler engine.</p>
+<table>
+<thead>
+<tr>
+<th>Variable</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>%ALL_EVENTS</code></td>
+<td>Note IDs of all currently active notes of the current sampler part (a.k.a. sampler channel). This may be passed to many built-in functions like <a href="note_off">note_off</a>(). This array variable only contains IDs of notes which were launched due to MIDI note-on events. This variable does not contain IDs of child notes (i.e. notes which were launched programmatically by calling <a href="play_note">play_note</a>()). <note>In contrast to KSP this variable is an integer array type, whereas KSP's pendent of this built-in variable is an integer constant (scalar) called <code>$ALL_EVENTS</code>. Using the latter with NKSP will cause a parser warning, the behavior will be the same though.</note></td>
+</tr>
+<tr>
+<td><code>$CC_NUM</code></td>
+<td>MIDI controller number that caused the <code>controller</code> handler to be executed (only useful in the context of a <code>controller</code> handler).</td>
+</tr>
+<tr>
+<td><code>%CC[]</code></td>
+<td>Provides access to all current MIDI controller values. This can be used in any context. Use the respective MIDI controller number as index to this integer array variable. For instance %CC[1] would give you the current value of the modulation wheel.</td>
+</tr>
+<tr>
+<td><code>$EVENT_ID</code></td>
+<td>ID of the event that caused the current event handler to be executed. In the context of a <code>note</code> handler this would be the event ID of the note, within a <code>controller</code> handler it would be the controller event ID, etc.</td>
+</tr>
+<tr>
+<td><code>$EVENT_NOTE</code></td>
+<td>MIDI note number that caused a note related handler to be executed (only useful in the context of a <code>note</code> or <code>release</code> handler).</td>
+</tr>
+<tr>
+<td><code>$EVENT_VELOCITY</code></td>
+<td>MIDI velocity value of the note that caused that note related handler to be executed (only useful in the context of a <code>note</code> or <code>release</code> handler).</td>
+</tr>
+<tr>
+<td><code>$EVENT_STATUS_INACTIVE</code></td>
+<td>Constant bit flag used as possible return value by <a href="event_status">event_status</a>() in case the requested note is not "alive".</td>
+</tr>
+<tr>
+<td><code>$EVENT_STATUS_NOTE_QUEUE</code></td>
+<td>Constant bit flag used as possible return value by <a href="event_status">event_status</a>() in case the requested note is still "alive".</td>
+</tr>
+<tr>
+<td><code>$EVENT_PAR_NOTE</code></td>
+<td>Constant value symbolizing the "note number" parameter. See <a href="get_event_par">get_event_par</a>() and <a href="set_event_par">set_event_par</a>() for details.</td>
+</tr>
+<tr>
+<td><code>$EVENT_PAR_TUNE</code></td>
+<td>Constant value symbolizing the "tune" parameter. See <a href="get_event_par">get_event_par</a>() and <a href="set_event_par">set_event_par</a>() for details.</td>
+</tr>
+<tr>
+<td><code>$EVENT_PAR_VELOCITY</code></td>
+<td>Constant value symbolizing the "note velocity" parameter. See <a href="get_event_par">get_event_par</a>() and <a href="set_event_par">set_event_par</a>() for details.</td>
+</tr>
+<tr>
+<td><code>$EVENT_PAR_VOLUME</code></td>
+<td>Constant value symbolizing the "volume" parameter. See <a href="get_event_par">get_event_par</a>() and <a href="set_event_par">set_event_par</a>() for details.</td>
+</tr>
+<tr>
+<td><code>$EVENT_PAR_0 to $EVENT_PAR_3</code></td>
+<td>Four constant values symbolizing the 4 possible user specific parameters, which i.e. might be used to pass data from one script (slot) to another script (slot). See <a href="get_event_par">get_event_par</a>() and <a href="set_event_par">set_event_par</a>() for details.</td>
+</tr>
+<tr>
+<td><code>%KEY_DOWN[]</code></td>
+<td>This can be used in any context to check whether a certain MIDI key is currently pressed down. Use the respective MIDI note number as index to this array variable (see also <a href="event_status">event_status</a>()).</td>
+</tr>
+<tr>
+<td><code>$NKSP_EASE_IN_EASE_OUT</code></td>
+<td>Used to select a fade curve with "ease in and ease out" shape.</td>
+</tr>
+<tr>
+<td><code>$NKSP_LINEAR</code></td>
+<td>Used to select a fade curve with linear shape.</td>
+</tr>
+<tr>
+<td><code>$VCC_MONO_AT</code></td>
+<td>Constant identifying the MIDI monophonic aftertouch controller (also called MIDI channel pressure ). This is somewhat different than in the MIDI standard. With NKSP aftertouch is handled like an additional "regular" MIDI CC controller. Therefore use <code>%CC[$VCC_MONO_AT]</code> to obtain the current aftertouch value in the context of a <code>controller</code> event handler.</td>
+</tr>
+<tr>
+<td><code>$VCC_PITCH_BEND</code></td>
+<td>Constant identifying the pitch bend wheel controller. This is somewhat different than in the MIDI standard. With NKSP pitch bend is handled like an additional "regular" MIDI CC controller. Therefore use <code>%CC[$VCC_PITCH_BEND]</code> to obtain the current pitch bend wheel value in the context of a <code>controller</code> event handler.</td>
+</tr>
+<tr>
+<td><code>$MARK_1 to $MARK_28</code></td>
+<td>Used to select one of the available 28 event groups. See <a href="set_event_mark">set_event_mark</a>() for details.</td>
+</tr>
+<tr>
+<td><code>$ENGINE_UPTIME</code></td>
+<td>Returns the current time stamp (in milliseconds) for being used in a musical context. You may read this variable from time to time to take time stamps which can be used to calculate the time difference (in milliseconds) which elapsed between them. These timing values are based on the internal sample rate and thus it can safely be used to perform musical timing related tasks in your scripts. Especially your script will also continue to behave correctly when an offline bounce of a song is performed.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="gigastudio-format-variables">GigaStudio Format Variables</h3>
+<p>Sampler format specific built-in variables and constants, dedicated to the
+individual features of the GigaStudio format engine.</p>
+<table>
+<thead>
+<tr>
+<th>Variable</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>$GIG_DIM_CHANNEL</code></td>
+<td>Constant that identifies the <em>stereo dimension</em>.</td>
+</tr>
+<tr>
+<td><code>$GIG_DIM_LAYER</code></td>
+<td>Constant that identifies the <em>layer dimension</em>.</td>
+</tr>
+<tr>
+<td><code>$GIG_DIM_VELOCITY</code></td>
+<td>Constant that identifies the <em>velocity dimension</em>.</td>
+</tr>
+<tr>
+<td><code>$GIG_DIM_AFTERTOUCH</code></td>
+<td>Constant that identifies the <em>aftertouch dimension</em>.</td>
+</tr>
+<tr>
+<td><code>$GIG_DIM_RELEASE</code></td>
+<td>Constant that identifies the <em>release trigger dimension</em>.</td>
+</tr>
+<tr>
+<td><code>$GIG_DIM_KEYBOARD</code></td>
+<td>Constant that identifies the <em>keyboard position dimension</em>.</td>
+</tr>
+<tr>
+<td><code>$GIG_DIM_ROUNDROBIN</code></td>
+<td>Constant that identifies the <em>round robin dimension</em>.</td>
+</tr>
+<tr>
+<td><code>$GIG_DIM_RANDOM</code></td>
+<td>Constant that identifies the <em>random dimension</em>.</td>
+</tr>
+<tr>
+<td><code>$GIG_DIM_SMARTMIDI</code></td>
+<td>Constant that identifies the <em>start MIDI dimension (a.k.a iMIDI rules)</em>.</td>
+</tr>
+<tr>
+<td><code>$GIG_DIM_ROUNDROBINKEY</code></td>
+<td>Constant that identifies the <em>round robin key dimension</em>.</td>
+</tr>
+<tr>
+<td><code>$GIG_DIM_MODWHEEL</code></td>
+<td>Constant that identifies the <em>modulation wheel dimension</em>.</td>
+</tr>
+<tr>
+<td><code>$GIG_DIM_SUSTAIN</code></td>
+<td>Constant that identifies the <em>sustain pedal dimension (a.k.a. hold pedal)</em>.</td>
+</tr>
+<tr>
+<td><code>$GIG_DIM_PORTAMENTO</code></td>
+<td>Constant that identifies the <em>portamento MIDI controller dimension</em>.</td>
+</tr>
+<tr>
+<td><code>$GIG_DIM_SOSTENUTO</code></td>
+<td>Constant that identifies the <em>sostenuto MIDI controller dimension</em>.</td>
+</tr>
+<tr>
+<td><code>$GIG_DIM_SOFT</code></td>
+<td>Constant that identifies the <em>soft pedal dimension</em>.</td>
+</tr>
+<tr>
+<td><code>$GIG_DIM_BREATH</code></td>
+<td>Constant that identifies the <em>breath controller dimension</em>.</td>
+</tr>
+<tr>
+<td><code>$GIG_DIM_FOOT</code></td>
+<td>Constant that identifies the <em>foot pedal dimension</em>.</td>
+</tr>
+<tr>
+<td><code>$GIG_DIM_PORTAMENTOTIME</code></td>
+<td>Constant that identifies the <em>portamento time controller dimension</em>.</td>
+</tr>
+<tr>
+<td><code>$GIG_DIM_EFFECT1</code></td>
+<td>Constant that identifies the <em>effect 1 MIDI controller dimension</em>.</td>
+</tr>
+<tr>
+<td><code>$GIG_DIM_EFFECT2</code></td>
+<td>Constant that identifies the <em>effect 2 MIDI controller dimension</em>.</td>
+</tr>
+<tr>
+<td><code>$GIG_DIM_EFFECT1DEPTH</code></td>
+<td>Constant that identifies the <em>effect 1 depth MIDI controller dimension</em>.</td>
+</tr>
+<tr>
+<td><code>$GIG_DIM_EFFECT2DEPTH</code></td>
+<td>Constant that identifies the <em>effect 2 depth MIDI controller dimension</em>.</td>
+</tr>
+<tr>
+<td><code>$GIG_DIM_EFFECT3DEPTH</code></td>
+<td>Constant that identifies the <em>effect 3 depth MIDI controller dimension</em>.</td>
+</tr>
+<tr>
+<td><code>$GIG_DIM_EFFECT4DEPTH</code></td>
+<td>Constant that identifies the <em>effect 4 depth MIDI controller dimension</em>.</td>
+</tr>
+<tr>
+<td><code>$GIG_DIM_EFFECT5DEPTH</code></td>
+<td>Constant that identifies the <em>effect 5 depth MIDI controller dimension</em>.</td>
+</tr>
+<tr>
+<td><code>$GIG_DIM_GENPURPOSE1</code></td>
+<td>Constant that identifies the <em>general purpose 1 MIDI controller dimension</em>.</td>
+</tr>
+<tr>
+<td><code>$GIG_DIM_GENPURPOSE2</code></td>
+<td>Constant that identifies the <em>general purpose 2 MIDI controller dimension</em>.</td>
+</tr>
+<tr>
+<td><code>$GIG_DIM_GENPURPOSE3</code></td>
+<td>Constant that identifies the <em>general purpose 3 MIDI controller dimension</em>.</td>
+</tr>
+<tr>
+<td><code>$GIG_DIM_GENPURPOSE4</code></td>
+<td>Constant that identifies the <em>general purpose 4 MIDI controller dimension</em>.</td>
+</tr>
+<tr>
+<td><code>$GIG_DIM_GENPURPOSE5</code></td>
+<td>Constant that identifies the <em>general purpose 5 MIDI controller dimension</em>.</td>
+</tr>
+<tr>
+<td><code>$GIG_DIM_GENPURPOSE6</code></td>
+<td>Constant that identifies the <em>general purpose 6 MIDI controller dimension</em>.</td>
+</tr>
+<tr>
+<td><code>$GIG_DIM_GENPURPOSE7</code></td>
+<td>Constant that identifies the <em>general purpose 7 MIDI controller dimension</em>.</td>
+</tr>
+<tr>
+<td><code>$GIG_DIM_GENPURPOSE8</code></td>
+<td>Constant that identifies the <em>general purpose 8 MIDI controller dimension</em>.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="built-in-preprocessor-conditions">Built-In Preprocessor Conditions</h2>
+<p>These are the built-in preprocessor conditions available with the NKSP realt-time
+instrument script language.</p>
+<h3 id="core-language-preprocessor-conditions">Core Language Preprocessor Conditions</h3>
+<p>Most fundamental NKSP built-in preprocessor conditions, independent from any
+purpose of being used in a sampler.</p>
+<table>
+<thead>
+<tr>
+<th>Condition</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>NKSP_NO_MESSAGE</code></td>
+<td>By default this condition is not set. By explicitly enabling this condition with <code>SET_CONDITION(NKSP_NO_MESSAGE)</code> it causes all subsequent <a href="message">message</a>() calls to be ignored and filtered out on preprocessor level. See function <a href="message">message</a>() for details.</td>
+</tr>
+</tbody>
+</table>
+<p><br>
+<link rel="stylesheet" href="/linuxsampler/style.css"></p>
+<div>
+    <div id="r" class="child-div"><p></p></div>
+    <div id="c" class="child-div"><p><a href="../language">↑ NKSP Language</a></p></div>
+    <div id="l" class="child-div"><p><a href="abort">→ abort() function</a></p></div>
+</div>
+					</article>
+				</div>
+				<div class="col-md-3">
+					<aside>
+						<div class="card mb-3">
+							<div class="card-header bg-dark text-bg-dark">
+								<i class="fas fa-link"
+									aria-hidden="true"></i>
+								Quick links
+							</div>
+							<div class="card-body" style="padding: 0.5rem">
+								<ul class="nav nav-pills flex-column"><li class="nav-item">
+										<a class="nav-link" href="https://github.com/edrums/"
+											title="GitHub" style="padding: 0.35rem 0.25rem">
+										<i class="fab fa-github fa-fw"
+										aria-hidden="true"></i>
+										GitHub</a>
+									</li><li class="nav-item">
+										<a class="nav-link" href="https://www.vdrums.com/"
+											title="VDrums Forum" style="padding: 0.35rem 0.25rem">
+										<i class="fas fa-users fa-fw"
+										aria-hidden="true"></i>
+										VDrums Forum</a>
+									</li><li class="nav-item">
+										<a class="nav-link" href="http://www.megadrum.info/"
+											title="MegaDrum" style="padding: 0.35rem 0.25rem">
+										<i class="fas fa-microchip fa-fw"
+										aria-hidden="true"></i>
+										MegaDrum</a>
+									</li><li class="nav-item">
+										<a class="nav-link" href="http://www.vdrumlib.com/"
+											title="VDrumLib" style="padding: 0.35rem 0.25rem">
+										<i class="fas fa-download fa-fw"
+										aria-hidden="true"></i>
+										VDrumLib</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						
+					</aside>
+				</div>
+			</div>			<hr>
+			<footer>
+				<p style="text-align:left">
+					Copyright &copy; 2017-2023
+					EDrums Organization
+					<span style="float:right">
+						This site is open source.
+						<a href="https://github.com/edrums/edrums.github.io/edit/master/docs/en/linuxsampler/docs/nksp/reference/index.md">
+						Improve this page</a>
+					</span>
+				</p>
+			</footer>
+		</div>		<script>
+			var base_url	= "../../../../..",
+					shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+		</script>
+		<script src="../../../../../assets/js/base.js" defer></script>
+		<script src="/assets/js/scripts.min.js" defer></script>
+		<script src="../../../../../search/main.js" defer></script>		<script
+			type="text/javascript"
+			src="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets@11.8.0/highlight.min.js">
+		</script>
+		<script
+			type="text/javascript"
+			src="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets@11.8.0/languages/cpp.min.js">
+		</script>
+		<script
+			type="text/javascript"
+			src="https://cdn.jsdelivr.net/gh/sfz/highlight.js@master/dist/sfz.min.js">
+		</script>
+		<script>hljs.highlightAll();</script>
+		<script>
+			anchors.options.placement = 'left';
+			anchors.add();
+		</script><!-- Search Dialog -->
+<div
+	class="modal"
+	id="mkdocs_search_modal"
+	tabindex="-1"
+	role="dialog"
+	aria-labelledby="searchModalLabel"
+	aria-hidden="true"
+>
+	<div class="modal-dialog modal-dialog-centered">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h4 class="modal-title"
+						id="searchModalLabel">Search</h4>
+				<button
+					type="button"
+					class="btn-close"
+					data-bs-dismiss="modal"
+					aria-label="Close"
+				>
+				</button>
+			</div>
+			<div class="modal-body">
+				<p>From here you can search these documents. Enter your search terms below.</p>
+				<form>
+					<div class="form-group">
+						<input
+							type="search"
+							class="form-control"
+							placeholder="Search..."
+							id="mkdocs-search-query"
+							title="Type search term here"
+						>
+					</div>
+				</form>
+				<div
+						id="mkdocs-search-results"
+						data-no-results-text="No results found">
+				</div>
+			</div>
+			<div class="modal-footer"></div>
+		</div>
+	</div>
+</div><!-- Keyboard Dialog -->
+				<div
+						class="modal"
+						id="mkdocs_keyboard_modal"
+						tabindex="-1"
+						role="dialog"
+						aria-labelledby="keyboardModalLabel"
+						aria-hidden="true"
+				>
+						<div class="modal-dialog">
+								<div class="modal-content">
+										<div class="modal-header">
+												<h4 class="modal-title"
+														id="keyboardModalLabel">Keyboard Shortcuts</h4>
+												<button
+														type="button"
+														class="close"
+														data-dismiss="modal"
+												>
+														<span aria-hidden="true">&times;</span>
+														<span class="visually-hidden">Close</span>
+												</button>
+										</div>
+										<div class="modal-body">
+										<table class="table">
+												<thead>
+												<tr>
+														<th style="width: 20%;">Keys</th>
+														<th>Action</th>
+												</tr>
+												</thead>
+												<tbody>
+												<tr>
+														<td class="help shortcut"><kbd>?</kbd></td>
+														<td>Open this help</td>
+												</tr>
+												<tr>
+														<td class="next shortcut"><kbd>n</kbd></td>
+														<td>Next page</td>
+												</tr>
+												<tr>
+														<td class="prev shortcut"><kbd>p</kbd></td>
+														<td>Previous page</td>
+												</tr>
+												<tr>
+														<td class="search shortcut"><kbd>s</kbd></td>
+														<td>Search</td>
+												</tr>
+												</tbody>
+										</table>
+										</div>
+										<div class="modal-footer">
+										</div>
+								</div>
+						</div>
+				</div>
+	</body>
+</html>

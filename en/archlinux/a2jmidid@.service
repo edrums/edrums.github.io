@@ -1,0 +1,16 @@
+[Unit]
+Description=Alsa to Jack Bridge
+After=jack2-no-dbus@%i.service
+Requires=jack2-no-dbus@%i.service
+
+[Service]
+User=%I
+Environment=HOME=/home/%I
+WorkingDirectory=/home/%I
+ExecStart=/usr/bin/a2jmidid --export-hw
+ExecStartPre=/usr/bin/jack_wait -w
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

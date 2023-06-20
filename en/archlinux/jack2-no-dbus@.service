@@ -1,0 +1,13 @@
+[Unit]
+Description=Jack2
+After=sound.target
+
+[Service]
+User=%I
+EnvironmentFile=/home/%I/.config/jack/service.conf
+LimitRTPRIO=infinity
+LimitMEMLOCK=infinity
+ExecStart=/usr/bin/jackd $OPTIONS
+
+[Install]
+WantedBy=multi-user.target
