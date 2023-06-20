@@ -1,8 +1,6 @@
-docs_dir:         "docs"
-
 site_name:        "EDrums"
 site_author:      "EDrums Organization"
-site_url:         "https://edrums.github.io/en"
+site_url:         "https://edrums.github.io"
 site_dir:         "_site"
 site_description: "EDrums website"
 
@@ -41,7 +39,7 @@ plugins:
 theme:
   name:        null
   custom_dir: "layout"
-  base_url:   "en"
+# base_url:   "en"
   highlightjs: true
   hljs_light: "github"
   hljs_dark:  "github-dark-dimmed"
