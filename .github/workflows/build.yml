@@ -1,6 +1,6 @@
 name: Deploy site
 
-on: { push: { branches: [mkdocs] } }
+on: { push: { branches: [master] } }
 
 permissions:
   contents: write
