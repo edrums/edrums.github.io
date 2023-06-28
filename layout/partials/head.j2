@@ -23,6 +23,10 @@
 		{% include "partials/favicons.j2" %}
 		<!-- Stylesheets -->
 		<link href="{{ 'assets/css/style.min.css'|url }}" rel="stylesheet" media="screen">
+		<link href="{{ 'assets/css/bootstrap-table.min.css'|url }}" rel="stylesheet">
+
+{# <link href="{{ 'assets/css/fontawesome.min.css'|url }}" rel="stylesheet" media="screen"> #}
+
 		{%-for style in page.meta.styles-%}
 		{%- set href = 'assets/css/' + style + '.css' %}
 		<link href="{{ href|url }}" rel="stylesheet">
@@ -30,4 +34,4 @@
 		{%-include "partials/custom-styles.html" %}
 
 		<!-- Font Awesome Icons -->
-		<script src="https://kit.fontawesome.com/8d25d19870.js"></script>
+		<script src="{{ 'assets/js/fontawesome.min.js'|url }}"></script>

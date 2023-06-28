@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "edrums_website"
+version = "1.0.0"
+description = "EDrums website"
+authors = ["redtide <redtid3@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.8"
+css-html-js-minify = "^2.5.5"
+pysass = "^0.1.0"
+mkdocs = "^1.4.3"
+mkdocs-blogging-plugin = "^2.2.9"
+mkdocs-exclude = "^1.0.2"
+mkdocs-macros-plugin = "^1.0.1"
+mkdocs-minify-plugin = "^0.6.4"
+requests = {extras = ["security"], version = "^2.31.0"}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

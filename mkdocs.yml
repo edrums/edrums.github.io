@@ -17,7 +17,7 @@ extra:
   nav:             "data/layout/navigation.yml"
 
 hooks:
-- hooks.py
+- scripts/hooks.py
 
 plugins:
   search: {}
