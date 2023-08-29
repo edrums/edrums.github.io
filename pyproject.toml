@@ -6,6 +6,8 @@ authors = ["redtide <redtid3@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
+certifi = ">=2023.7.22"
+gitpython = "^3.1.32"
 python = ">=3.8"
 css-html-js-minify = "^2.5.5"
 pysass = "^0.1.0"
